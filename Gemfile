@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-
-gem 'will_paginate'
+gem 'bootstrap-sass'
+gem 'will_paginate'	
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
