@@ -25,10 +25,11 @@
             <li><%= link_to " Classes", "#" %></li>
             <li><%= link_to " Homework", "#" %></li>
             <li><%= link_to " Calendar", "#" %></li>
-            <li><%= link_to " Photos", "#" %></li>
+            <li><%= link_to " Photos", photos_path %></li>
             <li><%= link_to " Students", "#" %></li>
+            <li><%= link_to "Settings", edit_user_registration_path %></li>
             <li class="divider"></li>
-            <li><%= link_to " Settings", "#" %></li>
+            
             <!-- START DEVISE Condition !-->
             <% if user_signed_in? %>
             <li><%= link_to "Log out", destroy_user_session_path, method: :delete %>        

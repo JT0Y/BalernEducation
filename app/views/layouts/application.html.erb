@@ -48,18 +48,17 @@
 <body>
 
 <%= render 'layouts/header' %>
-        
-<!-- DEVISE FLASH MSSAGES !-->
+   <div class="container"><!-- START container !-->
+
+        <!-- DEVISE FLASH MSSAGES !-->
         <% flash.each do |name, msg| %>
             <%= content_tag(:div, msg, class: "alert alert-info") %>
         <% end %>
-<!-- END DEVISE FLASH MSSAGES !-->
-
-	<div class="container">
+        <!-- END DEVISE FLASH MSSAGES !-->
 
 		  <%= yield %>
-
-	</div>
+          
+    </div><!-- END container !-->     
 
 <%= render 'layouts/footer' %>
 
