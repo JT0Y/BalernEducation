@@ -29,6 +29,13 @@
             <li><%= link_to " Students", "#" %></li>
             <li class="divider"></li>
             <li><%= link_to " Settings", "#" %></li>
+            <!-- START DEVISE Condition !-->
+            <% if user_signed_in? %>
+            <li><%= link_to "Log out", destroy_user_session_path, method: :delete %>        
+                <% else %>
+            <li><%= link_to "Sign in", new_user_session_path %></li>
+            <% end %>
+            <!-- END DEVISE Condition !-->
           </ul>
 
 

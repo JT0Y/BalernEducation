@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Balern Edu.</title>
 
 
 
@@ -48,9 +48,17 @@
 <body>
 
 <%= render 'layouts/header' %>
+        
+<!-- DEVISE FLASH MSSAGES !-->
+        <% flash.each do |name, msg| %>
+            <%= content_tag(:div, msg, class: "alert alert-info") %>
+        <% end %>
+<!-- END DEVISE FLASH MSSAGES !-->
 
 	<div class="container">
+
 		  <%= yield %>
+
 	</div>
 
 <%= render 'layouts/footer' %>

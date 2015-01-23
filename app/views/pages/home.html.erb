@@ -63,7 +63,7 @@
                         <strong>worth learning</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="assets/intro-pic.jpg" alt="">
+                    <img class="img-responsive img-border img-left" src="assets/intro.jpg" alt="">
                     <hr class="visible-xs">
                     <p>We here at Balern Education understand the world's changing needs. China's landscape is drastically changing day-to-day. The skills required twenty years ago are obsolete.</p>
                     <p>Thats where we come in! Foreign universities are producing more engineers, scientists, and leaders, than ever before. In order to succeed in today's China you have to be a member of the international community.</p>
@@ -96,13 +96,26 @@
                         <strong>up-to-date</strong>
                     </h2>
                     <hr>
-                    <p>Are you already a student here at Balern? If so, don't forget to:</p>
-                    <p><center>
-                    <%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
-                    <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
-                    </p></center>
+                    <p>Are you currently enrolled at Balern Education? If you are don't forget about all the added benefit of registering for the Balern app.
+                    </p>
+
+                        <br />
+                        <center>
+                        <!-- DEVISE !-->
+                        <% if user_signed_in? %>
+                            # do something
+                        <% else %>
+                       <p>
+                         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+                         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+                       </p>
+                       <% end %>
+                       <!-- DEVISE !-->
+                       <br />
+                       </center>
+                       
                     <p>
-                    Here you can find all the tools necessary to help your child succeed. We are constantly updating this page with schedules, up-coming events, homework, photos, and teaching resources. Stay ahead of the curve!
+                    Here you can find all the tools necessary to help your child succeed. We are constantly updating our content with schedules, up-coming events, homework, photos, and teaching resources. Stay ahead of the curve!
                     </p>
                 </div>
             </div>
