@@ -7,7 +7,6 @@ class PhotosController < ApplicationController
   end
 
   def show
-    respond_with(@photo)
   end
 
   def new

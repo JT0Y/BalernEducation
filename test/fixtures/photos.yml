@@ -1,7 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  description: MyString
+photo1:
+  description: Hello World!
+  user: user1
 
-two:
-  description: MyString
+photo2:
+  description: Oh My Garden!
+  user: user2
+
+photo3:
+  description: Oh My Garden!
+  user: user3
