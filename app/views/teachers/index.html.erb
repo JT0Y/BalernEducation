@@ -1,0 +1,34 @@
+<div class="box">
+    <p id="notice"><%= notice %></p>
+
+    <h1>Listing Teachers</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ename</th>
+          <th>Cname</th>
+          <th>Dob</th>
+
+          <th colspan="3"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @teachers.each do |teacher| %>
+          <tr>
+            <td><%= teacher.ename %></td>
+            <td><%= teacher.cname %></td>
+            <td><%= teacher.dob %></td>
+            <td><%= link_to 'Show', teacher %></td>
+            <td><%= link_to 'Edit', edit_teacher_path(teacher) %></td>
+            <td><%= link_to 'Destroy', teacher, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <br>
+
+    <%= link_to 'New Teacher', new_teacher_path %>
+</div>

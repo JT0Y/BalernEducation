@@ -1,0 +1,31 @@
+<div class="box">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ename:</strong>
+  <%= @teacher.ename %>
+</p>
+
+<p>
+  <strong>Cname:</strong>
+  <%= @teacher.cname %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @teacher.dob %>
+</p>
+
+		<p>
+		  <strong><%= @teacher.groups.count %> Groups:</strong>
+		  	<ol>
+				<% @teacher.groups.each do |g| %>
+				  <li><%= g.name %><%= g.school %></li>
+				<% end %>
+			</ol>
+		</p>
+
+
+<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
+<%= link_to 'Back', teachers_path %>
+</div>

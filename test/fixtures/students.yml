@@ -1,0 +1,145 @@
+#Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+hank:
+  ename: Hank
+  cname: 中文
+  dob: 2004-11-23
+  group: ss001
+
+sean:
+  ename: Sean
+  cname: 中文
+  dob: 2003-11-23
+  group: ss001  
+
+tony:
+  ename: Tony
+  cname: 中文
+  dob: 2009-11-23
+  group: ss001  
+
+allen:
+  ename: Allen
+  cname: 中文
+  dob: 2009-11-23
+  group: ss001  
+
+apple:
+  ename: Apple
+  cname: 苹果
+  dob: 1999-02-20
+  group: pp001
+
+aaron:
+  ename: Aaron
+  cname: 苹果
+  dob: 1999-02-20
+  group: pp001
+
+steve:
+  ename: Steve
+  cname: 苹果
+  dob: 1999-02-20
+  group: pp001
+
+happy:
+  ename: happy
+  cname: 中文
+  dob: 2008-11-23
+  group: pp003
+
+jessica:
+  ename: jessica
+  cname: 中文
+  dob: 2007-11-23
+  group: pp003
+
+nicole:
+  ename: Nicole
+  cname: 中文
+  dob: 2006-11-23
+  group: pp003 
+
+alice:
+  ename: Alice
+  cname: 中文
+  dob: 2006-11-23
+  group: gm001
+
+serena:
+  ename: Serena
+  cname: 中文
+  dob: 2006-11-23
+  group: gm001
+
+jason:
+  ename: Jason
+  cname: 中文
+  dob: 2006-11-23
+  group: gm002
+
+grace:
+  ename: Grace
+  cname: 中文
+  dob: 2006-11-23
+  group: gm002
+
+bob:
+  ename: Bob
+  cname: 中文
+  dob: 2006-11-23
+  group: gm002
+
+Sam:
+  ename: Sam
+  cname: 中文
+  dob: 2006-11-23
+  group: gm003
+
+jason:
+  ename: Jason
+  cname: 中文
+  dob: 2006-11-23
+  group: gm004
+
+caleb:
+  ename: Caleb
+  cname: 中文
+  dob: 2006-11-23
+  group: gm004
+
+amanda:
+  ename: Amanda
+  cname: 中文
+  dob: 2006-11-23
+  group: gm004
+
+jenny:
+  ename: Caleb
+  cname: 中文
+  dob: 2006-11-23
+  group: gm005
+
+jerry:
+  ename: Amanda
+  cname: 中文
+  dob: 2006-11-23
+  group: gm005
+
+comma:
+  ename: Comma
+  cname: 中文
+  dob: 2002-04-24
+  group: vip
+
+example:
+  ename: Example
+  cname: 中文
+  dob: 2002-04-24
+  group: drum1
+
+example2:
+  ename: Example 2
+  cname: 中文
+  dob: 2009-02-12
+  group: drum2

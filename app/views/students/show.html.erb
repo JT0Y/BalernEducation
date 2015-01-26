@@ -1,0 +1,32 @@
+	<div class="box">
+	<p id="notice"><%= notice %></p>
+
+	<p>
+	  <strong>Ename:</strong>
+	  <%= @student.ename %>
+	</p>
+
+	<p>
+	  <strong>Cname:</strong>
+	  <%= @student.cname %>
+	</p>
+
+	<p>
+	  <strong>Dob:</strong>
+	  <%= @student.dob %>
+	</p>
+
+	<p>
+	  <strong>Group:</strong>
+	  <%= @student.group.name %>
+	</p>
+
+	<p>
+	  <strong>Next Class:</strong>
+	  <%= @student.group.nextclass %>
+	</p>
+
+
+	<%= link_to 'Edit', edit_student_path(@student) %> |
+	<%= link_to 'Back', students_path %>
+</div>

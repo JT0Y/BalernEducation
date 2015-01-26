@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+josh:
+  ename: Joshua S. Toy
+  cname: 赵大龙
+  dob: 1987-11-02
+  #group: gm001
+
+christina:
+  ename: Christina Liu
+  cname: 刘玥
+  dob: 1992-04-19
+  #group: pp001
+
+gourd:
+  ename: Gourd
+  cname: 许老师
+  dob: 1987-06-24
+  #group: drum1
+
+lynn:
+  ename: Lynn
+  cname: 陈老师
+  dob: 1984-07-26
+  #group: drum1
+
+mickey:
+  ename: Mickey
+  cname: 小龙
+  dob: 1992-07-24
+  #group: gm003
+
+mia:
+  ename: Mia
+  cname: 米啊
+  dob: 1983-05-21
+  #group: pp001
+
+krystal:
+  ename: Krystal
+  cname: 客人于
+  dob: 1994-07-26
+  #group: pp001
+
+vivian:
+  ename: Vivian
+  cname: 客人于
+  dob: 1994-07-26
+  #group: pp001

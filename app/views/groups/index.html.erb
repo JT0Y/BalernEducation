@@ -1,0 +1,26 @@
+<div class="box">
+    <p id="notice"><%= notice %></p>
+
+    <h1>
+      <div class="page-header">
+        Viewing All <%= @groups.count %> Classes
+      </div>
+    </h1>
+
+    <% @groups.each do |group| %>
+        <div class="box">
+        <strong>Class Name:</strong> <%= group.name %><br />
+        <strong>Curriculum: </strong><%= group.school %> Student
+        <br>
+        <strong>Next Class:</strong> <%= group.nextclass %><br>
+        <strong>Number of Students</strong>: <%= group.students.count %><br>
+        <%= link_to 'Show', group %>
+        <%= link_to 'Edit', edit_group_path(group) %>
+        <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+        </div>
+    <% end %>
+
+    <br>
+    <%= link_to 'New Group', new_group_path %>
+
+</div>
