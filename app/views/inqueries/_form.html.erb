@@ -1,0 +1,17 @@
+<%= form_for(@inquery) do |f| %>
+  <% if @inquery.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@inquery.errors.count, "error") %> prohibited this inquery from being saved:</h2>
+
+      <ul>
+      <% @inquery.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

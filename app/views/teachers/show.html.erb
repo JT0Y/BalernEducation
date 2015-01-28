@@ -1,15 +1,16 @@
 <div class="box">
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Ename:</strong>
-  <%= @teacher.ename %>
-</p>
-
-<p>
-  <strong>Cname:</strong>
-  <%= @teacher.cname %>
-</p>
+	<div class="page-header">
+		<center>
+		  <h1>
+		  		<%= @teacher.ename %>
+		  </h1>
+		  <h2>
+		  		<%= @teacher.cname %>
+			</h2>
+		</center>
+	</div>
 
 <p>
   <strong>Dob:</strong>
@@ -19,13 +20,13 @@
 		<p>
 		  <strong><%= @teacher.groups.count %> Groups:</strong>
 		  	<ol>
-				<% @teacher.groups.each do |g| %>
-				  <li><%= g.name %><%= g.school %></li>
+				<% @teacher.groups.each do |group| %>
+				  <li><%= link_to group.name, group %></li>
 				<% end %>
 			</ol>
 		</p>
 
-
 <%= link_to 'Edit', edit_teacher_path(@teacher) %> |
 <%= link_to 'Back', teachers_path %>
 </div>
+

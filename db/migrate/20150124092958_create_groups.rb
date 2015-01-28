@@ -3,7 +3,6 @@ class CreateGroups < ActiveRecord::Migration
     create_table :groups do |t|
       t.string 	 :school
       t.string 	 :name
-      t.datetime :nextclass
       t.integer	 :teacher_id
       t.integer	 :student_id
 

@@ -3,65 +3,54 @@
 pp001:
   school: English
   name: Purple Parrots 001
-  nextclass: January-25-2015 09:00
-  teacher: josh
+  teacher: vivian
 
 pp003:
   school: English
   name: Purple Parrots 002
-  nextclass: June -25-2015 10:00
-  teacher: josh
+  teacher: krystal
 
 ss001:
   school: English
   name: Silver Snakes 001
-  nextclass: January-26-2015 13:00
-  teacher: josh
+  teacher: vivian
 
 vip:
   school: English
   name: VIP one-to-one
-  nextclass: March-21-2015 09:30
   teacher: christina
 
 drum1:
   school: Drum 1
   name: 小课
-  nextclass: March-22-2015 09:30
-  teacher: josh
+  teacher: gourd
 
 drum2:
   school: Drum 2
   name: 大课
-  nextclass: March-23-2015 09:00
-  teacher: josh
+  teacher: lynn
 
 gm001:
   school: English
   name: Green Monkeys 001
-  nextclass: April-09-2015 18:00
   teacher: josh
 
 gm002:
   school: English
   name: Green Monkeys 002
-  nextclass: February-09-2015 12:00
-  teacher: josh
+  teacher: krystal
 
 gm003:
   school: English
   name: Green Monkeys 003
-  nextclass: July-01-2015 17:00
-  teacher: josh
+  teacher: mickey
 
 gm004:
   school: English
   name: Green Monkeys 004
-  nextclass: February-09-2015 12:00
-  teacher: josh
+  teacher: christina
 
 gm005:
   school: English
   name: Green Monkeys 005
-  nextclass: October-06-2015 14:00
-  teacher: josh
+  teacher: mia

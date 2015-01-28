@@ -1,15 +1,19 @@
 <div class="box">
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Students</h1>
+<h1>
+  <div class="page-header">
+  <%= @students.count %> Enrolled Students
+</div>
+</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
-      <th>Ename</th>
-      <th>Cname</th>
-      <th>Dob</th>
-      <th>Group</th>
+      <th>English Name</th>
+      <th>Chinese Name</th>
+
+      <th>Class Name</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -19,8 +23,8 @@
       <tr>
         <td><%= student.ename %></td>
         <td><%= student.cname %></td>
-        <td><%= student.dob %></td>
-        <td><%= student.group_id %></td>
+
+        <td><%= student.group.name %></td>
         <td><%= link_to 'Show', student %></td>
         <td><%= link_to 'Edit', edit_student_path(student) %></td>
         <td><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>

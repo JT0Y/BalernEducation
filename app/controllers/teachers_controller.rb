@@ -27,7 +27,7 @@ class TeachersController < ApplicationController
   end
 
   def update
-    @teacher.update(teacher_params)
+    @teacher = Teacher.find(params[:id])
     respond_with(@teacher)
   end
 

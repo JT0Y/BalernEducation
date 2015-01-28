@@ -11,23 +11,23 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :ename %><br>
+  <div class="form-group">
+    <%= f.label :English_Name %>:<br />
     <%= f.text_field :ename %>
   </div>
-  <div class="field">
-    <%= f.label :cname %><br>
+  <div class="form-group">
+    <%= f.label :Chinese_Name %>:<br />
     <%= f.text_field :cname %>
   </div>
-  <div class="field">
-    <%= f.label :dob %><br>
+  <div class="form-group">
+    <%= f.label :Birth_Date %>:<br />
     <%= f.date_select :dob %>
   </div>
-  <div class="field">
-    <%= f.label :group_id %><br>
-    <%= f.number_field :group_id %>
+  <div class="form-group">
+    <%= f.label :Class_Name %>:<br />
+    <%= f.collection_select(:group_id, Group.all, :id, :name, prompt: true) %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-group">
+    <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>

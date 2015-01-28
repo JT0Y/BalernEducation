@@ -1,0 +1,35 @@
+<div class="box">
+<p id="notice"><%= notice %></p>
+
+<h1>
+	<div class="page-header">
+		<center>
+  		<%= @appointment.group.name %>
+  	</center>
+	</div>
+</h1>
+
+
+<p>
+  <strong>Class Start Times:</strong>
+  <%= @appointment.start %>
+</p>
+
+<p>
+  <strong>Lead Teacher:</strong>
+  <%= @appointment.teacher.ename %>
+</p>
+
+<p>
+  <strong>Teaching Assistant:</strong>
+  <%= @appointment.ta %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @appointment.note %>
+</p>
+
+<%= link_to 'Edit', edit_appointment_path(@appointment) %> |
+<%= link_to 'Back', appointments_path %>
+</div>

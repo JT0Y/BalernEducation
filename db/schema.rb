@@ -11,26 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150125152445) do
+ActiveRecord::Schema.define(version: 20150127114849) do
+
+  create_table "appointments", force: :cascade do |t|
+    t.datetime "start"
+    t.integer  "teacher_id"
+    t.integer  "group_id"
+    t.string   "ta"
+    t.text     "note"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "groups", force: :cascade do |t|
     t.string   "school"
     t.string   "name"
-    t.datetime "nextclass"
     t.integer  "teacher_id"
+    t.integer  "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "groups_and_teachers", id: false, force: :cascade do |t|
-    t.integer  "teacher_id"
-    t.integer  "group_id"
+  create_table "inqueries", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.text     "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
-  add_index "groups_and_teachers", ["group_id"], name: "index_groups_and_teachers_on_group_id"
-  add_index "groups_and_teachers", ["teacher_id"], name: "index_groups_and_teachers_on_teacher_id"
 
   create_table "photos", force: :cascade do |t|
     t.string   "description"

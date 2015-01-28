@@ -42,6 +42,6 @@ class GroupsController < ApplicationController
     end
 
     def group_params
-      params.require(:group).permit(:class_id, :rake, :db)
+      params.require(:group).permit(:name, :nextclass, :school)
     end
 end

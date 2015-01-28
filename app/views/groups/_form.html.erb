@@ -12,17 +12,14 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :class_id %><br>
-    <%= f.number_field :class_id %>
+    <%= f.label :school %><br>
+    <%= f.select :school, ["English","Drum","English & Drum"] %>
   </div>
   <div class="field">
-    <%= f.label :rake %><br>
-    <%= f.text_field :rake %>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
   </div>
-  <div class="field">
-    <%= f.label :db %><br>
-    <%= f.text_field :db %>
-  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
