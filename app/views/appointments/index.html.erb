@@ -3,7 +3,7 @@
 
   <h1>All Class Periods</h1>
 
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>Start Time</th>
@@ -19,8 +19,8 @@
       <% @appointments.each do |appointment| %>
         <tr>
           <td><%= appointment.start %></td>
-          <td><%= appointment.teacher_id %></td>
-          <td><%= appointment.group_id %></td>
+          <td><%= appointment.teacher.ename %></td>
+          <td><%= appointment.group.name %></td>
           <td><%= appointment.ta %></td>
           <td><%= appointment.note %></td>
           <td><%= link_to 'Show', appointment %></td>

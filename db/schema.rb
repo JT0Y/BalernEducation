@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150127114849) do
     t.string   "name"
     t.integer  "teacher_id"
     t.integer  "student_id"
+    t.string   "ta"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -53,10 +54,15 @@ ActiveRecord::Schema.define(version: 20150127114849) do
   create_table "students", force: :cascade do |t|
     t.string   "ename"
     t.string   "cname"
+    t.string   "emergency_contact"
+    t.string   "email"
+    t.string   "wechat"
     t.date     "dob"
+    t.date     "contract_start"
+    t.integer  "contract_length"
     t.integer  "group_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
   create_table "teachers", force: :cascade do |t|

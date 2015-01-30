@@ -5,6 +5,7 @@ class CreateGroups < ActiveRecord::Migration
       t.string 	 :name
       t.integer	 :teacher_id
       t.integer	 :student_id
+      t.string	 :ta
 
       t.timestamps null: false
     end
