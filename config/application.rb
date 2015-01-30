@@ -25,5 +25,8 @@ module Balern
 
     #Required for heroku (maybe)
     config.assets.initialize_on_precompile = false
+
+    #Test!!! If BG doesn't work delete this line!
+    config.serve_static_assets = true
   end
 end
