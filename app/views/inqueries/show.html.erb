@@ -1,4 +1,32 @@
+<div class="box">
 <p id="notice"><%= notice %></p>
+
+<h1>
+	<div class="page-header">
+		<center>
+  		<%= @inquery.name %>
+  	</center>
+	</div>
+</h1>
+
+
+<p>
+  <strong>Class Start Times:</strong>
+  <%= @inquery.email %>
+</p>
+
+<p>
+  <strong>Lead Teacher:</strong>
+  <%= @inquery.phone %>
+</p>
+
+<p>
+  <strong>Teaching Assistant:</strong>
+  <%= @inquery.message %>
+</p>
+
+
 
 <%= link_to 'Edit', edit_inquery_path(@inquery) %> |
 <%= link_to 'Back', inqueries_path %>
+</div>

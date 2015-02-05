@@ -1,25 +1,37 @@
+<div class="box">
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Inqueries</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @inqueries.each do |inquery| %>
+  <table class="table">
+    <thead>
       <tr>
-        <td><%= link_to 'Show', inquery %></td>
-        <td><%= link_to 'Edit', edit_inquery_path(inquery) %></td>
-        <td><%= link_to 'Destroy', inquery, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Name</th>
+        <th>E-Mail</th>
+        <th>Phone Number</th>      
+        <th>Message</th>
+        <th>Notes</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+
+    <tbody>
+      <% @inqueries.each do |inquery| %>
+        <tr>
+          <td><%= inquery.name %></td>
+          <td><%= inquery.email %></td>
+          <td><%= inquery.phone %></td>
+          <td><%= inquery.message %></td>
+
+          <td><%= link_to 'Show', inquery %></td>
+          <td><%= link_to 'Edit', edit_inquery_path(inquery) %></td>
+          <td><%= link_to 'Destroy', inquery, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
 <br>
 
-<%= link_to 'New Inquery', new_inquery_path %>
+
+</div>

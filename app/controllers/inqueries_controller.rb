@@ -42,6 +42,6 @@ class InqueriesController < ApplicationController
     end
 
     def inquery_params
-      params[:inquery]
+      params.require(:inquery).permit(:name, :phone, :email, :message)
     end
 end
