@@ -1,5 +1,6 @@
 class InqueriesController < ApplicationController
   before_action :set_inquery, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:show, :index]
 
   respond_to :html
 
@@ -22,8 +23,11 @@ class InqueriesController < ApplicationController
 
   def create
     @inquery = Inquery.new(inquery_params)
-    @inquery.save
-    respond_with(@inquery)
+    if @inquery.save
+      redirect_to root_path, notice: 'Your Inquery has successfully been sent!'
+    else
+      render action: 'new'
+    end
   end
 
   def update

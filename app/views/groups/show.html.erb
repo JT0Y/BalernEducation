@@ -1,5 +1,4 @@
 <div class="box">
-		<p id="notice"><%= notice %></p>
 
 		<h1>
 			<center>
@@ -36,6 +35,20 @@
 		</p>
 
 		<br>
+
+
+
+
+
+
+				<p>
+		  <strong><%= @group.appointments.count %> Appointments:</strong>
+		  	<ol>
+					<% @group.appointments.each do |appointment| %>
+					  <li><%= link_to appointment.start, appointment %> - <%= appointment.teacher.ename %> - <%= appointment.ta %></li>
+					<% end %>
+				</ol>
+		</p>
 
 
 
