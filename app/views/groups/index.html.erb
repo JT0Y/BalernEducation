@@ -9,14 +9,16 @@
 
     <% @groups.each do |group| %>
         <div class="box">
-        <strong>Class Name:</strong> <%= group.name %><br />
+        <strong>Class Name:</strong> <%= link_to group.name, group %><br />
         <strong>Curriculum: </strong><%= group.school %> Student<br />
         <strong>Number of Students</strong>: <%= group.students.count %><br>
         <strong>Next Period</strong>: <%= group.students.count %><br>
-        <%= link_to 'Show', group %>|
-        <%= link_to 'Add New Period', new_appointment_path %>|
-        <%= link_to 'Edit', edit_group_path(group) %>|
-        <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+        
+        <% if current_user.admin? %>
+                |<%= link_to 'Add New Period', new_appointment_path %>|
+                <%= link_to 'Edit', edit_group_path(group) %>|
+                <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+        <% end %>
         </div>
     <% end %>
 
