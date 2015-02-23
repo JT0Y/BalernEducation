@@ -1,128 +1,40 @@
 <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">About
-                        <strong>Balern Education</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    <%= image_tag "slide-2.jpg", :class => "img-responsive img-border-left" %>
-                </div>
-                <div class="col-md-6">
-                    <p>Balern Education was originally founded by xu zhen qiang a.k.a "Gourd".
-                    	Balern Education was opened so that Gourd could share his passion of drums with a younger generation. His vision was to bring a new era of talented young people to shape the landscape for a new China.</p>
-                    <p>As time progressed and Balern grew Gourd realized people wanted to learn drums as much as he wanted to teach it.</p>
-                    <p>Balern hopes to infuse arts and English into your child's life to pave a road for a better tomorrow.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+    <div class="box">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">About
+                <strong>Balern Education</strong>
+            </h2>
+            <hr>
         </div>
-
-<!-- START ////// Drum School !-->
-            <%= render 'drum' %>
-<!-- END ////// Drum School !-->
-
-
-<!-- START ////// Drum School !-->
-         <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Our English
-                        <strong>Teaching Team</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-sm-4 text-center">
-                     <%= image_tag "chris.jpg", :class => "img-responsive" %>
-                    <h3>Christina<br />
-                        <small>Director of Studies<br />
-                            Tianjin - China</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                     <%= image_tag "josh.jpg", :class => "img-responsive" %>
-                    <h3>Joshua<br />
-                        <small>International D.O.S<br />
-                            Massachusetts - USA</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                     <%= image_tag "micky.jpg", :class => "img-responsive" %>
-                    <h3>Mickey<br />
-                        <small>Foreign Teacher<br />
-                        	New Hampshire - USA</small>
-                    </h3>
-                </div>
-
-                <!-- Krystal END !-->
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "krys.jpg", :class => "img-responsive" %>
-                    <h3>Krystal<br />
-                        <small>English Teacher<br />
-                            Tianjin - China</small>
-                    </h3>
-                </div>
-                <!-- Krystal END !-->
-                <!-- Mia START !-->
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "chris.jpg", :class => "img-responsive" %>
-                    <h3>Mia<br />
-                        <small>English Teacher <br />
-                            Tianjin - China
-                        </small>
-                    </h3>
-                </div>
-                <!-- Mia END !-->
-                <!-- Vivian START !-->
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "viv.jpg", :class => "img-responsive" %>
-                    <h3>Vivian<br />
-                        <small>English Teacher <br />
-                            Tianjin - China</small>
-                    </h3>
-                </div>
-                <!-- Vivian END !-->
-                <div class="clearfix"></div>
-            </div>
+        <div class="col-md-6">
+            <%= image_tag "slide-2.jpg", :class => "img-responsive img-border-left" %>
         </div>
-                <!-- END ////// Drum School !-->
-
-                <!-- START ////// CCs !-->
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Our
-                        <strong>Course Advising Team</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "prez.jpg", :class => "img-responsive" %>
-                    <h3>Sophia<br />
-                        <small>Director of Advising<br />
-                            Tianjin - China</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "logo.jpg", :class => "img-responsive" %>
-                    <h3>Nicole<br />
-                        <small>Course Advisor <br />
-                            Tianjin - China
-                        </small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <%= image_tag "lucy.jpg", :class => "img-responsive" %>
-                    <h3>Lucy<br />
-                        <small>Course Asvisor <br />
-                            Tianjin - China</small>
-                    </h3>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+        <div class="col-md-6">
+            <p>
+                Balern Education was originally founded by xu zhen qiang a.k.a "Gourd".
+            	Balern Education was opened so that Gourd could share his passion of drums with a younger generation. His vision was to bring a new era of talented young people to shape the landscape for a new China.
+            </p>
+            <p>
+                As time progressed and Balern grew Gourd realized people wanted to learn drums as much as he wanted to teach it.
+            </p>
+            <p>
+                Balern hopes to infuse arts and English into your child's life to pave a road for a better tomorrow.
+            </p>
         </div>
-<!-- END ////// CCs !-->
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <!-- START ////// Drum School !-->
+        <%= render 'drum' %>
+    <!-- END ////// Drum School !-->
+
+
+    <!-- START ////// English School !-->
+        <%= render 'teacher' %>
+    <!-- END ////// English School !-->
+
+    <!-- START ////// CCs !-->
+        <%= render 'cc' %>
+    <!-- END ////// CCs !-->
