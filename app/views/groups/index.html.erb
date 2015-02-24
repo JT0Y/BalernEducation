@@ -1,6 +1,4 @@
 <div class="box">
-    <p id="notice"><%= notice %></p>
-
     <h1>
       <div class="page-header">
         Viewing All <%= @groups.count %> Classes
@@ -15,14 +13,14 @@
         <strong>Next Period</strong>: <%= group.students.count %><br>
         
         <% if current_user.admin? %>
-                |<%= link_to 'Add New Period', new_appointment_path %>|
-                <%= link_to 'Edit', edit_group_path(group) %>|
+                <%= link_to 'Add New Period', new_appointment_path %> |
+                <%= link_to 'Edit', edit_group_path(group) %> |
                 <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
         <% end %>
         </div>
     <% end %>
 
     <br>
-    <%= link_to 'New Group', new_group_path %>
-
+    <%= link_to 'New Group', new_group_path, class: "btn btn-default"  %>
+    <%= link_to 'Scheduled Classes', appointments_path, class: "btn btn-default"  %>
 </div>

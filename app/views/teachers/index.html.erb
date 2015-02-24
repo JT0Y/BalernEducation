@@ -1,5 +1,4 @@
 <div class="box">
-    <p id="notice"><%= notice %></p>
 
     <h1>Listing All <%= Teacher.count %> Staff</h1>
 
@@ -9,20 +8,22 @@
           <th>English Name</th>
           <th>Chinese Name</th>
           <th>Date of Birth</th>
-
-          <th colspan="3"></th>
+            <% if current_user.admin? %>
+              <th colspan="3">Admin Options</th>
+            <% end %>
         </tr>
       </thead>
 
       <tbody>
         <% @teachers.each do |teacher| %>
           <tr>
-            <td><%= teacher.ename %></td>
-            <td><%= teacher.cname %></td>
+            <td><%= link_to teacher.ename, teacher %></td>
+            <td><%= link_to teacher.cname, teacher %></td>
             <td><%= teacher.dob %></td>
-            <td><%= link_to 'Show', teacher %></td>
-            <td><%= link_to 'Edit', edit_teacher_path(teacher) %></td>
-            <td><%= link_to 'Destroy', teacher, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <% if current_user.admin? %>
+              <td><%= link_to 'Edit', edit_teacher_path(teacher) %></td>
+              <td><%= link_to 'Destroy', teacher, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <% end %>
           </tr>
         <% end %>
       </tbody>
@@ -30,5 +31,5 @@
 
     <br>
 
-    <%= link_to 'New Teacher', new_teacher_path %>
+    <%= link_to 'New Teacher', new_teacher_path, class: "btn btn-default" %>
 </div>

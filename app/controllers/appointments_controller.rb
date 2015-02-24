@@ -1,7 +1,7 @@
 class AppointmentsController < ApplicationController
   before_action :set_appointment, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:index]
-
+  before_action :authenticate_user!
+  before_filter :verify_is_admin, except: [:index]
   respond_to :html
 
   def index

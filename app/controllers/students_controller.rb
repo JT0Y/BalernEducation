@@ -1,6 +1,7 @@
 class StudentsController < ApplicationController
   before_action :set_student, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
+  before_filter :verify_is_admin, only: [:show, :index]
   respond_to :html
 
   def index

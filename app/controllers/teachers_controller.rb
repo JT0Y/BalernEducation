@@ -1,5 +1,7 @@
 class TeachersController < ApplicationController
   before_action :set_teacher, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+  before_filter :verify_is_admin, only: [:show, :edit, :update, :destroy]
   
   respond_to :html
 

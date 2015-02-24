@@ -36,11 +36,6 @@
 
 		<br>
 
-
-
-
-
-
 				<p>
 		  <strong><%= @group.appointments.count %> Appointments:</strong>
 		  	<ol>
@@ -51,8 +46,9 @@
 		</p>
 
 
-
-
-		<%= link_to 'Edit', edit_group_path(@group) %> |
+		<% if current_user.admin? %>
+		<%= link_to 'New Appointment', new_appointment_path %> | 
+		<%= link_to 'Edit', edit_group_path(@group) %> | 
+		<% end %>
 		<%= link_to 'Back', groups_path %>
 </div>
