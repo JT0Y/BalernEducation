@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   devise_for :users
   root "pages#home"
   get "about" => "pages#about"
+  get "calendar" => "pages#calendar"
   #get "inquire" => "pages#inquire" No longer used
 
   # The priority is based upon order of creation: first created -> highest priority.

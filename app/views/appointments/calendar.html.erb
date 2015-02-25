@@ -1,0 +1,13 @@
+<div class="box">
+
+<%= month_calendar start: @appointments do |date, appointments| %>
+  <%= date %>
+
+  <% appointments.each do |appointment| %>
+    <div>
+      <%= appointment.ta %>
+    </div>
+  <% end %>
+<% end %>
+
+</div>

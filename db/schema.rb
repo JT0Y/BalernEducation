@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20150223064202) do
 
   create_table "appointments", force: :cascade do |t|
-    t.datetime "start"
+    t.datetime "starts_at"
     t.integer  "teacher_id"
     t.integer  "group_id"
     t.string   "ta"

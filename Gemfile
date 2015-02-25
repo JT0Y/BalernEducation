@@ -5,6 +5,9 @@ gem 'bootstrap-sass'
 gem 'will_paginate'	
 gem 'devise'
 
+#calendar Gems
+gem "simple_calendar"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'

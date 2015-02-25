@@ -5,8 +5,7 @@ class AppointmentsController < ApplicationController
   respond_to :html
 
   def index
-    @appointments = Appointment.all
-    respond_with(@appointments)
+    @appointments = Appointment.order(starts_at: :desc)
   end
 
   def show
@@ -43,6 +42,6 @@ class AppointmentsController < ApplicationController
     end
 
     def appointment_params
-      params.require(:appointment).permit(:start, :teacher_id, :group_id, :ta, :note)
+      params.require(:appointment).permit(:starts_at, :teacher_id, :group_id, :ta, :note)
     end
 end

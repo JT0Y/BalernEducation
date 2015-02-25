@@ -1,42 +1,42 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 apt1:
-  start: 2009-01-15 11:39
+  starts_at: 2015-02-25 17:12:01
   group: pp001
   teacher: josh
   ta: mia
   note: Prepositions of Place
 
 apt2:
-  start: February-16-2015 09:30
+  starts_at: 2014-02-25 17:12:01
   group: gm002
   teacher: josh
   ta: christina
   note: Grammar
 
 apt3:
-  start: February-16-2015 09:30
+  starts_at: 2015-02-25 17:30:00
   group: vip
   teacher: christina
   ta: krystal
   note: Introducing New Verbs
 
 apt4:
-  start: February-16-2015 09:30
+  starts_at: 2015-03-05 16:45:00
   group: gm003
   teacher: mickey
   ta: mia
   note: The Weather
 
 apt5:
-  start: February-16-2015 09:30
+  starts_at: 2015-02-23 18:35:00
   group: gm002
   teacher: mickey
   ta: vivian
   note: Days of the Week 
 
 apt6:
-  start: February-16-2015 09:30
+  starts_at: 2014-05-26 13:10:00
   group: ss001
   teacher: mickey
   ta: christina
