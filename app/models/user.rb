@@ -8,12 +8,8 @@ class User < ActiveRecord::Base
 
 	acts_as_messageable
 
-  def name
-    email
-  end
 
  def mail_email(object)
     @mail_email = self.email
  end
-
 end
