@@ -5,7 +5,7 @@ class StudentsController < ApplicationController
   respond_to :html
 
   def index
-    @students = Student.all
+    @students = Student.paginate(:page => params[:page], :per_page => 15)
     respond_with(@students)
   end
 

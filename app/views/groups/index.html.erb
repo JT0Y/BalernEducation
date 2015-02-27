@@ -8,9 +8,9 @@
     <% @groups.each do |group| %>
         <div class="box">
         <strong>Class Name:</strong> <%= link_to group.name, group %><br />
-        <strong>Curriculum: </strong><%= group.school %> Student<br />
+        <strong>Curriculum: </strong><%= group.school %> Class<br />
         <strong>Number of Students</strong>: <%= group.students.count %><br>
-        <strong>Next Period</strong>: <%= group.students.count %><br>
+        <strong>Scheduled Periods</strong>: <%= group.students.count %><br>
         
         <% if current_user.admin? %>
                 <%= link_to 'Add New Period', new_appointment_path %> |
@@ -21,6 +21,6 @@
     <% end %>
 
     <br>
-    <%= link_to 'New Group', new_group_path, class: "btn btn-default"  %>
+    <%= link_to 'Add New Class', new_group_path, class: "btn btn-default"  %>
     <%= link_to 'Scheduled Classes', appointments_path, class: "btn btn-default"  %>
 </div>

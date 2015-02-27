@@ -2,12 +2,11 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 gem 'bootstrap-sass'
+gem 'bootstrap-will_paginate'
 gem 'will_paginate'	
 gem 'devise'
 
-#calendar Gems
-gem "simple_calendar"
-
+gem "mailboxer"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'

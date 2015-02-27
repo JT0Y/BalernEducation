@@ -42,11 +42,18 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
       debugger-linecache (~> 1.2)
       slop (~> 3.6)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -66,6 +73,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.2)
+    foreigner (1.7.2)
+      activerecord (>= 3.0.0)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -82,6 +91,10 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mailboxer (0.12.5)
+      carrierwave (>= 0.5.8)
+      foreigner (>= 0.9.1)
+      rails (>= 3.2.0)
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
@@ -138,8 +151,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    simple_calendar (1.1.9)
-      rails (>= 3.0)
     slop (3.6.0)
     spring (1.2.0)
     sprockets (2.12.3)
@@ -176,18 +187,19 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  bootstrap-will_paginate
   byebug
   coffee-rails (~> 4.1.0)
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  mailboxer
   pg
   railroady
   rails (= 4.2.0)
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  simple_calendar
   spring
   sqlite3
   turbolinks

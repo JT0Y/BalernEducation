@@ -41,3 +41,10 @@ apt6:
   teacher: mickey
   ta: christina
   note: Saying large Numbers
+
+apt7:
+  starts_at: 2014-04-03 13:00:00
+  group: ss001
+  teacher: josh
+  ta: christina
+  note: Saying large Numbers

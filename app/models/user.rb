@@ -5,4 +5,15 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :photos
+
+	acts_as_messageable
+
+  def name
+    email
+  end
+
+ def mail_email(object)
+    @mail_email = self.email
+ end
+
 end

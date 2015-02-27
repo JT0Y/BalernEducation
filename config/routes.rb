@@ -11,10 +11,12 @@ Rails.application.routes.draw do
 
   resources :photos
 
+  resources :conversations, only: [:index, :show, :destroy]
+  resources :messages, only: [:new, :create]
+  
   devise_for :users
   root "pages#home"
-  get "about" => "pages#about"
-  get "calendar" => "pages#calendar"
+  get  "about" => "pages#about"
   #get "inquire" => "pages#inquire" No longer used
 
   # The priority is based upon order of creation: first created -> highest priority.

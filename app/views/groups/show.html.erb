@@ -26,7 +26,7 @@
 		</p>
 
 		<p>
-		  <strong><%= @group.students.count %> Students:</strong>
+		  <strong><%= @group.students.count %> <%= link_to 'Students', students_path %>:</strong>
 		  	<ol>
 					<% @group.students.each do |student| %>
 					  <li><%= link_to student.ename, student %> - <%= student.cname %> - <%= student.dob %></li>
@@ -37,18 +37,18 @@
 		<br>
 
 				<p>
-		  <strong><%= @group.appointments.count %> Appointments:</strong>
+		  <strong><%= @group.appointments.count %> <%= link_to 'Periods', appointments_path %>:</strong>
 		  	<ol>
 					<% @group.appointments.each do |appointment| %>
-					  <li><%= link_to appointment.start, appointment %> - <%= appointment.teacher.ename %> - <%= appointment.ta %></li>
+					  <li><%= link_to appointment.starts_at, appointment %> - <%= appointment.teacher.ename %> - <%= appointment.ta %></li>
 					<% end %>
 				</ol>
 		</p>
-
+		<br />
 
 		<% if current_user.admin? %>
 		<%= link_to 'New Appointment', new_appointment_path %> | 
-		<%= link_to 'Edit', edit_group_path(@group) %> | 
+		<%= link_to 'Edit Class', edit_group_path(@group) %> | 
 		<% end %>
-		<%= link_to 'Back', groups_path %>
+		<%= link_to 'All Classes', groups_path %>
 </div>
