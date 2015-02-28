@@ -8,8 +8,7 @@ gem 'will_paginate'
 gem 'devise'
 gem "mailboxer"
 
-gem 'fullcalendar-rails'
-gem 'momentjs-rails'
+gem "simple_calendar"
 
 gem 'chosen-rails'
 gem 'sass-rails', '~> 4.0.5'

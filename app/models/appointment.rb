@@ -1,4 +1,6 @@
 class Appointment < ActiveRecord::Base
+	extend SimpleCalendar
+  has_calendar
 	validates :starts_at, presence: true
 	validates :teacher_id, presence: true
 	validates :group_id, presence: true
