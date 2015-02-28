@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   end
   resources :messages, only: [:new, :create]
 
-
   root "pages#home"
   get  "about" => "pages#about"
+  get  "calendar" => "pages#calendar"
 end

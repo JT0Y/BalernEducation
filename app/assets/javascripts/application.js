@@ -15,5 +15,7 @@
 //= require chosen-jquery
 //= require turbolinks
 //= require messages
+//= require moment
+//= require fullcalendar
 //= require_tree .
 
