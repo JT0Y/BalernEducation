@@ -1,11 +1,11 @@
 <div class="box">
 
-<%= month_calendar events: @appointments do |date, appointments| %>
+<%= month_calendar table: {class: "table table-bordered"}, tr: {class: "calendar-row"}, td: {class: "day"}, events: @appointments do |date, appointments| %>
   <%= date %>
-
   <% appointments.each do |appointment| %>
     <div>
-      <%= appointment.group.name %>
+    	      <%= appointment.group.name %>
+    	      <%= appointment.starts_at%>
     </div>
   <% end %>
 <% end %>
