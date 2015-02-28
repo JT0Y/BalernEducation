@@ -5,7 +5,7 @@
 # below each fixture, per the syntax in the comments below
 #
 user1:
-  name: Joshua Toy
+  name: Admin Admin
   email: admin@example.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
@@ -17,7 +17,43 @@ user2:
   admin: true
 
 user3:
-  name: Joshua Toy
+  name: Example Example
   email: example@example.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user4:
+  name: Liu Yue
+  email: christina@christina.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user5:
+  name: Gourd
+  email: gourd@gourd.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user6:
+  name: Sophia
+  email: sophia@sophia.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user7:
+  name: Vivian
+  email: vivan@vivan.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user8:
+  name: Rocky
+  email: rocky@rocky.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user9:
+  name: Krystal
+  email: krystal@krystal.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false

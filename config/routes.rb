@@ -1,15 +1,11 @@
 Rails.application.routes.draw do
-  resources :appointments
-
-  resources :inqueries
-
-  resources :students
-
-  resources :teachers
-
-  resources :groups
-
-  resources :photos
+  resources  :appointments
+  resources  :inqueries
+  resources  :students
+  resources  :teachers
+  resources  :groups
+  resources  :photos
+  devise_for :users
 
   resources :conversations, only: [:index, :show, :destroy] do
     member do
@@ -23,7 +19,7 @@ Rails.application.routes.draw do
   end
   resources :messages, only: [:new, :create]
 
-  devise_for :users
+
   root "pages#home"
   get  "about" => "pages#about"
 end
