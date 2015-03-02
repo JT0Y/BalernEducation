@@ -132,14 +132,14 @@ comma:
   dob: 2002-04-24
   group: vip
 
-example:
+jenny:
   ename: Jenny
   cname: 中文
   dob: 2002-04-24
   group: drum1
 
-example2:
-  ename: Example 2
+richard:
+  ename: Richard
   cname: 中文
-  dob: 2009-02-12
+  dob: 2009-02-14
   group: drum2

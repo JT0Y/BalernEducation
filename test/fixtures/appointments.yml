@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 apt1:
-  starts_at: 2015-02-25 17:12:01
+  starts_at: 2015-03-25 17:12:01
   group: pp001
   teacher: josh
   ta: mia
@@ -29,22 +29,43 @@ apt4:
   note: The Weather
 
 apt5:
-  starts_at: 2015-02-23 18:35:00
+  starts_at: 2015-06-23 18:30:00
   group: gm002
   teacher: mickey
   ta: vivian
   note: Days of the Week 
 
 apt6:
-  starts_at: 2014-05-26 13:10:00
+  starts_at: 2015-05-26 19:30:00
   group: ss001
   teacher: mickey
   ta: christina
-  note: Saying large Numbers
+  note: simple math
 
 apt7:
-  starts_at: 2014-04-03 13:00:00
-  group: ss001
+  starts_at: 2015-03-12 13:00:00
+  group: gm002
   teacher: josh
   ta: christina
-  note: Saying large Numbers
+  note: Talking about yourself
+
+apt8:
+  starts_at: 2015-05-26 13:10:00
+  group: ss001
+  teacher: mickey
+  ta: christina
+  note: New Verb Structures
+
+apt9:
+  starts_at: 2015-03-09 09:30:00
+  group: gm002
+  teacher: vivian
+  ta: christina
+  note: Saying the weather
+
+apt10:
+  starts_at: 2015-03-19 18:30:00
+  group: pp003
+  teacher: josh
+  ta: krystal
+  note: Counting by 10's
