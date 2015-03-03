@@ -20,14 +20,24 @@ vip:
   name: VIP one-to-one
   teacher: christina
 
-drum1:
-  school: Drum 1
-  name: 小课
+drum001:
+  school: Drum
+  name: 小课 001
   teacher: gourd
 
-drum2:
-  school: Drum 2
-  name: 大课
+drum002:
+  school: Drum
+  name: 小课 002
+  teacher: gourd
+
+drum003:
+  school: Drum
+  name: 大课 001
+  teacher: lynn
+
+drum004:
+  school: Drum
+  name: 大课 002
   teacher: lynn
 
 gm001:
@@ -54,3 +64,8 @@ gm005:
   school: English
   name: Green Monkeys 005
   teacher: mia
+
+demo:
+  school: English
+  name: Demo Class
+  teacher: josh

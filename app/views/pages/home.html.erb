@@ -94,7 +94,7 @@
                         <center>
                         <!-- DEVISE !-->
                         <% if user_signed_in? %>
-                            <%= link_to "Log out", destroy_user_session_path, :method => :delete, class: "btn btn-default btn-lg" %>
+                            <!-- Displays Nothing if user logged in -->
                         <% else %>
                        <p>
                          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>

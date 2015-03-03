@@ -9,7 +9,7 @@ photo2:
   user: user2
 
 photo3:
-  description: It's time to kick ass and chew bubble gum!
+  description: It's time to take some photos!
   user: user3
 
 photo4:
@@ -21,5 +21,5 @@ photo5:
   user: user3
 
 photo6:
-  description: Oh My!
+  description: Only the good die young.
   user: user3

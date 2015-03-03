@@ -6,7 +6,7 @@ class AppointmentsController < ApplicationController
 
   def index
     @appointments = Appointment.order(starts_at: :desc)
-    @appointments = Appointment.paginate(:page => params[:page], :per_page => 10)
+    @appointments = Appointment.all
   end
 
   def show

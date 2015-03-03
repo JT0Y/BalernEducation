@@ -1,20 +1,19 @@
 <div class="box">
 
-<%= month_calendar table: {class: "table table-bordered"}, td: {class: month_calendar_td_options}, events: @appointments do |date, appointments| %>
+<%= month_calendar  table: {class: "table table-bordered"}, tr: {class: "calendar-row"}, td: {class: month_calendar_td_options}, events: @appointments do |date, appointments| %>
   <%= date.strftime("%B %e") %>
   <% appointments.each do |appointment| %>
     <div>
-      <%= link_to appointment.group.name, appointment.group %>
+      <%= link_to appointment.group.name, appointment.group %> - 
+      <%= appointment.starts_at.strftime("%H:%M") %>
     </div>
   <% end %>
 <% end %>
 
-
-
 <!-- //START// Admin Stuff -->
 <% if current_user.admin? %>
-<br />
-	<div class="page-header"><h3>All Class Periods</h3></div>
+	<br />
+	<div class="page-header"><h3><%= Appointment.count %> Periods</h3></div>
 
   <table class="table">
     <thead>

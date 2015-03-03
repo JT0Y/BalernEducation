@@ -6,7 +6,7 @@
 #
 user1:
   name: Admin Admin
-  email: admin@example.com
+  email: admin@admin.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
@@ -23,22 +23,22 @@ user3:
   admin: false
 
 user4:
-  name: Liu Yue
+  name: Christina
   email: christina@christina.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
-  admin: false
+  admin: true
 
 user5:
   name: Gourd
   email: gourd@gourd.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
-  admin: false
+  admin: true
 
 user6:
   name: Sophia
   email: sophia@sophia.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
-  admin: false
+  admin: true
 
 user7:
   name: Vivian
@@ -57,3 +57,27 @@ user9:
   email: krystal@krystal.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
+
+user10:
+  name: Apple
+  email: appple@apple.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user11:
+  name: Lucy
+  email: lucy@lucy.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user12:
+  name: mia
+  email: mia@mia.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: false
+
+user13:
+  name: Lynn
+  email: lynn@lynn.com
+  encrypted_password: <%= User.new.send(:password_digest, "password") %>
+  admin: true

@@ -136,10 +136,10 @@ jenny:
   ename: Jenny
   cname: 中文
   dob: 2002-04-24
-  group: drum1
+  group: drum001
 
 richard:
   ename: Richard
   cname: 中文
   dob: 2009-02-14
-  group: drum2
+  group: drum002
