@@ -16,5 +16,6 @@
 //= require turbolinks
 //= require messages
 //= require bootstrap.min
+//= require bootstrap
 //= require_tree .
 
