@@ -1,50 +1,45 @@
-<body>
+<div class="box">
+    <div class="col-lg-12 text-center">
+        <div id="carousel-example-generic" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators hidden-xs">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <%= image_tag "slide-1.jpg", :class => "img-responsive img-full" %>
-                            </div>
-                            <div class="item">
-                                <%= image_tag "slide-2.jpg", :class => "img-responsive img-full" %>
-                            </div>
-                            <div class="item">
-                                <%= image_tag "slide-5.jpg", :class => "img-responsive img-full" %>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name">Balern Education</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                          <small>Hangu's
-                            <strong>Premier</strong> English school
-                        </small>
-                    </h2>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <%= image_tag "slide-1.jpg", :class => "img-responsive img-full" %>
+                </div>
+                <div class="item">
+                    <%= image_tag "slide-2.jpg", :class => "img-responsive img-full" %>
+                </div>
+                <div class="item">
+                    <%= image_tag "slide-5.jpg", :class => "img-responsive img-full" %>
                 </div>
             </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+            <h2 class="brand-before">
+                <small>Welcome to</small>
+            </h2>
+            <h1 class="brand-name">Balern Education</h1>
+            <hr class="tagline-divider">
+            <h2>
+                  <small>Hangu's
+                    <strong>Premier</strong> English school
+                </small>
+            </h2>
         </div>
+    </div>
+</div>
 
         <div class="row">
             <div class="box">
@@ -125,6 +120,3 @@
         interval: 5000 //changes the speed
     })
     </script>
-
-</body>
-</html>
