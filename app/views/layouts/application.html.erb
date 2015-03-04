@@ -33,15 +33,14 @@
               <%= content_tag(:div, msg, class: "alert alert-info") %>
           <% end %>   <!-- END DEVISE FLASH MSSAGES !-->
           <div id="page-content-wrapper">
-
-              <div class="row">
-                <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-12">
                                         <%= yield %>
-                </div>
               </div>
             </div>
           </div>
-        </div><!-- End Fluid container !--> 
+        </div>
+      </div><!-- End Fluid container !--> 
   <%= render 'layouts/footer' %>
 
 
