@@ -11,11 +11,11 @@
 // about supported directives.
 //
 //= require bootstrap
+//= require jquery.js
 //= require jquery.turbolinks
 //= require chosen-jquery
 //= require turbolinks
 //= require messages
-//= require jquery.js
 //= require bootstrap.min
 //= require_tree .
 
