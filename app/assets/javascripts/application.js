@@ -15,7 +15,7 @@
 //= require chosen-jquery
 //= require turbolinks
 //= require messages
-//= require bootstrap.min
+//= require jquery.js
 //= require bootstrap
 //= require_tree .
 
