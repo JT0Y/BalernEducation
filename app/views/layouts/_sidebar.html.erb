@@ -1,0 +1,24 @@
+<div id="sidebar-wrapper">	<!-- Sidebar -->
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand">
+			<%= link_to "Balern Education", root_path %>
+    </li>
+		<% if user_signed_in? %>
+		  <li><strong><%= link_to "Log out", destroy_user_session_path, method: :delete %></strong></li>        
+		    <% else %>
+		  <li><strong><%= link_to "Sign in", new_user_session_path %></strong></li>
+		<% end %>
+		<li><%= link_to "Messages", conversations_path %></li>
+		<li><%= link_to "Classes", groups_path %></li>
+		<li><%= link_to "Homework", "#" %></li>
+		<li><%= link_to "Calendar", appointments_path %></li>
+		<li><%= link_to "Photos", photos_path %></li>
+		<li><%= link_to "Teachers", teachers_path %></li>
+		<li><%= link_to "Students", students_path %></li>
+		<li><%= link_to "Settings", edit_user_registration_path %></li>
+
+	</ul>
+</div>	<!-- /#sidebar-wrapper -->
+
+
+
