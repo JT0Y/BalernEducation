@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 gem 'rails', '4.2.0'
 
-#gem 'bootstrap-sass'
+gem 'bootstrap-sass'
 gem 'bootstrap-will_paginate'
 gem 'will_paginate'	
 gem 'devise'
