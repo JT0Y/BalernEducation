@@ -13,13 +13,12 @@
 //= require bootstrap
 //= require jquery.js
 //= require jquery_ujs
-//= require bootstrap.min.js
+//= require bootstrap.min
 //= require jquery.turbolinks
 //= require chosen-jquery
 //= require turbolinks
 //= require messages
 //= require_tree .
-jQuery ->
 jQuery(document).ready(function() {
 	$("#menu-toggle").click(function(e) {
 	    e.preventDefault();
