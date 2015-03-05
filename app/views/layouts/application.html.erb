@@ -12,7 +12,7 @@
   <title>Balern Edu.</title>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-eval' => false %>
+  <%= javascript_include_tag 'application', media: 'all', 'data-turbolinks-eval' => false %>
   <%= csrf_meta_tags %>
   <!-- Fonts -->
   <link href="http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -26,6 +26,19 @@
 </head>
 
   <body>
+    <!-- jQuery -->
+    <script src="assets/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>  
 
 <div id="wrapper" class="toggled"><!-- /#wrapper -->
   <%= render 'layouts/sidebar' %>
@@ -44,6 +57,12 @@
   </div><!-- End Fluid container !--> 
     <%= render 'layouts/footer' %>
 
+
+    <!-- jQuery -->
+    <script src="assets/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/bootstrap.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
