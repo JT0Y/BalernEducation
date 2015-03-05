@@ -45,14 +45,13 @@
     <%= render 'layouts/footer' %>
 
 
-    <!-- jQuery -->
-    <script src="assets/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="assets/bootstrap.min.js"></script>
-
     <!-- Menu Toggle Script -->
-
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>  
 
 </div><!-- /#wrapper -->
 
