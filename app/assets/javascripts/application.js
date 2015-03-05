@@ -19,9 +19,3 @@
 //= require turbolinks
 //= require messages
 //= require_tree .
-jQuery(document).ready(function() {
-	$("#menu-toggle").click(function(e) {
-	    e.preventDefault();
-	    $("#wrapper").toggleClass("toggled");
-	});
-});
