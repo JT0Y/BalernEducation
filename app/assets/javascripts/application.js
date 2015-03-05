@@ -19,7 +19,7 @@
 //= require turbolinks
 //= require messages
 //= require_tree .
-
+jQuery ->
 jQuery(document).ready(function() {
 	$("#menu-toggle").click(function(e) {
 	    e.preventDefault();
