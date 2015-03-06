@@ -10,10 +10,9 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery.js
-//= require jquery.turbolinks
-//= require jquery_ujs
+//= require jquery
 //= require chosen-jquery
 //= require messages
+//= require jquery.turbolinks
 //= require turbolinks
-
+//= require_tree .
