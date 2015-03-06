@@ -16,4 +16,4 @@
 //= require chosen-jquery
 //= require messages
 //= require turbolinks
-//= require_tree .
+
