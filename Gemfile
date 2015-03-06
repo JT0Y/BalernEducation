@@ -7,7 +7,6 @@ gem 'bootstrap-will_paginate'
 gem 'will_paginate'	
 gem 'devise'
 gem "mailboxer"
-
 gem "simple_calendar"
 
 # This is part of mailboxer
@@ -17,7 +16,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-turbolinks'
 
 gem 'uglifier', '>= 1.3.0'
-# gem 'jquery-rails'
+gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -34,7 +33,3 @@ group :production do
      gem 'pg'
      gem 'rails_12factor'
 end
-
-
-
-
