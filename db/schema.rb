@@ -28,8 +28,9 @@ ActiveRecord::Schema.define(version: 20150309170800) do
     t.text     "description"
     t.datetime "start_time"
     t.datetime "end_time"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.boolean  "startEditable", default: false
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
   create_table "groups", force: :cascade do |t|

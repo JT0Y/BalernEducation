@@ -1,16 +1,4 @@
 <div class="box">
-  <script>
-$(document).ready(function() {
-
-    // page is now ready, initialize the calendar...
-
-    $('#calendar').fullCalendar({
-        events: '/events.json'
-    })
-
-});
-  </script>
-<div id='calendar'></div>
 <%= month_calendar day_names: "date.day_names", table: {class: "table table-bordered"}, tr: {class: "calendar-row"}, td: {class: month_calendar_td_options}, events: @appointments do |date, appointments| %>
   <%= date.strftime("%B %e") %>
   <% appointments.each do |appointment| %>
