@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: THIS MIGHT WORK!
+  description: MyText
+  start_time: 2015-03-10 01:08:00
+  end_time: 2015-03-10 01:08:00
+
+two:
+  title: TEST
+  description: MyText
+  start_time: 2015-03-19 01:08:00
+  end_time: 2015-03-10 01:08:00

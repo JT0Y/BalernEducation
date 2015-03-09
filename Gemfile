@@ -6,12 +6,12 @@ gem 'rails', '4.2.0'
 
 gem 'devise'
 gem 'thin'
-gem "simple_calendar"
+gem 'simple_calendar'
 
 gem 'bootstrap-sass'
 gem 'bootstrap-will_paginate'
 
-gem "mailboxer"
+gem 'mailboxer'
 
 gem 'will_paginate'	
 
