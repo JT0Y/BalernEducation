@@ -1,5 +1,4 @@
 <div class="box">
-
 <%= month_calendar  table: {class: "table table-bordered"}, tr: {class: "calendar-row"}, td: {class: month_calendar_td_options}, events: @appointments do |date, appointments| %>
   <%= date.strftime("%B %e") %>
   <% appointments.each do |appointment| %>

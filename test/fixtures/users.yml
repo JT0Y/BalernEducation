@@ -24,7 +24,7 @@ user3:
 
 user4:
   name: Christina
-  email: christina@christina.com
+  email: liuyue8341@126.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
