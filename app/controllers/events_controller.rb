@@ -1,9 +1,13 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+  before_filter :verify_is_admin, except: [:index]
+  respond_to :html
 
   # GET /events
   # GET /events.json
   def index
+    @events = Event.order(starts_at: :desc)
     @events = Event.all
   end
 

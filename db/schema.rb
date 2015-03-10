@@ -13,24 +13,16 @@
 
 ActiveRecord::Schema.define(version: 20150309170800) do
 
-  create_table "appointments", force: :cascade do |t|
-    t.datetime "starts_at"
-    t.integer  "teacher_id"
-    t.integer  "group_id"
-    t.string   "ta"
-    t.text     "note"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "events", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "start_time"
     t.datetime "end_time"
-    t.boolean  "startEditable", default: false
-    t.datetime "created_at",                    null: false
-    t.datetime "updated_at",                    null: false
+    t.integer  "teacher_id"
+    t.integer  "group_id"
+    t.string   "ta"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "groups", force: :cascade do |t|

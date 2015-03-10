@@ -13,7 +13,7 @@
         <strong>Scheduled Periods</strong>: <%= group.students.count %><br>
         
         <% if current_user.admin? %>
-                <%= link_to 'Add New Period', new_appointment_path %> |
+                <%= link_to 'Add New Period', new_event_path %> |
                 <%= link_to 'Edit', edit_group_path(group) %> |
                 <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
         <% end %>
@@ -22,5 +22,5 @@
 
     <br>
     <%= link_to 'Add New Class', new_group_path, class: "btn btn-default"  %>
-    <%= link_to 'Scheduled Classes', appointments_path, class: "btn btn-default"  %>
+    <%= link_to 'Scheduled Classes', events_path, class: "btn btn-default"  %>
 </div>

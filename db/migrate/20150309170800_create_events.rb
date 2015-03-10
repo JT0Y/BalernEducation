@@ -6,6 +6,10 @@ class CreateEvents < ActiveRecord::Migration
       t.datetime :start_time
       t.datetime :end_time
 
+      t.integer  :teacher_id
+      t.integer  :group_id
+      t.string 	 :ta
+
       t.timestamps null: false
     end
   end

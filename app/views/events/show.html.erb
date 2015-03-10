@@ -20,5 +20,20 @@
   <%= @event.end_time %>
 </p>
 
+<p>
+  <strong>group:</strong>
+  <%= @event.group.name %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @event.teacher.ename %>
+</p>
+
+<p>
+  <strong>Teaching Assistant:</strong>
+  <%= @event.ta %>
+</p>
+
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>

@@ -37,17 +37,17 @@
 		<br>
 
 				<p>
-		  <strong><%= @group.appointments.count %> <%= link_to 'Periods', appointments_path %>:</strong>
+		  <strong><%= @group.events.count %> <%= link_to 'Periods', events_path %>:</strong>
 		  	<ol>
-					<% @group.appointments.each do |appointment| %>
-					  <li><%= link_to appointment.starts_at, appointment %> - <%= appointment.teacher.ename %> - <%= appointment.ta %></li>
+					<% @group.events.each do |event| %>
+					  <li><%= link_to event.starts_at, event %> - <%= event.teacher.ename %> - <%= event.ta %></li>
 					<% end %>
 				</ol>
 		</p>
 		<br />
 
 		<% if current_user.admin? %>
-		<%= link_to 'New Appointment', new_appointment_path %> | 
+		<%= link_to 'New event', new_event_path %> | 
 		<%= link_to 'Edit Class', edit_group_path(@group) %> | 
 		<% end %>
 		<%= link_to 'All Classes', groups_path %>

@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   resources :events
-
-  resources  :appointments
   resources  :inqueries
   resources  :students
   resources  :teachers
