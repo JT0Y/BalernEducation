@@ -78,5 +78,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Required for Heroku --> Set to actual hostname
-  config.action_mailer.default_url_options = { :host => 'balern-commits.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'balern.herokuapp.com' }
 end

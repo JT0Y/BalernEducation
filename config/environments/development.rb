@@ -40,5 +40,5 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   # Required for Heroku
-  config.action_mailer.default_url_options = { :host => 'balern.heroku.com' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
