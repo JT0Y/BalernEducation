@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   root "pages#home"
   get  "about" => "pages#about"
   get  "calendar" => "pages#calendar"
+  get  "book" => "pages#book"
 end
