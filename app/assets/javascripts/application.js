@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery.min.js
+//= require bootstrap
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require chosen-jquery
