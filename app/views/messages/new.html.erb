@@ -1,5 +1,5 @@
 <% page_header "Start Conversation" %>
-
+<div class="box">
 <%= form_tag messages_path, method: :post do %>
   <div class="form-group">
     <%= label_tag 'message[subject]', 'Subject' %>
@@ -18,3 +18,4 @@
 
   <%= submit_tag 'Send', class: 'btn btn-primary' %>
 <% end %>
+</div>

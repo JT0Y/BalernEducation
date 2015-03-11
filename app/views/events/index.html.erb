@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<div class="box">
+<% page_header "School Calendar" %>
 <script>
     $(document).ready(function()
     {
@@ -92,6 +92,7 @@
     });
 
   </script>
+<div class="box">
 <div id='calendar'></div>
 
 <br />
@@ -133,6 +134,6 @@
 
 <br>
 
-<%= link_to 'New Event', new_event_path, class: "btn btn-primary" %>
+<%= link_to 'Add New Class', new_event_path, class: "btn btn-primary" %>
 <% end %>
 </div>
