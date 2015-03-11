@@ -1,41 +1,16 @@
 <div class="box">
-    <h1>
-      <div class="page-header">
-        Viewing All <%= @groups.count %> Classes
-      </div>
-    </h1>
 
-    <% @groups.each do |group| %>
-        <div class="box">
-        <strong>Class Name:</strong> <%= link_to group.name, group %><br />
-        <strong>Curriculum: </strong><%= group.school %> Class<br />
-        <strong>Number of Students</strong>: <%= group.students.count %><br>
-        <strong>Scheduled Periods</strong>: <%= group.students.count %><br>
-        
-        <% if current_user.admin? %>
-                <%= link_to 'Add New Period', new_event_path %> |
-                <%= link_to 'Edit', edit_group_path(group) %> |
-                <%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %><br>
-        <% end %>
-        </div>
-    <% end %>
+    <h1>Listing All <%= @groups.count %> Classes</h1>
 
-    <br>
-    <%= link_to 'Add New Class', new_group_path, class: "btn btn-default"  %>
-    <%= link_to 'Scheduled Classes', events_path, class: "btn btn-default"  %>
-</div>
-
-
-<div class="box">
-
-    <h1>Listing All <%= Teacher.count %> Staff</h1>
-
-    <table class="table table-hover">
+    <table class="table table-bordered table-hover">
       <thead>
         <tr>
           <th>Class Name:</th>
           <th>Curriculum:</th>
-          <th>Number of Students:</th>
+          <% if current_user.admin? %>
+            <th>Number of Students:</th>
+            <th>Scheduled Classes:</th>
+          <% end %>
           <th>Lead Teacher:</th>
           <th>Teaching Assistant:</th>
             <% if current_user.admin? %>
@@ -47,9 +22,12 @@
       <tbody>
         <% @groups.each do |group| %>
           <tr>
-            <td><%= group.name %></td>
+            <td><%= link_to group.name, group %></td>
             <td><%= group.school %></td>
-            <td><%= group.students.count %></td>
+            <% if current_user.admin? %>
+              <td><%= group.students.count %></td>
+              <td><%= group.events.count %></td>
+            <% end %>
             <td><%= group.teacher.ename %></td>
             <td><%= group.ta %></td>
             <% if current_user.admin? %>
@@ -62,3 +40,6 @@
     </table>
 
     <br>
+        <%= link_to 'Add New Class', new_group_path, class: "btn btn-primary"  %>
+    <%= link_to 'Scheduled Classes', events_path, class: "btn btn-default"  %>
+  </div>
