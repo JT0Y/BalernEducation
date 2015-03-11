@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -99,7 +99,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(243, 156, 18,0.9);
 }
 
 footer p {
@@ -158,7 +158,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: rgba(243, 156, 18,0.9);
     }
 
     .nav>li>a {
