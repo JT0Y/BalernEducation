@@ -83,7 +83,7 @@ p {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(46, 204, 113,0.1);
+    background: rgba(236, 240, 241,0.6);
 }
 
 .intro-text {
@@ -106,7 +106,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(243, 156, 18,0.9);
+    background: rgba(243, 156, 18,0.6);
 }
 
 footer p {
@@ -165,7 +165,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(243, 156, 18,0.9);
+        background: rgba(243, 156, 18,0.6);
     }
 
     .nav>li>a {
