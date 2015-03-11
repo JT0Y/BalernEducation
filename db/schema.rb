@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20150309170800) do
     t.string   "name"
     t.integer  "teacher_id"
     t.integer  "student_id"
-    t.string   "ta"
+    t.string   "pa"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

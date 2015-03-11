@@ -1,6 +1,5 @@
 <div class="box">
-
-    <h1>Listing All <%= @groups.count %> Classes</h1>
+<% page_header "Listing All Classes"%>
 
     <table class="table table-bordered table-hover">
       <thead>
@@ -12,7 +11,7 @@
             <th>Scheduled Classes:</th>
           <% end %>
           <th>Lead Teacher:</th>
-          <th>Teaching Assistant:</th>
+          <th>P.A.:</th>
             <% if current_user.admin? %>
               <th colspan="2">Admin Options</th>
             <% end %>
@@ -29,7 +28,7 @@
               <td><%= group.events.count %></td>
             <% end %>
             <td><%= group.teacher.ename %></td>
-            <td><%= group.ta %></td>
+            <td><%= group.pa %></td>
             <% if current_user.admin? %>
               <td><%= link_to 'Edit', edit_group_path(group) %></td>
               <td><%= link_to 'Destroy', group, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -38,8 +37,11 @@
         <% end %>
       </tbody>
     </table>
+    <br />
 
-    <br>
+    <p>There are currently <strong><%= @groups.count %> Classes</strong></p>
+
+    <br />
         <%= link_to 'Add New Class', new_group_path, class: "btn btn-primary"  %>
     <%= link_to 'Scheduled Classes', events_path, class: "btn btn-default"  %>
   </div>

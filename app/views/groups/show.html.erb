@@ -40,7 +40,7 @@
 		  <strong><%= @group.events.count %> <%= link_to 'Periods', events_path %>:</strong>
 		  	<ol>
 					<% @group.events.each do |event| %>
-					  <li><%= link_to event.starts_at, event %> - <%= event.teacher.ename %> - <%= event.ta %></li>
+					  <li><%= link_to event.start_time, event %> - <%= event.teacher.ename %> - <%= event.ta %></li>
 					<% end %>
 				</ol>
 		</p>
