@@ -1,6 +1,7 @@
 <footer>
     <div class="container"> 
         <br />
+        <%= image_tag "qrbalern.jpg", height: '125', width: '125', :class => "img-rounded pull-right" %>
         | <%= link_to "Home", root_path %> |
         <%= link_to "About", about_path %> |
         <%= link_to "Inquire", new_inquery_path %> |
@@ -20,7 +21,7 @@
         <% else %>
             <%= link_to "Sign in", new_user_session_path %> |
         <% end %>
-        <center>
+        
             <small>
                 <p class="text-muted">
                      &copy; Balern Education & &copy; ToyMech Pro. 
@@ -28,6 +29,6 @@
                     Copyright 2015
                 </p>
             </small>
-        </center>
+
     </div>
 </footer>

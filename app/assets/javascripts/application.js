@@ -19,5 +19,3 @@
 //= require messages
 //= require turbolinks
 
-
-
