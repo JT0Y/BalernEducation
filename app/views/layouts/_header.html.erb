@@ -2,7 +2,7 @@
 <div class="container">
 <div class="brand"><%= image_tag "whitebalern3.png" %></div>
 <div class="address-bar">
-    116-118 Lv Di Business Street | Bin Hai New Area, Tianjin | 1.860.226.8341
+<%= t('.address') %>
 </div>
 </div>
 <br />
@@ -24,29 +24,29 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "About", about_path %></li> 
-      <li><%= link_to "Resources", book_path %></li> 
-      <li><%= link_to "Inquire", new_inquery_path %></li>
+      <li><%= link_to t('.home'), root_path %></li>
+      <li><%= link_to t('.about'), about_path %></li> 
+      <li><%= link_to t('.resources'), book_path %></li> 
+      <li><%= link_to t('.inquire'), new_inquery_path %></li>
 
     <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Account<span class="caret"></span>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><%= t('.account') %><span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu">
-      <li><%= link_to "Messages", conversations_path %></li>
-      <li><%= link_to "Classes", groups_path %></li>
-      <li><%= link_to "Homework", "#" %></li>
-      <li><%= link_to "Calendar", events_path %></li>
-      <li><%= link_to "Photos", photos_path %></li>
-      <li><%= link_to "Teachers", teachers_path %></li>
-      <li><%= link_to "Students", students_path %></li>
-      <li><%= link_to "Settings", edit_user_registration_path %></li>
+      <li><%= link_to t('.messages'), conversations_path %></li>
+      <li><%= link_to t('.classes'), groups_path %></li>
+      <li><%= link_to t('.homework'), "#" %></li>
+      <li><%= link_to t('.calendar'), events_path %></li>
+      <li><%= link_to t('.photos'), photos_path %></li>
+      <li><%= link_to t('.staff'), teachers_path %></li>
+      <li><%= link_to t('.students'), students_path %></li>
+      <li><%= link_to t('.settings'), edit_user_registration_path %></li>
       <li class="divider"></li>
       <!-- START DEVISE Condition !-->
       <% if user_signed_in? %>
-        <li><%= link_to "Log out", destroy_user_session_path, method: :delete %>        
+        <li><%= link_to t('.logout'), destroy_user_session_path, method: :delete %>        
           <% else %>
-        <li><%= link_to "Sign in", new_user_session_path %></li>
+        <li><%= link_to t('.signin'), new_user_session_path %></li>
       <% end %>
       <!-- END DEVISE Condition !-->
           </ul>

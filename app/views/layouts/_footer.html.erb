@@ -1,27 +1,31 @@
 <footer>
     <div class="container"> 
-        <br />
+            <p class="text-right">
+        <%= link_to "中文", :locale=>'cn' %>
+        <%= link_to "View in English", :locale=>'en' %>
+          </p>
+
         <%= image_tag "qrbalern.jpg", height: '125', width: '125', :class => "img-rounded pull-right" %>
-        | <%= link_to "Home", root_path %> |
-        <%= link_to "About", about_path %> |
-        <%= link_to "Inquire", new_inquery_path %> |
+        | <%= link_to t('.home'), root_path %> |
+        <%= link_to t('.about'), about_path %> |
+        <%= link_to t('.inquire'), new_inquery_path %> |
+        <br /> | 
+        <%= link_to t('.messages'), conversations_path %> |
+        <%= link_to t('.classes'), groups_path %> |
+        <%= link_to t('.homework'), "#" %> |
+        <%= link_to t('.calendar'), events_path %> |
+        <%= link_to t('.photos'), photos_path %> |
+        <%= link_to t('.staff'), teachers_path %> |
+        <%= link_to t('.students'), students_path %> |
+        <%= link_to t('.settings'), edit_user_registration_path %> |
         <br />
-        | <%= link_to "Messages", conversations_path %> |
-        <%= link_to "Classes", groups_path %> |
-        <%= link_to "Homework", "#" %> |
-        <%= link_to "Calendar", events_path %> |
-        <%= link_to "Photos", photos_path %> |
-        <%= link_to "Teachers", teachers_path %> |
-        <%= link_to "Students", students_path %> |
-        <%= link_to "Settings", edit_user_registration_path %> |
-        <br />
-     		| <%= link_to "Sign up", new_user_registration_path %> |
+     		| <%= link_to t('.signup'), new_user_registration_path %> |
         <% if user_signed_in? %>
-            <%= link_to "Log out", destroy_user_session_path, method: :delete %> |       
+            <%= link_to t('.logout'), destroy_user_session_path, method: :delete %> |       
         <% else %>
-            <%= link_to "Sign in", new_user_session_path %> |
+            <%= link_to t('.signin'), new_user_session_path %> |
         <% end %>
-        
+
             <small>
                 <p class="text-muted">
                      &copy; Balern Education & &copy; ToyMech Pro. 
@@ -29,6 +33,5 @@
                     Copyright 2015
                 </p>
             </small>
-
     </div>
 </footer>

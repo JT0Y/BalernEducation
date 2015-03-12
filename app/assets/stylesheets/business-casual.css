@@ -31,6 +31,12 @@ p {
     color: #000;
 }
 
+.thumbnail {
+    font-size: 1.00em;
+    line-height: 1.6;
+    background-color: rgba(241, 196, 15,0.6);
+}
+
 .brand,
 .address-bar {
     display: none;
@@ -76,7 +82,7 @@ p {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(230, 126, 34,0.3);
+    background: rgba(230, 126, 34,0.6);
 }
 
 .box {
