@@ -14,6 +14,22 @@ en:
       ce: "This best-selling English language course takes a practical approach to language learning. Now updated, with plenty of new content and a fresh new design, the course takes students from starter to advanced, through its module-based books. A strong English grammar syllabus lays the groundwork for functional English, while the regular speaking tests and vocabulary sections ensure that students are constantly improving upon their skills and retaining knowledge."
       lg: "Bigger, brighter and better than ever, Let's Go, 3rd Edition, is a series for children who are just beginning their study of English. It combines a carefully controlled, grammar-based syllabus with practical language. Functional dialogues, interactive games, and pair work activities foster a lively and motivating classroom environment."
 
+  inqueries:
+    form:
+      name: "Name"
+      email: "E-Mail"
+      phone: "Phone Number"
+      message: "Message"
+      submit: "Submit"
+    new:
+      contact1: "Contact"
+      contact2: "Balern Edu."
+      form1: "Contact"
+      form2: "Form"
+      phone: "Phone Number"
+      email: "E-Mail"
+      address: "Address"
+
   layouts:
     header:
       address: "116-118 Lv Di Business Street | Bin Hai New Area, Tianjin | 1.860.226.8341"

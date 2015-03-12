@@ -1,0 +1,68 @@
+cn:
+
+  pages:
+    home:
+      welcome: "欢迎观临"
+      title: "伯伦教育"
+      tag1: "汉沽的"
+      tag2: "尖端"
+      tag3: "英文学校"
+    book:
+      head: "我们教材"
+      bookint: "我们的老师都是经验丰富的合格。因此，他们可以确保您的孩子在课堂上的个性化和有意义的经验。但是，仅仅因为你的孩子是不是在课堂上，现在，这并不意味着他们的学习的机会应该停止。在这里，你可以找到一些很好的学习材料。我们使用所有这些材料在Balern。我们建议，我们所有的目前就读的学生购买自己的教科书。这将为您提供帮助您的孩子学习在课堂外也的能力。"
+      abc: "在一步一步学习路径呈现全面ABCmouse.com课程，在六个级别的450多名经验教训一个精心设计的计划。当你的孩子完成每堂课，他或她被引导到下一个，是由动机ABCmouse.com的门票和奖励制度，继续学习。"
+      ce: "这最畅销的英语语言课程需要一个实用的方法来学习语言。现在更新，用大量的新内容和新颖的设计，课程以学生从入门到高级，通过其基于模块的书籍。一个强大的英语语法课程奠定了基础功能的英语，而常规来讲测试和词汇部分确保学生都在不断提高对他们的技能和知识保留。"
+      lg: "更大，更明亮，比以往任何时候都好，我们走吧，第3版，是一系列为孩子谁是刚刚开始他们的英语学习。它结合了严格控制的，基于语法的教学大纲与实际语言。功能性对话，互动游戏，以及对工作活动营造生动和激励的课堂环境。"
+
+  inqueries:
+    form:
+      name: "名字"
+      email: "电子邮件"
+      phone: "电话号码"
+      message: "消息"
+      submit: "提交"
+    new:
+      contact1: "联系"
+      contact2: "伯伦教育"
+      form1: "联络"
+      form2: "表单"
+      phone: "电话号码"
+      email: "电子邮件"
+      address: "地址"
+
+  layouts:
+    header:
+      address: "116-118 绿地商业街 |滨海北, 天津 | 1.860.226.8341"
+      home: "主页"
+      about: "关于我们"
+      resources: "教材"
+      inquire: "查询"
+      account: "帐户"
+      messages: "消息"
+      classes: "课程"
+      homework: "作业"
+      calendar: "日程"
+      photos: "相册"
+      staff: "师资"
+      students: "师资"
+      settings: "选项"
+      signup: "注册"
+      logout: "退出登录"
+      signin: "登录"
+    footer:
+      home: "主页"
+      about: "关于我们"
+      resources: "教材"
+      inquire: "查询"
+      account: "帐户"
+      messages: "消息"
+      classes: "课程"
+      homework: "作业"
+      calendar: "日程"
+      photos: "相册"
+      staff: "师资"
+      students: "师资"
+      settings: "选项"
+      signup: "注册"
+      logout: "退出登录"
+      signin: "登录"
