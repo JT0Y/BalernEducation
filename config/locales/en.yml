@@ -13,6 +13,7 @@ en:
       abc: "The Step-by-Step Learning Path presents the full ABCmouse.com curriculum in a carefully designed program of more than 450 lessons in six levels. As your child completes each lesson, he or she is guided to the next one and is motivated to continue learning by ABCmouse.com’s Tickets and Rewards System."
       ce: "This best-selling English language course takes a practical approach to language learning. Now updated, with plenty of new content and a fresh new design, the course takes students from starter to advanced, through its module-based books. A strong English grammar syllabus lays the groundwork for functional English, while the regular speaking tests and vocabulary sections ensure that students are constantly improving upon their skills and retaining knowledge."
       lg: "Bigger, brighter and better than ever, Let's Go, 3rd Edition, is a series for children who are just beginning their study of English. It combines a carefully controlled, grammar-based syllabus with practical language. Functional dialogues, interactive games, and pair work activities foster a lively and motivating classroom environment."
+      learnmore: "Learn More"
 
   inqueries:
     form:
@@ -29,6 +30,22 @@ en:
       phone: "Phone Number"
       email: "E-Mail"
       address: "Address"
+
+  groups:
+    new:
+      bullet1: "Fill out the form below to open a new class to the class schedule"
+      bullet2: "Do not use this to add a demo class to schedule"
+      bullet3: "If you are trying to add a class to the calendar please use the events calendar"
+    show:
+      lead: "Lead Teacher:"
+      pa: "P.A.:"
+      type: "Type of Class:"
+      name: "Student Name:"
+
+  teachers:
+    index: 
+      header: "Balern Staff"
+
 
   layouts:
     header:
@@ -49,3 +66,9 @@ en:
       signup: "Sign Up"
       logout: "Log Out"
       signin: "Sign In"
+
+  events:
+    index: 
+      header: "School Calendar"
+      newclass: "New Class Period"
+

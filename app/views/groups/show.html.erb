@@ -11,17 +11,17 @@
 
 
 		<p>
-			<strong>Lead Teacher:</strong>
+			<strong><%= t('.lead') %></strong>
 				<%= link_to @group.teacher.ename, @group.teacher %>
 		</p>
 
 		<p>
-		  <strong>Teaching Assistant:</strong>
+		  <strong><%= t('.pa') %></strong>
 		  <%= @group.pa %>
 		</p>
 
 		<p>
-		  <strong>Studying:</strong>
+		  <strong><%= t('.type') %></strong>
 		  <%= @group.school %>
 		</p>
 
