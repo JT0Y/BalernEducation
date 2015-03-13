@@ -92,4 +92,5 @@ en:
     index: 
       header: "School Calendar"
       newclass: "New Class Period"
-
+    show:
+      header: "Class Period For:"

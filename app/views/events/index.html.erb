@@ -116,7 +116,9 @@
         <th>Teaching Assistant</th>
         <th>Start time</th>
         <th>End time</th>
-        <th colspan="3"></th>
+        <% if current_user.admin? %>
+        <th colspan="3">Admin Options</th>
+        <% end %>
       </tr>
     </thead>
 

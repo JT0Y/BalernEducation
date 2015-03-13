@@ -104,6 +104,8 @@ cn:
     index:
       header: "课程表"
       newclass: "添加选件类期间"
+    show:
+      header: "课程时间"
 
   teachers:
     index: 
