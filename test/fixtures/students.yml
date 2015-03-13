@@ -5,141 +5,261 @@ hank:
   cname: 中文
   dob: 2004-11-23
   group: ss001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 sean:
   ename: Sean
   cname: 中文
   dob: 2003-11-23
   group: ss001  
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 tony:
   ename: Tony
   cname: 中文
   dob: 2009-11-23
   group: ss001  
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 allen:
   ename: Allen
   cname: 中文
   dob: 2009-11-23
   group: ss001  
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 apple:
   ename: Apple
   cname: 苹果
   dob: 1999-02-20
   group: pp001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 aaron:
   ename: Aaron
   cname: 苹果
   dob: 1999-02-20
   group: pp001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 steve:
   ename: Steve
   cname: 苹果
   dob: 1999-02-20
   group: pp001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 happy:
   ename: happy
   cname: 中文
   dob: 2008-11-23
   group: pp003
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 jessica:
   ename: jessica
   cname: 中文
   dob: 2007-11-23
   group: pp003
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 nicole:
   ename: Nicole
   cname: 中文
   dob: 2006-11-23
   group: pp003 
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 alice:
   ename: Alice
   cname: 中文
   dob: 2006-11-23
   group: gm001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 serena:
   ename: Serena
   cname: 中文
   dob: 2006-11-23
   group: gm001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 jason:
   ename: Jason
   cname: 中文
   dob: 2006-11-23
   group: gm002
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 grace:
   ename: Grace
   cname: 中文
   dob: 2006-11-23
   group: gm002
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 bob:
   ename: Bob
   cname: 中文
   dob: 2006-11-23
   group: gm002
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 Sam:
   ename: Sam
   cname: 中文
   dob: 2006-11-23
   group: gm003
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 jason:
   ename: Jason
   cname: 中文
   dob: 2006-11-23
   group: gm004
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 caleb:
   ename: Caleb
   cname: 中文
   dob: 2006-11-23
   group: gm004
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 amanda:
   ename: Amanda
   cname: 中文
-  dob: 2006-11-23
+  dob: 2009-11-23
   group: gm004
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
-jenny:
-  ename: Caleb
+dick:
+  ename: Dick
   cname: 中文
-  dob: 2006-11-23
-  group: gm005
+  dob: 2010-11-09
+  group: pp003
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 jerry:
   ename: Amanda
   cname: 中文
-  dob: 2006-11-23
+  dob: 2010-11-23
   group: gm005
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 comma:
   ename: Comma
   cname: 中文
-  dob: 2002-04-24
+  dob: 2009-04-24
   group: vip
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
-jenny:
-  ename: Jenny
+cathy:
+  ename: Cathy
   cname: 中文
-  dob: 2002-04-24
+  dob: 2009-04-21
   group: drum001
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'
 
 richard:
   ename: Richard
   cname: 中文
   dob: 2009-02-14
   group: drum002
+  emergency_contact: '15002245173'
+  email: steve@steve.com
+  wechat: wechatID
+  contract_start: 2014-11-02
+  contract_length: '365'

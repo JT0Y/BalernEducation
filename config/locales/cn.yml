@@ -25,6 +25,7 @@ cn:
       message: "消息"
       submit: "提交"
     new:
+      header: "查询"
       contact1: "联系"
       contact2: "伯伦教育"
       form1: "联络"

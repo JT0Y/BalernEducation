@@ -31,6 +31,10 @@ p {
     color: #000;
 }
 
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(46, 204, 113,0.3);
+}
+
 .thumbnail {
     font-size: 1.00em;
     line-height: 1.6;

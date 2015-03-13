@@ -25,6 +25,7 @@ en:
       message: "Message"
       submit: "Submit"
     new:
+      header: "Inqueries"
       contact1: "Contact"
       contact2: "Balern Edu."
       form1: "Contact"
