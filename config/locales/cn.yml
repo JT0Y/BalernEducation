@@ -53,6 +53,15 @@ cn:
       pa: "P.A.:"
       type: "选件类的类型:"
       name: "学员名字:"
+    edit:
+      edit: "编辑班级属性"
+      show: "显示"
+      back: "返回"
+    form:
+      lead: "线索教师"
+      pa: "PA"
+      curriculum: "选件类课程"
+      classname: "分类名"
 
   layouts:
     header:

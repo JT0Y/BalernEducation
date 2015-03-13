@@ -12,22 +12,22 @@
   <% end %>
 
   <div class="form-group">
-    <%= f.label :Lead_teacher %><br>
+    <%= f.label t('.lead') %><br>
     <%= f.collection_select(:teacher_id, Teacher.all, :id, :ename, prompt: true) %>
   </div>
 
   <div class="form-group">
-    <%= f.label :Teaching_Assistant %><br>
+    <%= f.label t('.pa') %><br>
     <%= f.collection_select(:pa, Teacher.all, :ename, :ename, prompt: true) %>
   </div>
 
   <div class="form-group">
-    <%= f.label :school %><br>
+    <%= f.label t('.curriculum') %><br>
     <%= f.select :school, ["English","Drum","English & Drum"] %>
   </div>
 
   <div class="form-group">
-    <%= f.label :name %><br>
+    <%= f.label t('.classname') %><br>
     <%= f.text_field :name, class: "form-control" %>
   </div>
 

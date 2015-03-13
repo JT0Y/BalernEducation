@@ -53,6 +53,15 @@ en:
       pa: "P.A.:"
       type: "Type of Class:"
       name: "Student Name:"
+    edit:
+      edit: "Edit Class"
+      show: "Show Class"
+      back: "Go Back"
+    form:
+      lead: "Lead Teacher"
+      pa: "PA"
+      curriculum: "Class Curriculum"
+      classname: "Class Name"
 
   teachers:
     index: 
