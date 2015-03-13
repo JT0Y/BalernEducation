@@ -1,17 +1,17 @@
 <div class="box">
-<% page_header "Listing All Classes"%>
+<% page_header t('.header') %>
 
     <table class="table table-bordered table-hover">
       <thead>
         <tr>
-          <th>Class Name:</th>
-          <th>Curriculum:</th>
+          <th><%= t('.classname') %>:</th>
+          <th><%= t('.curriculum') %>:</th>
           <% if current_user.admin? %>
-            <th>Number of Students:</th>
-            <th>Scheduled Classes:</th>
+            <th><%= t('.numberstudents') %>:</th>
+            <th><%= t('.scheduledclasses') %>:</th>
           <% end %>
-          <th>Lead Teacher:</th>
-          <th>P.A.:</th>
+          <th><%= t('.leadteacher') %>:</th>
+          <th><%= t('.pa') %>:</th>
             <% if current_user.admin? %>
               <th colspan="2">Admin Options</th>
             <% end %>
@@ -39,7 +39,7 @@
     </table>
     <br />
 
-    <p>There are currently <strong><%= @groups.count %> Classes</strong></p>
+    <p><%= t('.currently') %><strong><%= @groups.count %> Classes</strong></p>
 
     <br />
         <%= link_to 'Add New Class', new_group_path, class: "btn btn-primary"  %>

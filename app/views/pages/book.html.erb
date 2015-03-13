@@ -14,7 +14,10 @@
       <div class="caption">
         <h3>ABC Mouse</h3>
         <p><%= t('.abc') %></p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>
+          <%= link_to t('.button1'), "https://www.abcmouse.com/", class: "btn btn-primary" %>
+          <%= link_to t('.button2'), new_inquery_path, class: "btn btn-default" %>
+        </p>
       </div>
     </div>
   </div>
@@ -26,7 +29,10 @@
       <div class="caption">
         <h3>The Cutting Edge</h3>
         <p><%= t('.ce') %></p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>
+          <%= link_to t('.button1'), "http://www.pearsonlongman.com/newcuttingedge/", class: "btn btn-primary" %>
+          <%= link_to t('.button2'), new_inquery_path, class: "btn btn-default" %>
+        </p>
       </div>
     </div>
   </div>
@@ -39,7 +45,10 @@
       <div class="caption">
         <h3>Let's Go!</h3>
         <p><%= t('.lg') %></p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>
+          <%= link_to t('.button1'), "https://elt.oup.com/student/letsgo/?cc=global&selLanguage=en", class: "btn btn-primary" %>
+          <%= link_to t('.button2'), new_inquery_path, class: "btn btn-default" %>
+        </p>
       </div>
     </div>
   </div>
