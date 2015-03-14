@@ -1,30 +1,47 @@
 <footer>
     <div class="container"> 
-            <p class="text-right">
+
+        <p class="text-right">
         <%= link_to "中文", :locale=>'cn' %> ｜ 
         <%= link_to "English", :locale=>'en' %>
-          </p>
-
+          
+        <br />
         <%= image_tag "qrbalern.jpg", height: '125', width: '125', :class => "img-rounded pull-right" %>
+        </p>
+
+        <% if current_user.try(:admin?) %>
+        Welcome back <strong><%= current_user.name %></strong>
+        <br/>
+        | <%= link_to t('.classes'), groups_path %> |
+        <%= link_to t('.staff'), teachers_path %> |
+        <%= link_to t('.students'), students_path %> |
+        <br />
+        <% elsif %>
+        您好 <%= current_user.try(:name) %>!
+        <% end %>
+        <br />
+
+
+
         | <%= link_to t('.home'), root_path %> |
         <%= link_to t('.about'), about_path %> |
         <%= link_to t('.inquire'), new_inquery_path %> |
-        <br /> | 
-        <%= link_to t('.messages'), conversations_path %> |
-        <%= link_to t('.classes'), groups_path %> |
-        <%= link_to t('.homework'), "#" %> |
-        <%= link_to t('.calendar'), events_path %> |
-        <%= link_to t('.photos'), photos_path %> |
-        <%= link_to t('.staff'), teachers_path %> |
-        <%= link_to t('.students'), students_path %> |
-        <%= link_to t('.settings'), edit_user_registration_path %> |
-        <br />
-     		| <%= link_to t('.signup'), new_user_registration_path %> |
+        
         <% if user_signed_in? %>
-            <%= link_to t('.logout'), destroy_user_session_path, method: :delete %> |       
+            <%= link_to t('.logout'), destroy_user_session_path, method: :delete %> | 
+            <%= link_to t('.settings'), edit_user_registration_path %> |       
         <% else %>
+            <%= link_to t('.signup'), new_user_registration_path %> |
             <%= link_to t('.signin'), new_user_session_path %> |
         <% end %>
+
+        <br /> | 
+        <%= link_to t('.messages'), conversations_path %> |
+        <%= link_to t('.photos'), photos_path %> |
+        <%= link_to t('.homework'), "#" %> |
+        <%= link_to t('.calendar'), events_path %> |
+        <br />
+
 
             <small>
                 <p class="text-muted">
