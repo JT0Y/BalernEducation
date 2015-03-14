@@ -12,8 +12,8 @@ event1:
 event2:
   title: English Club
   description: Basic English Verbs
-  start_time: 2014-02-25 17:12:01
-  end_time: 2014-02-25 20:30:00
+  start_time: 2015-04-19 17:12:01
+  end_time: 2015-04-19 20:30:00
   group: gm002
   teacher: josh
   ta: christina
@@ -21,8 +21,8 @@ event2:
 event3:
   title: English Club
   description: Basic English Verbs
-  start_time: 2015-02-25 17:30:00
-  end_time: 2015-02-25 17:12:01
+  start_time: 2015-04-23 17:30:00
+  end_time: 2015-04-23 17:12:01
   group: vip
   teacher: christina
   ta: krystal
@@ -30,8 +30,8 @@ event3:
 event4:
   title: English Club
   description: Geography
-  start_time: 2015-03-05 16:45:00
-  end_time: 2015-03-05 17:12:01
+  start_time: 2015-04-05 16:45:00
+  end_time: 2015-04-05 17:12:01
   group: gm003
   teacher: mickey
   ta: mia
@@ -57,8 +57,8 @@ event6:
 event7:
   title: English Class
   description: Animals on The Farm
-  start_time: 2015-03-25 13:00:00
-  end_time: 2015-03-25 14:12:01
+  start_time: 2015-04-24 13:00:00
+  end_time: 2015-04-24 14:12:01
   group: gm002
   teacher: josh
   ta: christina
@@ -66,8 +66,8 @@ event7:
 event8:
   title: English Class
   description: Telling Time
-  start_time: 2015-04-04 13:10:00
-  end_time: 2015-04-04 14:12:01
+  start_time: 2015-06-04 13:10:00
+  end_time: 2015-06-04 14:12:01
   group: ss001
   teacher: mickey
   ta: christina
@@ -75,8 +75,8 @@ event8:
 event9:
   title: English Class
   description: Telling Time
-  start_time: 2015-03-25 19:30:00
-  end_time: 2015-03-25 20:12:01
+  start_time: 2015-04-22 19:30:00
+  end_time: 2015-04-22 20:12:01
   group: gm002
   teacher: vivian
   ta: christina
@@ -84,8 +84,8 @@ event9:
 event10:
   title: English Class
   description: Introduce Yourself!
-  start_time: 2015-03-19 18:30:00
-  end_time: 2015-03-19 19:12:01
+  start_time: 2015-04-19 18:30:00
+  end_time: 2015-04-19 19:12:01
   group: pp003
   teacher: josh
   ta: krystal
@@ -93,8 +93,8 @@ event10:
 event11:
   title: English Club
   description: Introduce Yourself!
-  start_time: 2015-03-18 17:00:00
-  end_time: 2015-03-18 18:12:01
+  start_time: 2015-04-18 17:00:00
+  end_time: 2015-04-18 18:12:01
   group: demo
   teacher: josh
   ta: vivian
@@ -102,8 +102,8 @@ event11:
 event12:
   title: English Club
   description: Present Perfect Continuous
-  start_time: 2015-03-07 19:00:00
-  end_time: 2015-03-07 20:12:01
+  start_time: 2015-04-07 19:00:00
+  end_time: 2015-04-07 20:12:01
   group: demo
   teacher: mickey
   ta: vivian 
@@ -111,8 +111,8 @@ event12:
 event13:
   title: English Club
   description: Present Perfect Continuous
-  start_time: 2015-03-29 09:00:00
-  end_time: 2015-03-29 10:12:01
+  start_time: 2015-04-29 09:00:00
+  end_time: 2015-04-29 10:12:01
   group: demo
   teacher: josh
   ta: vivian 
@@ -129,8 +129,8 @@ event14:
 event15:
   title: Extra Help
   description: Months in a Year
-  start_time: 2015-03-29 16:00:00
-  end_time: 2015-03-29 17:12:01
+  start_time: 2015-04-29 16:00:00
+  end_time: 2015-04-29 17:12:01
   group: demo
   teacher: josh
   ta: vivian 
@@ -138,8 +138,8 @@ event15:
 event16:
   title: English Class
   description: Months in a Year
-  start_time: 2015-03-20 18:00:00
-  end_time: 2015-03-20 19:12:01
+  start_time: 2015-04-20 18:00:00
+  end_time: 2015-04-20 19:12:01
   group: gm004
   teacher: mickey
   ta: vivian
@@ -147,8 +147,8 @@ event16:
 event17:
   title: Extra Help
   description: Vowel Sounds
-  start_time: 2015-03-07 19:00:00
-  end_time: 2015-03-07 20:00:01
+  start_time: 2015-07-07 19:00:00
+  end_time: 2015-07-07 20:00:01
   group: gm003
   teacher: mickey
   ta: mia 
@@ -165,8 +165,8 @@ event18:
 event19:
   title: Extra Help
   description: Geography
-  start_time: 2015-03-25 17:12:01
-  end_time: 2015-03-25 19:12:01
+  start_time: 2015-04-23 17:12:01
+  end_time: 2015-04-23 19:12:01
   group: pp001
   teacher: josh
   ta: mia
