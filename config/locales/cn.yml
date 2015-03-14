@@ -63,6 +63,17 @@ cn:
       curriculum: "选件类课程"
       classname: "分类名"
 
+  teachers:
+    index: 
+      header: "伯伦教育员工"
+    edit:
+      header: "编辑老师"
+    form:
+      ename: "英文名字"
+      cname: "中文名字"
+      dob: "生日"
+      group: "课名字"
+
   layouts:
     header:
       address: "116-118 绿地商业街 |滨海北, 天津 | 1.860.226.8341"
@@ -106,7 +117,3 @@ cn:
       newclass: "添加选件类期间"
     show:
       header: "课程时间"
-
-  teachers:
-    index: 
-      header: "伯伦教育员工"

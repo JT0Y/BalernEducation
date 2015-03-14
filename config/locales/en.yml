@@ -65,8 +65,14 @@ en:
 
   teachers:
     index: 
-      header: "Balern Staff"
-
+      header: "伯伦教育员工"
+    edit:
+      header: "Editing Teacher"
+    form:
+      ename: "English Name"
+      cname: "Chinese Name"
+      dob: Date Of Birth"
+      group: "Class Name"
 
   layouts:
     header:
