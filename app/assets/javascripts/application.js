@@ -17,5 +17,6 @@
 //= require chosen-jquery
 //= require jquery.image-select
 //= require messages
+//= require calendar
 //= require turbolinks
 
