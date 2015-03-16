@@ -20,13 +20,37 @@
     <%= f.text_field :cname %>
   </div>
   <div class="form-group">
+    <%= f.label t('.class_name') %>:<br />
+    <%= f.collection_select(:group_id, Group.all, :id, :name, prompt: true) %>
+  </div>
+  <hr>
+  
+  <div class="form-group">
     <%= f.label t('.dob') %>:<br />
     <%= f.date_select :dob %>
   </div>
   <div class="form-group">
-    <%= f.label t('.class_name') %>:<br />
-    <%= f.collection_select(:group_id, Group.all, :id, :name, prompt: true) %>
+    <%= f.label t('.contract_start') %>:<br />
+    <%= f.date_select :contract_start %>
   </div>
+  <div class="form-group">
+    <%= f.label t('.contract_length') %>:<br />
+    <%= f.text_field :contract_length %>
+  </div>
+  <div class="form-group">
+    <%= f.label t('.emergency_contact') %>:<br />
+    <%= f.text_field :emergency_contact %>
+  </div>
+    <div class="form-group">
+    <%= f.label t('.email') %>:<br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="form-group">
+    <%= f.label t('.wechat') %>:<br />
+    <%= f.text_field :wechat %>
+  </div>
+
+<hr>
   <div class="form-group">
     <%= f.submit class: "btn btn-primary" %>
   </div>

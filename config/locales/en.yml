@@ -133,7 +133,9 @@ en:
       newclass: "New Class Period"
     show:
       header: "Class Period For:"
+    edit:
+      header: "Editing Class Period"
 
 
 
-      
+

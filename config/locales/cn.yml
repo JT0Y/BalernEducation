@@ -76,12 +76,12 @@ cn:
     form:
       ename: "英文名字"
       cname: "中文名字"
-      emergency_contact: "生日"
+      emergency_contact: "紧急联络"
       email: "课名字"
       wechat: "微信"
       dob: "出生日期"
-      contract_start: "Contract Start"
-      contract_length: "Contract Length"
+      contract_start: "合同起始时间"
+      contract_length: "合同长度"
       class_name: "分类名"
 
   teachers:
@@ -138,6 +138,9 @@ cn:
       newclass: "添加选件类期间"
     show:
       header: "课程时间"
+    edit:
+      header: "编辑选件类期间"
+
 
 
 
