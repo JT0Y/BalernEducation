@@ -1,4 +1,9 @@
 cn:
+  date: 
+    order:
+      - "year"
+      - "month"
+      - "day"
 
   pages:
     home:
@@ -63,6 +68,22 @@ cn:
       curriculum: "选件类课程"
       classname: "分类名"
 
+  students:
+    index: 
+      header: "被登记的学员"
+    edit:
+      editingstudent: "编辑学员:"
+    form:
+      ename: "英文名字"
+      cname: "中文名字"
+      emergency_contact: "生日"
+      email: "课名字"
+      wechat: "微信"
+      dob: "出生日期"
+      contract_start: "Contract Start"
+      contract_length: "Contract Length"
+      class_name: "分类名"
+
   teachers:
     index: 
       header: "伯伦教育员工"
@@ -117,3 +138,6 @@ cn:
       newclass: "添加选件类期间"
     show:
       header: "课程时间"
+
+
+

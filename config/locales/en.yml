@@ -63,6 +63,22 @@ en:
       curriculum: "Class Curriculum"
       classname: "Class Name"
 
+  students:
+    index: 
+      header: "Enrolled Students"
+    edit:
+      editingstudent: "Editing Student:"
+    form:
+      ename: "English Name"
+      cname: "Chinese Name"
+      emergency_contact: "Emergency Contact Number"
+      email: "课名字"
+      wechat: "wechat ID"
+      dob: "DOB"
+      contract_start: "Contract Start"
+      contract_length: "Contract Length"
+      class_name: "Class Name"
+
   teachers:
     index: 
       header: "伯伦教育员工"
@@ -93,6 +109,23 @@ en:
       signup: "Sign Up"
       logout: "Log Out"
       signin: "Sign In"
+    footer:
+      home: "Home"
+      about: "About Us"
+      resources: "Tesources"
+      inquire: "Inqueries"
+      account: "帐户"
+      messages: "Messages"
+      classes: "Classes"
+      homework: "Homework"
+      calendar: "Calendar"
+      photos: "Photos"
+      staff: "Staff"
+      students: "Students"
+      settings: "Settings"
+      signup: "Sign Up"
+      logout: "Log Out"
+      signin: "Sign In"
 
   events:
     index: 
@@ -100,3 +133,7 @@ en:
       newclass: "New Class Period"
     show:
       header: "Class Period For:"
+
+
+
+      
