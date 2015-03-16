@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require bootstrap
+//= require jquery_ujs 
 //= require jquery.turbolinks
 //= require chosen-jquery
 //= require jquery.image-select
