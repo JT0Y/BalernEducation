@@ -23,9 +23,9 @@
     <%= f.label t('.dob') %><br>
     <%= f.date_select :dob %>
   </div>
-  <div class="field">
-    <%= f.label t('.group') %><br>
-    <%= f.number_field :group_id %>
+  <div class="form-group">
+    <%= f.label "Class Name" %>:<br />
+    <%= f.collection_select(:group_id, Group.all, :id, :name, prompt: true) %>
   </div>
   <div class="actions">
     <%= f.submit %>

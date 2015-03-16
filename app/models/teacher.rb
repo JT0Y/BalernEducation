@@ -1,7 +1,7 @@
 class Teacher < ActiveRecord::Base
-	validates :title, presence: true
-	validates :excerpt, presence: true
-	validates :content, presence: true
+	validates :ename, presence: true
+	validates :cname, presence: true
+	validates :dob, presence: true
 
 	has_many :students, through: :groups
 	has_many :groups
