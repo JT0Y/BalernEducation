@@ -1,8 +1,13 @@
 <% page_header t('.header') %>
 <div class="box">
 
+<h2>
+	<center>
+		<%= link_to @teacher.ename %>
+	</center>
+</h2>
+<br />
+
 <%= render 'form' %>
 
-<%= link_to 'Show', @teacher %> |
-<%= link_to 'Back', teachers_path %>
 </div>
