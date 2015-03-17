@@ -1,8 +1,14 @@
 <% page_header t('.editingstudent') %>
 <div class="box">
 
+<center>
+	<h2>
+		<%= link_to @student.ename, @student %>
+	</h2>
+</center>
+<br />
+
 <%= render 'form' %>
 
-<%= link_to 'Show', @student %> |
-<%= link_to 'Back', students_path %>
+
 </div>

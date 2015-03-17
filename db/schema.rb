@@ -111,7 +111,7 @@ ActiveRecord::Schema.define(version: 20150309170800) do
     t.string   "cname"
     t.string   "emergency_contact"
     t.string   "email"
-    t.string   "wechat"
+    t.string   "address"
     t.date     "dob"
     t.date     "contract_start"
     t.integer  "contract_length"

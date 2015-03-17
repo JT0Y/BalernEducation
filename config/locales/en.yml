@@ -73,6 +73,8 @@ en:
   students:
     index: 
       header: "Enrolled Students"
+    new:
+      header: "New Student"
     edit:
       editingstudent: "Editing Student:"
     form:
@@ -80,7 +82,7 @@ en:
       cname: "Chinese Name"
       emergency_contact: "Emergency Contact Number"
       email: "E-Mail"
-      wechat: "wechat ID"
+      address: "Home Address"
       dob: "DOB"
       contract_start: "Contract Start"
       contract_length: "Contract Length"

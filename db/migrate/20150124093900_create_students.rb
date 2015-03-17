@@ -5,7 +5,7 @@ class CreateStudents < ActiveRecord::Migration
       t.string 	:cname
 			t.string 	:emergency_contact
 			t.string 	:email
-			t.string 	:wechat
+			t.string 	:address
       t.date 		:dob
       t.date 		:contract_start
       t.integer :contract_length

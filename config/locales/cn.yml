@@ -78,6 +78,8 @@ cn:
   students:
     index: 
       header: "被登记的学员"
+    new:
+      header: "新的学员"
     edit:
       editingstudent: "编辑学员:"
     form:
@@ -85,7 +87,7 @@ cn:
       cname: "中文名字"
       emergency_contact: "紧急联络"
       email: "课名字"
-      wechat: "微信"
+      address: "家庭住址"
       dob: "出生日期"
       contract_start: "合同起始时间"
       contract_length: "合同长度"

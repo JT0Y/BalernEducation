@@ -13,11 +13,11 @@
 
   <div class="form-group">
     <%= f.label t('.ename') %>:<br />
-    <%= f.text_field :ename %>
+    <%= f.text_field :ename, class: "form-control"  %>
   </div>
   <div class="form-group">
     <%= f.label t('.cname') %>:<br />
-    <%= f.text_field :cname %>
+    <%= f.text_field :cname, class: "form-control" %>
   </div>
   <div class="form-group">
     <%= f.label t('.class_name') %>:<br />
@@ -35,23 +35,24 @@
   </div>
   <div class="form-group">
     <%= f.label t('.contract_length') %>:<br />
-    <%= f.text_field :contract_length %>
+    <%= f.text_field :contract_length, :placeholder => "Hours", class: "form-control"  %>
   </div>
   <div class="form-group">
     <%= f.label t('.emergency_contact') %>:<br />
-    <%= f.text_field :emergency_contact %>
+    <%= f.text_field :emergency_contact, :placeholder => "000 123 6789", class: "form-control"  %>
   </div>
     <div class="form-group">
     <%= f.label t('.email') %>:<br />
-    <%= f.text_field :email %>
+    <%= f.text_field :email, :placeholder => "example@example.com", class: "form-control"  %>
   </div>
   <div class="form-group">
-    <%= f.label t('.wechat') %>:<br />
-    <%= f.text_field :wechat %>
+    <%= f.label t('.address') %>:<br />
+    <%= f.text_field :address, class: "form-control"  %>
   </div>
 
 <hr>
   <div class="form-group">
     <%= f.submit class: "btn btn-primary" %>
+    <%= link_to 'Cancel', students_path, class: "btn btn-danger" %>
   </div>
 <% end %>
