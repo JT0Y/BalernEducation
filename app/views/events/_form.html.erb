@@ -17,9 +17,9 @@
   </div>
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.select :title, options_for_select(%w[English_Class Drum_Class English_Club Drum_Open HOLIDAY Demo_Class]) %>
   </div>
-  <div class="field">
+  <div Class="field">
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
@@ -41,6 +41,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-primary" %>
+    <%= link_to 'Canel', events_path, class: "btn btn-danger" %>
   </div>
 <% end %>

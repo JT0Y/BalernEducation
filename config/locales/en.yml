@@ -91,6 +91,8 @@ en:
   teachers:
     index: 
       header: "伯伦教育员工"
+    new:
+      header: "Add New Teacher"
     edit:
       header: "Editing Teacher"
     form:
@@ -137,6 +139,8 @@ en:
       signin: "Sign In"
 
   events:
+    new:
+      header: "New Class Period"
     index: 
       header: "School Calendar"
       newclass: "New Class Period"

@@ -1,6 +1,13 @@
+<% page_header t('.header') %>
 <div class="box">
-<h1>New Teacher</h1>
-
+	<li>
+		Fill out the form below to add a new person to Balern faculty/staff.
+	</li>
+	<li>
+		If the new faculty member is a teacher, then classes can be added via
+		the <%= link_to "Classes", groups_path %> form.
+	</li>
+	<br />
 <%= render 'form' %>
 
 <%= link_to 'Back', teachers_path %>

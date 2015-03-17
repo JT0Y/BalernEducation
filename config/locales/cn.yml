@@ -96,6 +96,8 @@ cn:
   teachers:
     index: 
       header: "伯伦教育员工"
+    new:
+      header: "添加新的教师"
     edit:
       header: "编辑老师"
     form:
@@ -142,6 +144,8 @@ cn:
       signin: "登录"
 
   events:
+    new:
+      header: "新的选件类期间"
     index:
       header: "课程表"
       newclass: "添加选件类期间"
