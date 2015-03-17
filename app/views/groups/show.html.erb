@@ -1,14 +1,14 @@
+<% page_header t('.header') %>
+
 <div class="box">
 
-		<h1>
+		<h2>
 			<center>
-			  <div class="page-header">
 					  <%= @group.name %>
-				</div>
 			</center>
-		</h1>
+		</h2>
 
-
+<br />
 
 		<p>
 			<strong><%= t('.lead') %></strong>
@@ -26,7 +26,7 @@
 		</p>
 
 		<p>
-		  <strong><%= @group.students.count %> <%= link_to 'Students', students_path %>:</strong>
+		  <strong><%= @group.students.count %> Students:</strong>
 		  	<ol>
 					<% @group.students.each do |student| %>
 					  <li><%= link_to student.ename, student %> - <%= student.cname %> - <%= student.dob %></li>
@@ -37,7 +37,7 @@
 		<br>
 
 				<p>
-		  <strong><%= @group.events.count %> <%= link_to 'Periods', events_path %>:</strong>
+		  <strong><%= @group.events.count %> Class Periods:</strong>
 		  	<ol>
 					<% @group.events.each do |event| %>
 					  <li><%= link_to event.start_time, event %> - <%= event.teacher.ename %> - <%= event.ta %></li>
@@ -46,9 +46,9 @@
 		</p>
 		<br />
 
-		<% if current_user.admin? %>
+		<%= link_to 'All Classes', groups_path, class: "btn btn-primary" %>
 		<%= link_to 'New event', new_event_path, class: "btn btn-default" %>
 		<%= link_to 'Edit Class', edit_group_path(@group), class: "btn btn-default"  %>
-		<% end %>
-		<%= link_to 'All Classes', groups_path, class: "btn btn-primary" %>
+
+
 </div>

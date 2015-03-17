@@ -54,8 +54,9 @@ en:
     new:
       bullet1: "Fill out the form below to open a new class to the class schedule"
       bullet2: "Do not use this to add a demo class to schedule"
-      bullet3: "If you are trying to add a class to the calendar please use the events calendar"
+      bullet3: "If you are trying to add a class PERIOD to the calendar please use the calendar form"
     show:
+      header: "Viewing:"
       lead: "Lead Teacher:"
       pa: "P.A.:"
       type: "Type of Class:"
@@ -92,13 +93,13 @@ en:
     index: 
       header: "伯伦教育员工"
     new:
-      header: "Add New Teacher"
+      header: "Add New Faculty/Staff"
     edit:
       header: "Editing Teacher"
     form:
       ename: "English Name"
       cname: "Chinese Name"
-      dob: Date Of Birth"
+      dob: "Date Of Birth"
       group: "Class Name"
 
   layouts:

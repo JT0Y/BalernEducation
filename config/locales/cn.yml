@@ -61,6 +61,7 @@ cn:
       bullet2: "不要使用此添加演示选件类到计划"
       bullet3: "如果您设法请添加选件类到日历使用活动日历"
     show:
+      header: "Viewing"
       lead: "线索教师:"
       pa: "P.A.:"
       type: "选件类的类型:"
@@ -97,7 +98,7 @@ cn:
     index: 
       header: "伯伦教育员工"
     new:
-      header: "添加新的教师"
+      header: "添加新的系或人员"
     edit:
       header: "编辑老师"
     form:
