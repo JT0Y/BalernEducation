@@ -10,6 +10,7 @@
  *
 
 
+
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, /Users/ToyMechQM/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/_normalize.scss */
@@ -9645,12 +9646,49 @@ div.chosen-container-multi .result-selected img {
   opacity: 0.3;
 }
 
-/* line 20, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/application.css.scss */
+/* line 21, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/application.css.scss */
 .messages {
   max-height: 400px;
   overflow-y: auto;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+/**** Transitions ****/
+
+
+.transitions-enabled.masonry,
+.transitions-enabled.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.transitions-enabled.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.transitions-enabled.masonry  .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+/* disable transitions on container */
+.transitions-enabled.infinite-scroll.masonry {
+  -webkit-transition-property: none;
+     -moz-transition-property: none;
+      -ms-transition-property: none;
+       -o-transition-property: none;
+          transition-property: none;
 }
 /*!
  * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
@@ -10948,4 +10986,19 @@ be a descendant of the grid when it is being dragged.
 /* Grey-out image for Multi mode */
 div.chosen-container-multi .result-selected img {
     opacity: 0.3;
+}
+/* line 5, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/photos.css.scss */
+#photos {
+  margin: 0 auto;
+}
+
+/* line 9, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/photos.css.scss */
+.box {
+  margin: 5px;
+  width: 214px;
+}
+
+/* line 14, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/photos.css.scss */
+.box img {
+  width: 100%;
 }

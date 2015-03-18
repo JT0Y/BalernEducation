@@ -11,12 +11,13 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap
 //= require jquery_ujs 
+//= require bootstrap
 //= require jquery.turbolinks
 //= require chosen-jquery
 //= require jquery.image-select
 //= require messages
 //= require calendar
+//= require masonry/jquery.masonry
 //= require turbolinks
 

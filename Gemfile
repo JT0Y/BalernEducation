@@ -19,6 +19,7 @@ gem 'gravatar_image_tag'
 
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
+gem 'masonry-rails' 
 
 group :development do
   gem 'sqlite3'

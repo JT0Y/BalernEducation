@@ -1,37 +1,16 @@
-<% page_header "Photo Album" %>
-<div class="box">
-
-  <table>
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Description</th>
-      <th>User</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @photos.each do |photo| %>
-      <tr>
-        <td><%= image_tag photo.image.url(:thumb) %></td>
-        <td><%= photo.description %></td>
-        <td><%= photo.user.name if photo.user %></td>
-        <td><%= link_to 'Show', photo_path(photo) %></td>
+<div id="photos" class="transitions-enabled">
+  <% @photos.each do |photo| %>
+    <div class="bot panel panel-default">
+      <%= image_tag photo.image.url(:medium) %>
+      <div class="panel-body">
+        <%= photo.description %>
+        <%= photo.user.email if photo.user %>
+        <%= link_to 'Show', photo_path(photo) %>
         <% if photo.user == current_user %>
-          <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
-          <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <%= link_to 'Edit', edit_photo_path(photo) %>
+          <%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-<% if user_signed_in? %>
-  <%= link_to 'New photo', new_photo_path %>
-<% end %>
-
+      </div>
+    </div>
+  <% end %>
 </div>
