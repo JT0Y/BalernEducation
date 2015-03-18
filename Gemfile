@@ -17,6 +17,8 @@ gem 'will_paginate'
 
 gem 'gravatar_image_tag'
 
+gem 'paperclip', '~> 4.2'
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'

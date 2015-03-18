@@ -1,39 +1,37 @@
 <% page_header "Photo Album" %>
-<div class="row">
 <div class="box">
 
-    <p id="notice"><%= notice %></p>
+  <table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Description</th>
+      <th>User</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
 
-
-    <table class="table table-bordered table-hover">
-      <thead>
-        <tr>
-          <th>Description</th>
-          <th>User</th>
-          <th colspan="3"></th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <% @photos.each do |photo| %>
-          <tr>
-            <td><%= photo.description %></td>
-            <td><%= photo.user.name %></td>
-            <td><%= link_to 'Show', photo %></td>
-
-            <% if photo.user == current_user %>
-                <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
-                <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-            <% end %>
-
-          </tr>
+  <tbody>
+    <% @photos.each do |photo| %>
+      <tr>
+        <td><%= image_tag photo.image.url(:thumb) %></td>
+        <td><%= photo.description %></td>
+        <td><%= photo.user.name if photo.user %></td>
+        <td><%= link_to 'Show', photo_path(photo) %></td>
+        <% if photo.user == current_user %>
+          <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
+          <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <% end %>
-      </tbody>
-    </table>
-
-    <br>
-    <% if user_signed_in? %>
-      <%= link_to 'New Photo', new_photo_path, class: 'btn btn-primary' %>
+      </tr>
     <% end %>
-</div>
+  </tbody>
+</table>
+
+<br>
+<% if user_signed_in? %>
+  <%= link_to 'New photo', new_photo_path %>
+<% end %>
+
 </div>
