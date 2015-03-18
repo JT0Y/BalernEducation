@@ -96,7 +96,7 @@ cn:
 
   teachers:
     index: 
-      header: "伯伦教育员工"
+      header: "人员和系："
     new:
       header: "添加新的系或人员"
     edit:

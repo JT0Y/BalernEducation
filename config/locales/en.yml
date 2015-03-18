@@ -91,7 +91,7 @@ en:
 
   teachers:
     index: 
-      header: "伯伦教育员工"
+      header: "Staff & Faculty:"
     new:
       header: "Add New Faculty/Staff"
     edit:
