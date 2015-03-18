@@ -1,10 +1,14 @@
+<% page_header "Photo Album" %>
+
 <div id="photos" class="transitions-enabled">
   <% @photos.each do |photo| %>
     <div class="bot panel panel-default">
-      <%= image_tag photo.image.url(:medium) %>
+      <%= image_tag photo.image.url(:thumb) %>
       <div class="panel-body">
         <%= photo.description %>
-        <%= photo.user.email if photo.user %>
+        <br />
+        <%= photo.user.name if photo.user %>
+        <br />
         <%= link_to 'Show', photo_path(photo) %>
         <% if photo.user == current_user %>
           <%= link_to 'Edit', edit_photo_path(photo) %>

@@ -1,15 +1,22 @@
-<div class="box">
+<% page_header 'Viewing Photo' %>
 
-<%= image_tag @photo.image.url(:medium) %>
+<div class="row">
+  <div class="col-md-offset-2 col-md-8">
+    <div class="panel panel-default">
+      <div class="panel-heading center">
+      	<center>
+        <%= image_tag @photo.image.url(:medium) %>
+      	</center>
+      </div>
+      <div class="panel-body">
+        <p><%= @photo.description %></p>
+        <p><strong><%= @photo.user.name if @photo.user %></strong></p>
+				<%= link_to 'Back', photos_path, class: "btn btn-primary" %>
+        <% if @photo.user == current_user %>
+         <%= link_to 'Edit', edit_photo_path(@photo), class: "btn btn-default" %>
+        <% end %>
 
-	<p>
-	  <strong>Description:</strong>
-	  <%= @photo.description %>
-	</p>
-
-<% if @photo.user == current_user %>
-  <%= link_to 'Edit', edit_photo_path(@photo) %>
-<% end %>
-<%= link_to 'Back', photos_path %>
-
+      </div>
+    </div>
+  </div>
 </div>
