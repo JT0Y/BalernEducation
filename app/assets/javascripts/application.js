@@ -18,6 +18,7 @@
 //= require jquery.image-select
 //= require messages
 //= require calendar
+//= require photos
 //= require masonry/jquery.masonry
 //= require turbolinks
 
