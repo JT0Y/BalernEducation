@@ -26,3 +26,7 @@
  -moz-border-radius: 5px;
  border-radius: 5px;
 }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

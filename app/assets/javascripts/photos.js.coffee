@@ -5,4 +5,5 @@ jQuery ->
   $('#photos').imagesLoaded ->
     $('#photos').masonry
       itemSelector: '.bot'
+      columnWidth: 100
       isFitWidth: true
