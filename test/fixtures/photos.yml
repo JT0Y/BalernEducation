@@ -2,24 +2,28 @@
 
 photo1:
   description: Hello World!
-  user: user1
+  user: user2
 
 photo2:
-  description: Oh My Garden!
+  description: Hello World!
   user: user2
 
 photo3:
-  description: It's time to take some photos!
-  user: user3
+  description: Hello World!
+  user: user2
 
 photo4:
   description: Hello World!
-  user: user1
+  user: user2
 
 photo5:
-  description: Oh My Gosh!
-  user: user3
+  description: Hello World!
+  user: user2
 
 photo6:
-  description: Only the good die young.
-  user: user3
+  description: Hello World!
+  user: user2
+
+photo7:
+  description: Hello World!
+  user: user2
