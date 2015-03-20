@@ -2,11 +2,12 @@
 	<div class="box">
 	<p id="notice"><%= notice %></p>
 
-		<center>
+
 		  <h2>
 		  		<%= @student.cname %>
+		  					<%= image_tag @student.avatar.url(:thumb), class: "img-rounded pull-right" %>
 			</h2>
-		</center>
+
 
 
 	<p>
@@ -44,7 +45,7 @@
 	  <%= @student.emergency_contact %>
 	</p>
 
-
-	<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-default" %>
 	<%= link_to 'Back', students_path, class: "btn btn-primary" %>
+	<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-default" %>
+
 </div>
