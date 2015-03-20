@@ -3,22 +3,26 @@
 pp001:
   school: English
   name: Purple Parrots 001
-  teacher: vivian
+  teacher: mickey
+  pa: krystal
 
 pp003:
   school: English
   name: Purple Parrots 002
-  teacher: krystal
+  teacher: mickey
+  pa: vivian
 
 ss001:
   school: English
   name: Silver Snakes 001
-  teacher: vivian
+  teacher: josh
+  pa: christina
 
 vip:
   school: English
   name: VIP one-to-one
-  teacher: christina
+  teacher: josh
+  pa: krystal
 
 drum001:
   school: Drum
@@ -39,33 +43,40 @@ drum004:
   school: Drum
   name: 大课 002
   teacher: lynn
+  pa: mia
 
 gm001:
   school: English
   name: Green Monkeys 001
   teacher: josh
+  pa: mia
 
 gm002:
   school: English
   name: Green Monkeys 002
-  teacher: krystal
+  teacher: josh
+  pa: vivan
 
 gm003:
   school: English
   name: Green Monkeys 003
   teacher: mickey
+  pa: vivian
 
 gm004:
   school: English
   name: Green Monkeys 004
-  teacher: christina
+  teacher: mickey
+  pa: Mia
 
 gm005:
   school: English
   name: Green Monkeys 005
-  teacher: mia
+  teacher: josh
+  pa: Mia
 
 demo:
   school: English
   name: Demo Class
   teacher: josh
+  pa: vivian
