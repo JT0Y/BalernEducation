@@ -15,7 +15,7 @@ en:
       box3p1: "Are you currently enrolled in the Balern Education web app? If you are don't forget about all the added benefit of registering."
       box3p2: "Here you can find all the tools necessary to know how your child's studies are progressing. We are constantly updating our content with schedules, up-coming events, homework, photos, and teaching resources. Stay ahead of the curve!"
     book:
-      bookint: "Our teachers are experienced and qualified. As a result they can ensure that your child has a personalized and meaningful experience in the classroom. But, just because your child is isn't in class now, that doesn't mean their opportunities to learn should cease. Here you can find some great learning materials. We use all of these materials at Balern. It's reccomended that all of our currently enrolled students purchase their own textbook. This provides you with the ability to help your child study outside of the classroom as well."
+      bookint: "Our faculty is experienced and qualified. We are confident in our ability to ensure that your child has a personalized and meaningful experience in the classroom. But, just because your child isn't in the classroom now, that doesn't mean their opportunities to learn should cease. Here you can find some great learning materials. We use all of these materials at Balern Education. It's reccomended that all of our currently enrolled students purchase their own textbook. This provides you with the ability to help your child study outside of the classroom and ensure their success."
       head: "Teaching Resources"
       abc: "The Step-by-Step Learning Path presents the full ABCmouse.com curriculum in a carefully designed program of more than 450 lessons in six levels. As your child completes each lesson, he or she is guided to the next one and is motivated to continue learning by ABCmouse.com’s Tickets and Rewards System."
       ce: "This best-selling English language course takes a practical approach to language learning. Now updated, with plenty of new content and a fresh new design, the course takes students from starter to advanced, through its module-based books. A strong English grammar syllabus lays the groundwork for functional English, while the regular speaking tests and vocabulary sections ensure that students are constantly improving upon their skills and retaining knowledge."
@@ -104,7 +104,7 @@ en:
 
   layouts:
     header:
-      address: "116-118 Lv Di Business Street | Bin Hai New Area, Tianjin | 1.860.226.8341"
+      address: "116-118 Lü Di Business Street | Bin Hai New Area, Tianjin | 1.860.226.8341"
       home: "Home"
       about: "About"
       resources: "Resources"
