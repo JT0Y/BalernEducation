@@ -19,6 +19,7 @@
 //= require messages
 //= require calendar
 //= require photos
+//= require tawk
 //= require masonry/jquery.masonry
 //= require turbolinks
 
