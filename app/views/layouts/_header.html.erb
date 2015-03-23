@@ -39,11 +39,11 @@
       <li><%= link_to t('.calendar'), events_path %></li>
       <li><%= link_to t('.photos'), photos_path %></li>
       <li><%= link_to t('.settings'), edit_user_registration_path %></li>
-
+      <% if current_user && current_user.admin? %>
       <li><%= link_to t('.staff'), teachers_path %></li>
       <li><%= link_to t('.students'), students_path %></li>
       <li><%= link_to t('.classes'), groups_path %></li>
-
+      <% end %>
 
       <li class="divider"></li>
       <!-- START DEVISE Condition !-->
