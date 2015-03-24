@@ -1,14 +1,17 @@
 <% page_header t('.header') %>
-<div class="box">
-    <hr>
-        <h2 class="intro-text text-center"><%= t('.contact1') %>
-            <strong><%= t('.contact2') %></strong>
-        </h2>
-    <hr>
-    <div class="col-md-8">
-        <%= image_tag "out4.jpg" %>
-    </div>
-    <br />
+
+<div class="row">
+    <div class="box">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center"><%= t('.contact1') %>
+                <strong><%= t('.contact2') %></strong>
+            </h2>
+            <hr>
+        </div>
+        <div class="col-md-8">
+        <%= image_tag "out4.jpg", class: "img-responsive" %>
+        </div>
     <div class="col-md-4">
         <p>
             <%= t('.phone') %>:
@@ -20,12 +23,15 @@
         </p>
         <p>
             <%= t('.address') %>:
-            <strong>116-118  绿地商业街,
-            <br />  滨海区, 天津
+            <strong>
+                116-118  绿地商业街,
+                <br />  滨海区, 天津
             </strong>
         </p> 
     </div>
+    <div class="clearfix"></div>
 </div>
+
 
 
 <div class="box">
@@ -35,9 +41,7 @@
         </h2>
    
     <p>
-        We are always listening to our customer comments to make sure that we can supply
-        the best possible eduction and requirements necessary. If you would like to schedule a demo class or have any questions at all, don't hesitate to contact us. You can message us by the form below, telephone, or email! 
-        Someone from our team will contact you as soon as possible. 
+        <%= t('.paragraph') %>
     </p>
     <br />
 </div>

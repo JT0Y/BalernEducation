@@ -37,6 +37,7 @@ en:
       contact2: "Balern Edu."
       form1: "Contact"
       form2: "Form"
+      paragraph: "We are always listening to our customer comments to make sure that we can supply the best possible eduction and requirements necessary. If you would like to schedule a demo class or have any questions at all, do not hesitate to contact us. You can message us by the form below, telephone, or email! Someone from our team will contact you as soon as possible."
       phone: "Phone Number"
       email: "E-Mail"
       address: "Address"
@@ -124,7 +125,7 @@ en:
     footer:
       home: "Home"
       about: "About Us"
-      resources: "Tesources"
+      resources: "Resources"
       inquire: "Inqueries"
       account: "帐户"
       messages: "Messages"
@@ -149,8 +150,4 @@ en:
       header: "Class Period For:"
     edit:
       header: "Editing Class Period"
-
-
-
-
 

@@ -25,17 +25,17 @@
 
     <body>
     <%= render 'layouts/header' %>
-        <div class="container">                 <!-- Start container -->
-            <% flash.each do |name, msg| %>     <!-- DEVISE FLASH -->
+        <div class="container">    
+            <% flash.each do |name, msg| %>     
                 <%= content_tag(:div, msg, class: "alert alert-info") %>
-            <% end %>                           <!-- END DEVISE FLASH -->
+            <% end %>                
             <div class="page-header">
                 <h1>
                     <%= yield :page_header %>
                 </h1>
             </div>
             <%= yield %>
-        </div>                                  <!-- End Fluid container !--> 
+        </div> 
     <%= render 'layouts/footer' %>
 
     </body>
