@@ -11,9 +11,10 @@
 <hr>
 <br />
 
+<% if current_user && current_user.admin? %>
 <div class="box">
 <!-- ADMIN Options -->
-<% if current_user && current_user.admin? %>
+
 
   <table class="table table-bordered table-hover">
     <thead>
