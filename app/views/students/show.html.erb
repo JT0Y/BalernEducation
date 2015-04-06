@@ -2,7 +2,10 @@
 <p id="notice"><%= notice %></p>
 
 	<div class="box col-xs-4">
-		<br />
+		<p>
+		  <strong>Class Name:</strong>
+		  <%= link_to @student.group.name, @student.group %>
+		</p>
 		<p>
 		  <strong>Contract Start Date:</strong>
 		  <%= @student.contract_start %>
@@ -20,7 +23,6 @@
 		<br />
 		<%= link_to 'Back', students_path, class: "btn btn-primary" %>
 		<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-default" %>
-		<br />
 	</div>
 
 	<div class="col-xs-1"></div>
@@ -32,10 +34,7 @@
 		</h2>
 <br />
 
-		<p>
-		  <strong>Class Name:</strong>
-		  <%= link_to @student.group.name, @student.group %>
-		</p>
+
 
 		<p>
 		  <strong>Birthdate:</strong>
@@ -57,9 +56,3 @@
 		  <%= @student.address %>
 		</p>
 	</div>
-
-
-
-
-
-	

@@ -9,22 +9,22 @@
 </h2>
 
 <div class="jumbotron">
-    <hr>
-    <h2 class="intro-text text-center">Get an education
-        <strong>worth learning</strong>
-    </h2>
-    <hr>
-        <%= image_tag "intro1.jpg", :class => "img-responsive img-border img-left" %>
-        <hr class="visible-xs">
-        <p>
-            <%= t('.box1p1') %>
-        </p>
-        <p>
-            <%= t('.box1p2') %>
-        </p>
-        <p>
-            <%= t('.box1p3') %>
-        </p>
+  <hr>
+  <h2 class="intro-text text-center">Get an education
+      <strong>worth learning</strong>
+  </h2>
+  <hr>
+  <%= image_tag "intro1.jpg", :class => "img-responsive img-border img-left" %>
+  <hr class="visible-xs">
+  <p>
+      <%= t('.box1p1') %>
+  </p>
+  <p>
+      <%= t('.box1p2') %>
+  </p>
+  <p>
+      <%= t('.box1p3') %>
+  </p>
 </div>
 
 <div class="jumbotron">
@@ -33,37 +33,40 @@
         <strong>Cares</strong>
     </h2>
     <hr>
+<%= image_tag "intro2.jpg", :class => "img-responsive img-border pull-right" %>
     <p>
         <%= t('.box2p1') %>
     </p>
+
     <p>
         <%= t('.box2p2') %>
     </p>
 </div>
 
+  <% if user_signed_in? %><!-- DEVISE !-->
+      <!-- Displays Nothing if user logged in -->
+  <% else %>
+      <div class="jumbotron">
+      <hr>
+      <h2 class="intro-text text-center">
+          Always stay 
+          <strong>up-to-date</strong>
+      </h2>
+      <hr>
+      <p>
+      <%= t('.box3p1') %>
+      </p>
 
-<div class="jumbotron">
-    <hr>
-        <h2 class="intro-text text-center">Always stay 
-            <strong>up-to-date</strong>
-        </h2>
-    <hr>
-    <p>
-        <%= t('.box3p1') %>
-    </p>
-    <br />
-    <center>
-        <% if user_signed_in? %><!-- DEVISE !-->
-            <!-- Displays Nothing if user logged in -->
-        <% else %>
-            <p>
-             <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-             <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
-            </p>
-        <% end %><!-- DEVISE !-->
-   </center>
-    <br />
-    <p>
-        <%= t('.box3p2') %>
-    </p>
+      <br />
+      <center>
+          <p>
+              <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+              <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+          </p>
+      </center>
+      <br />
+      <p>
+          <%= t('.box3p2') %>
+      </p>
+  <% end %><!-- DEVISE !-->
 </div>    <!-- /.container -->
