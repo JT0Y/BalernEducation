@@ -13,6 +13,8 @@
         </tr>
       </thead>
 
+      <%= will_paginate @students %>
+
       <tbody>
         <% @teachers.each do |teacher| %>
           <tr>
@@ -28,6 +30,7 @@
       </tbody>
     </table>
 
+    <%= will_paginate @students %>
 
     <br />
     <%= link_to 'New Teacher', new_teacher_path, class: "btn btn-primary" %>

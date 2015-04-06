@@ -119,6 +119,7 @@ ActiveRecord::Schema.define(version: 20150320093746) do
     t.date     "dob"
     t.date     "contract_start"
     t.integer  "contract_length"
+    t.integer  "points"
     t.integer  "group_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false

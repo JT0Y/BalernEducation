@@ -7,6 +7,7 @@ hank:
   group: ss001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -18,6 +19,7 @@ sean:
   group: ss001  
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -29,6 +31,7 @@ tony:
   group: ss001  
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -40,6 +43,7 @@ allen:
   group: ss001  
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -51,6 +55,7 @@ apple:
   group: pp001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -62,6 +67,7 @@ aaron:
   group: pp001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -73,6 +79,7 @@ steve:
   group: pp001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -84,6 +91,7 @@ happy:
   group: pp003
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -95,6 +103,7 @@ jessica:
   group: pp003
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -106,6 +115,7 @@ nicole:
   group: pp003 
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -117,6 +127,7 @@ alice:
   group: gm001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -128,6 +139,7 @@ serena:
   group: gm001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -139,6 +151,7 @@ jason:
   group: gm002
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -150,6 +163,7 @@ grace:
   group: gm002
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -161,6 +175,7 @@ bob:
   group: gm002
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -172,6 +187,7 @@ Sam:
   group: gm003
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -183,6 +199,7 @@ jason:
   group: gm004
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -194,6 +211,7 @@ caleb:
   group: gm004
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -205,6 +223,7 @@ amanda:
   group: gm004
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -216,6 +235,7 @@ dick:
   group: pp003
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -227,6 +247,7 @@ jerry:
   group: gm005
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -238,6 +259,7 @@ comma:
   group: vip
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -249,6 +271,7 @@ cathy:
   group: drum001
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'
@@ -260,6 +283,7 @@ richard:
   group: drum002
   emergency_contact: '15002245173'
   email: steve@steve.com
+  points: 121
   address: '509 South State Street, Concord N.H., 03301'
   contract_start: 2014-11-02
   contract_length: '365'

@@ -1,51 +1,65 @@
-	<% page_header @student.ename %>
-	<div class="box">
-	<p id="notice"><%= notice %></p>
+<% page_header @student.ename %>
+<p id="notice"><%= notice %></p>
+
+	<div class="box col-xs-4">
+		<br />
+		<p>
+		  <strong>Contract Start Date:</strong>
+		  <%= @student.contract_start %>
+		</p>
+
+		<p>
+		  <strong>Contract Length:</strong>
+		  <%= @student.contract_length %>
+		</p>
+
+		<p>
+		  <strong>Refferal Points:</strong>
+		  <%= @student.points %>
+		</p>
+		<br />
+		<%= link_to 'Back', students_path, class: "btn btn-primary" %>
+		<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-default" %>
+		<br />
+	</div>
+
+	<div class="col-xs-1"></div>
+
+	<div class="box col-xs-7">
+	  <h2>
+	  	<%= @student.cname %>
+	  	<%= image_tag @student.avatar.url(:thumb), class: "img-rounded pull-right" %>
+		</h2>
+<br />
+
+		<p>
+		  <strong>Class Name:</strong>
+		  <%= link_to @student.group.name, @student.group %>
+		</p>
+
+		<p>
+		  <strong>Birthdate:</strong>
+		  <%= @student.dob %>
+		</p>
+
+		<p>
+		  <strong>Email:</strong>
+		  <%= @student.email %>
+		</p>
+
+		<p>
+		  <strong>Emergency Contact Number:</strong>
+		  <%= @student.emergency_contact %>
+		</p>
+
+		<p>
+		  <strong>Home Address:</strong>
+		  <%= @student.address %>
+		</p>
+	</div>
 
 
-		  <h2>
-		  		<%= @student.cname %>
-		  					<%= image_tag @student.avatar.url(:thumb), class: "img-rounded pull-right" %>
-			</h2>
 
 
 
-	<p>
-	  <strong>Class Name:</strong>
-	  <%= link_to @student.group.name, @student.group %>
-	</p>
-
-	<p>
-	  <strong>Birthdate:</strong>
-	  <%= @student.dob %>
-	</p>
-
-	<p>
-	  <strong>Email:</strong>
-	  <%= @student.email %>
-	</p>
-
-	<p>
-	  <strong>Home Address:</strong>
-	  <%= @student.address %>
-	</p>
-
-	<p>
-	  <strong>Contract Start Date:</strong>
-	  <%= @student.contract_start %>
-	</p>
-
-	<p>
-	  <strong>Contract Length:</strong>
-	  <%= @student.contract_length %>
-	</p>
-
-	<p>
-	  <strong>Emergency Contact Number:</strong>
-	  <%= @student.emergency_contact %>
-	</p>
-
-	<%= link_to 'Back', students_path, class: "btn btn-primary" %>
-	<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-default" %>
-
-</div>
+	
