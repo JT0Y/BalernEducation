@@ -92,6 +92,15 @@ en:
       contract_start: "Contract Start"
       contract_length: "Contract Length"
       class_name: "Class Name"
+    show: 
+      class_name: "Class Name"
+      contract: "Contract Start Date"
+      length: "Contract Length"
+      points: "Refferral Points"
+      dob: "Date of Birth"
+      email: "Email Address"
+      enumber: "Emergency Contact Number"
+      address: "Home Address"
 
   teachers:
     index: 

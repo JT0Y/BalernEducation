@@ -4,82 +4,109 @@ josh:
   ename: Joshua S. Toy
   cname: 赵大龙
   dob: 1987-11-02
-  #group: gm001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 christina:
   ename: Christina Liu
   cname: 刘玥
   dob: 1992-04-19
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 gourd:
   ename: Gourd
   cname: 许振强
   dob: 1987-06-24
-  #group: drum1
+  phone: 15002245172
+  email: example@example.com
 
 lynn:
   ename: Lynn
   cname: 陈亮
   dob: 1984-07-26
-  #group: drum1
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 mickey:
   ename: Mickey
   cname: 小龙
   dob: 1992-07-24
-  #group: gm003
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 mia:
   ename: Mia
   cname: 米啊
   dob: 1983-05-21
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 krystal:
   ename: Krystal
   cname: 唐维翠
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 vivian:
   ename: Vivian
   cname: 刘艾莹
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 rocky:
   ename: Rocky
   cname: 李岩
   dob: 1983-05-21
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 lucy:
   ename: Lucy
   cname: 李新
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 sophia:
   ename: Sophia
   cname: 于洋
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 alice:
   ename: Alice
   cname: 祝延华
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 kiki:
   ename: Kiki
   cname: 于琪
   dob: 1994-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19
 
 nicole:
   ename: Nicole
   cname: 张云
   dob: 1972-07-26
-  #group: pp001
+  phone: 15002245172
+  email: example@example.com
+  duration: 2015-04-19

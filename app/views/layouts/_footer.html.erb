@@ -15,6 +15,7 @@
         | <%= link_to t('.classes'), groups_path %> |
         <%= link_to t('.staff'), teachers_path %> |
         <%= link_to t('.students'), students_path %> |
+        <%= link_to t('.inquire'), inqueries_path %> |
         <br />
         <% elsif %>
         您好 <%= current_user.try(:name) %>!
@@ -34,21 +35,17 @@
             <%= link_to t('.signup'), new_user_registration_path %> |
             <%= link_to t('.signin'), new_user_session_path %> |
         <% end %>
-
         <br /> | 
         <%= link_to t('.messages'), conversations_path %> |
         <%= link_to t('.photos'), photos_path %> |
         <%= link_to t('.homework'), "#" %> |
         <%= link_to t('.calendar'), events_path %> |
-        <br />
 
-
-            <small>
-                <p class="text-muted">
-                     &copy; Balern Education & &copy; ToyMech Pro. 
-                    <br /> 
-                    Copyright 2015
-                </p>
-            </small>
+        <small>
+            <p class="text-muted">
+                 &copy; Balern Education
+                Copyright 2015
+            </p>
+        </small>
     </div>
 </footer>
