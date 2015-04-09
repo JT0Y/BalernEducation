@@ -37,7 +37,7 @@
 
       <li><%= link_to t('.homework'), "#" %></li>
       <li><%= link_to t('.calendar'), events_path %></li>
-      <li><%= link_to t('.photos'), photos_path %></li>
+      <li><i class="fa fa-camera"></i><%= link_to t('.photos'), photos_path %></li>
       <li><%= link_to t('.settings'), edit_user_registration_path %></li>
       <% if current_user && current_user.admin? %>
       <li><%= link_to t('.staff'), teachers_path %></li>

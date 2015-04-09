@@ -12,6 +12,7 @@ gem 'bootstrap-sass'
 gem 'bootstrap-will_paginate'
 
 gem 'mailboxer'
+gem "font-awesome-rails"
 
 gem 'will_paginate'	
 
