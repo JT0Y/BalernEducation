@@ -88,7 +88,7 @@ en:
       emergency_contact: "Emergency Contact Number"
       email: "E-Mail"
       address: "Home Address"
-      dob: "DOB"
+      dob: "Date of Birth"
       contract_start: "Contract Start"
       contract_length: "Contract Length"
       class_name: "Class Name"
