@@ -135,7 +135,7 @@ ActiveRecord::Schema.define(version: 20150320093746) do
     t.date     "dob"
     t.string   "phone"
     t.string   "email"
-    t.string   "duration"
+    t.date     "duration"
     t.integer  "group_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
