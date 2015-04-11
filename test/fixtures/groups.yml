@@ -12,10 +12,22 @@ pp003:
   teacher: mickey
   pa: vivian
 
+pp006:
+  school: English
+  name: Purple Parrots 006
+  teacher: mickey
+  pa: vivian
+
 ss001:
   school: English
   name: Silver Snakes 001
   teacher: josh
+  pa: christina
+
+ss002:
+  school: English
+  name: Silver Snakes 002
+  teacher: mickey
   pa: christina
 
 vip:

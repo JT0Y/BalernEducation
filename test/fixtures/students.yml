@@ -5,22 +5,22 @@ hank:
   cname: 中文
   dob: 2004-11-23
   group: ss001
-  emergency_contact: '15002245173'
+  emergency_contact: '13516168610'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
-sean:
-  ename: Sean
+shawn:
+  ename: Shawn
   cname: 中文
   dob: 2003-11-23
   group: ss001  
-  emergency_contact: '15002245173'
+  emergency_contact: '13820524880'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -29,10 +29,10 @@ tony:
   cname: 中文
   dob: 2009-11-23
   group: ss001  
-  emergency_contact: '15002245173'
+  emergency_contact: '15822998658'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -41,10 +41,10 @@ allen:
   cname: 中文
   dob: 2009-11-23
   group: ss001  
-  emergency_contact: '15002245173'
+  emergency_contact: '13902040848'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -53,10 +53,10 @@ apple:
   cname: 苹果
   dob: 1999-02-20
   group: pp001
-  emergency_contact: '15002245173'
-  email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  emergency_contact: '13032257915'
+  email: apple@apple.com
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -65,10 +65,10 @@ aaron:
   cname: 苹果
   dob: 1999-02-20
   group: pp001
-  emergency_contact: '15002245173'
+  emergency_contact: '13602153360'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -77,10 +77,10 @@ steve:
   cname: 苹果
   dob: 1999-02-20
   group: pp001
-  emergency_contact: '15002245173'
+  emergency_contact: '13672049253'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -89,10 +89,10 @@ happy:
   cname: 中文
   dob: 2008-11-23
   group: pp003
-  emergency_contact: '15002245173'
+  emergency_contact: '18622147668'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -101,10 +101,10 @@ jessica:
   cname: 中文
   dob: 2007-11-23
   group: pp003
-  emergency_contact: '15002245173'
+  emergency_contact: '18920701773'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -113,10 +113,22 @@ nicole:
   cname: 中文
   dob: 2006-11-23
   group: pp003 
-  emergency_contact: '15002245173'
+  emergency_contact: '18702218880'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+nick:
+  ename: Nick
+  cname: 中文
+  dob: 2006-11-23
+  group: gm001
+  emergency_contact: '13662093780'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -125,10 +137,10 @@ alice:
   cname: 中文
   dob: 2006-11-23
   group: gm001
-  emergency_contact: '15002245173'
+  emergency_contact: '13388018550'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -139,20 +151,32 @@ serena:
   group: gm001
   emergency_contact: '15002245173'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
 jason:
-  ename: Jason
+  ename: (little) Jason
+  cname: 中文
+  dob: 2006-11-23
+  group: gm003
+  emergency_contact: '15900288551'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+jason2:
+  ename: (big) Jason
   cname: 中文
   dob: 2006-11-23
   group: gm002
-  emergency_contact: '15002245173'
+  emergency_contact: '13212211118'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -161,10 +185,10 @@ grace:
   cname: 中文
   dob: 2006-11-23
   group: gm002
-  emergency_contact: '15002245173'
+  emergency_contact: '13920813081'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -173,10 +197,10 @@ bob:
   cname: 中文
   dob: 2006-11-23
   group: gm002
-  emergency_contact: '15002245173'
+  emergency_contact: '15620758664'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -184,23 +208,23 @@ Sam:
   ename: Sam
   cname: 中文
   dob: 2006-11-23
-  group: gm003
-  emergency_contact: '15002245173'
+  group: gm004
+  emergency_contact: '13821402069'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
-jason:
-  ename: Jason
+laura:
+  ename: Laura
   cname: 中文
   dob: 2006-11-23
   group: gm004
-  emergency_contact: '15002245173'
+  emergency_contact: '13821428894'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -208,11 +232,11 @@ caleb:
   ename: Caleb
   cname: 中文
   dob: 2006-11-23
-  group: gm004
-  emergency_contact: '15002245173'
+  group: gm003
+  emergency_contact: '18920730616'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -220,11 +244,11 @@ amanda:
   ename: Amanda
   cname: 中文
   dob: 2009-11-23
-  group: gm004
-  emergency_contact: '15002245173'
+  group: gm003
+  emergency_contact: '13820661855'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -235,20 +259,32 @@ dick:
   group: pp003
   emergency_contact: '15002245173'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
 jerry:
-  ename: Amanda
+  ename: Jerry
   cname: 中文
   dob: 2010-11-23
   group: gm005
-  emergency_contact: '15002245173'
+  emergency_contact: '13389900056'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+jenny:
+  ename: Jenny
+  cname: 中文
+  dob: 2010-11-23
+  group: gm005
+  emergency_contact: '13702060331'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -259,8 +295,8 @@ comma:
   group: vip
   emergency_contact: '15002245173'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -269,10 +305,34 @@ cathy:
   cname: 中文
   dob: 2009-04-21
   group: drum001
-  emergency_contact: '15002245173'
+  emergency_contact: '15620860077'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+jim:
+  ename: Jim
+  cname: 中文
+  dob: 2009-02-14
+  group: drum002
+  emergency_contact: '15002244909'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+cherry:
+  ename: Cherry
+  cname: 中文
+  dob: 2009-02-14
+  group: drum002
+  emergency_contact: '13902165641'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
 
@@ -281,9 +341,93 @@ richard:
   cname: 中文
   dob: 2009-02-14
   group: drum002
-  emergency_contact: '15002245173'
+  emergency_contact: '18920206139'
   email: steve@steve.com
-  points: 121
-  address: '509 South State Street, Concord N.H., 03301'
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+danny:
+  ename: Danny
+  cname: 中文
+  dob: 2009-02-14
+  group: ss002
+  emergency_contact: '15602063553'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+daisy:
+  ename: Daisy
+  cname: 中文
+  dob: 2009-02-14
+  group: ss002
+  emergency_contact: '13920104890'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+sophia:
+  ename: Sophia
+  cname: 中文
+  dob: 2009-02-14
+  group: ss002
+  emergency_contact: '15122410286'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+scott:
+  ename: Scott
+  cname: 中文
+  dob: 2009-02-14
+  group: ss002
+  emergency_contact: '18222777243'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+peter:
+  ename: peter
+  cname: 中文
+  dob: 2009-02-14
+  group: pp006
+  emergency_contact: '18649009885'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+mary-ann:
+  ename: Marry-ann
+  cname: 中文
+  dob: 2009-02-14
+  group: pp006
+  emergency_contact: '15922080610'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
+  contract_start: 2014-11-02
+  contract_length: '365'
+
+owen:
+  ename: Owen
+  cname: 中文
+  dob: 2009-04-21
+  group: gm003
+  emergency_contact: '15822599912'
+  email: steve@steve.com
+  points: 0
+  address: '绿地汉沽中国'
   contract_start: 2014-11-02
   contract_length: '365'
