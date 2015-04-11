@@ -2,20 +2,20 @@
 <p id="notice"><%= notice %></p>
 	<div class="box col-xs-4">
 		<p>
-		  <strong>Class Name:</strong>
+		  <strong><%= t('.class_name') %>:</strong>
 		  <%= link_to @student.group.name, @student.group %>
 		</p>
 		<p>
-		  <strong>Contract Start Date:</strong>
+		  <strong><%= t('.contract') %>:</strong>
 		  <%= @student.contract_start %>
 		</p>
 		<p>
-		  <strong>Contract Length:</strong>
+		  <strong><%= t('.length') %>:</strong>
 		  <%= @student.contract_length %>
 		</p>
 
 		<p>
-		  <strong>Refferal Points:</strong>
+		  <strong><%= t('.points') %>:</strong>
 		  <%= @student.points %>
 		</p>
 		<br />
@@ -35,22 +35,22 @@
 
 
 		<p>
-		  <strong>Birthdate:</strong>
+		  <strong><%= t('.dob') %>:</strong>
 		  <%= @student.dob %>
 		</p>
 
 		<p>
-		  <strong>Email:</strong>
+		  <strong><%= t('.email') %>:</strong>
 		  <%= @student.email %>
 		</p>
 
 		<p>
-		  <strong>Emergency Contact Number:</strong>
+		  <strong><%= t('.enumber') %>:</strong>
 		  <%= @student.emergency_contact %>
 		</p>
 
 		<p>
-		  <strong>Home Address:</strong>
+		  <strong><%= t('.address') %>:</strong>
 		  <%= @student.address %>
 		</p>
 	</div>

@@ -1,7 +1,28 @@
 <% page_header @teacher.ename %>
 <p id="notice"><%= notice %></p>
 
-<div class="box">
+
+
+<div class="box col-xs-5">
+	<p>
+	  <strong><%= @teacher.cname %>'s Class Schedule:</strong>
+	  	<ol>
+			<% @teacher.groups.each do |group| %>
+			  <li><%= link_to group.name, group %></li>
+			<% end %>
+		</ol>
+	</p>
+
+	<br />
+	<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
+	<%= link_to 'Back', teachers_path %>
+	<br />
+	
+</div>
+
+<div class="col-xs-1"></div>
+
+<div class="box col-xs-6">
 	<center>
 		<h2>
 			<%= @teacher.cname %>
@@ -13,16 +34,18 @@
 	  <%= @teacher.dob %>
 	</p>
 
-			<p>
-			  <strong><%= @teacher.groups.count %> Classes:</strong>
-			  	<ol>
-					<% @teacher.groups.each do |group| %>
-					  <li><%= link_to group.name, group %></li>
-					<% end %>
-				</ol>
-			</p>
+	<p>
+	  <strong>Contact Number:</strong>
+	  <%= @teacher.phone %>
+	</p>
 
-	<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
-	<%= link_to 'Back', teachers_path %>
+	<p>
+	  <strong>email:</strong>
+	  <%= @teacher.email %>
+	</p>
+
+	<p>
+	  <strong>Time with Balern:</strong>
+	  <%= @teacher.duration %>
+	</p>
 </div>
-
