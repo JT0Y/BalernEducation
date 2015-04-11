@@ -8,13 +8,12 @@
 <div id="photos" class="transitions-enabled">
   <% @photos.each do |photo| %>
     <div class="bot panel panel-default">
-      <%= image_tag photo.image.url(:medium) %>
+      <%= link_to (image_tag photo.image.url(:medium)),photo_path(photo) %>
       <div class="panel-body">
         <%= photo.description %>
         <br />
         <%= photo.user.name if photo.user %>
         <br />
-        <%= link_to 'Show', photo_path(photo) %>
         <% if photo.user == current_user %>
           <%= link_to 'Edit', edit_photo_path(photo) %>
           <%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %>
@@ -24,6 +23,7 @@
   <% end %>
 </div>
 
+<br />
 <br />
 <br />
 <br />
