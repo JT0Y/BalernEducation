@@ -1,4 +1,164 @@
-es:
+en:
+
   pages:
     home:
-      title: "Balern Educacion"
+      welcome: "Welcome to"
+      title: "Balern Education"
+      tag1: "Hangu's"
+      tag2: "Premier"
+      tag3: "English School"
+      box1p1: "We here at Balern Education understand the world's changing needs. China's landscape is drastically changing day-to-day. The skills required twenty years ago are obsolete."
+      box1p2: "Thats where we come in! Foreign universities are producing more engineers, scientists, and leaders, than ever before. In order to succeed in today's China you have to be a member, you need to succeed in both the domestic and international market."
+      box1p3: "Your child deserves a chance to change the world. Today's Chinese education is adequate. But you want more for your children. You want to give your children an education... worth learning."
+      box2p1: "We pride ourselves in staying in touch with the cutting-edge of teaching methodology. We have certified and experienced teachers from all corners of the globe."
+      box2p2: "With our teacher's divers backgrounds we can guaranteed that your student will get a head start in any academic situation. Balern Education strives to provide an environment that is not only going to give your child a head-start, but will also make your child stand-out from the crowd."
+      box3p1: "Are you currently enrolled in the Balern Education web app? If you are don't forget about all the added benefit of registering."
+      box3p2: "Here you can find all the tools necessary to know how your child's studies are progressing. We are constantly updating our content with schedules, up-coming events, homework, photos, and teaching resources. Stay ahead of the curve!"
+    book:
+      bookint: "Our faculty is experienced and qualified. We are confident in our ability to ensure that your child has a personalized and meaningful experience in the classroom. But, just because your child isn't in the classroom now, that doesn't mean their opportunities to learn should cease. Here you can find some great learning materials. We use all of these materials at Balern Education. It's reccomended that all of our currently enrolled students purchase their own textbook. This provides you with the ability to help your child study outside of the classroom and ensure their success."
+      head: "Teaching Resources"
+      abc: "The Step-by-Step Learning Path presents the full ABCmouse.com curriculum in a carefully designed program of more than 450 lessons in six levels. As your child completes each lesson, he or she is guided to the next one and is motivated to continue learning by ABCmouse.com’s Tickets and Rewards System."
+      ce: "This best-selling English language course takes a practical approach to language learning. Now updated, with plenty of new content and a fresh new design, the course takes students from starter to advanced, through its module-based books. A strong English grammar syllabus lays the groundwork for functional English, while the regular speaking tests and vocabulary sections ensure that students are constantly improving upon their skills and retaining knowledge."
+      lg: "Bigger, brighter and better than ever, Let's Go, 3rd Edition, is a series for children who are just beginning their study of English. It combines a carefully controlled, grammar-based syllabus with practical language. Functional dialogues, interactive games, and pair work activities foster a lively and motivating classroom environment."
+      learnmore: "Learn More"
+      button1: "Publisher"
+      button2: "More info."
+    about:
+      gourd: "Balern Education was originally founded by xu zhen qiang a.k.a 'Gourd'. Balern Education was opened so that Gourd could share his passion of the drums with his community. Gourd has stated that he feels as though drumming has given him"
+      balern: "Balern Education is rapidly evolving and today offers guitar, drum, and English classes. Upon its initial start-up Balern Education consisted of just Gourd. Today, the school has instructors from all over the world! Check out our blog to learn more about what we're up to!"
+
+  inqueries:
+    form:
+      name: "Name"
+      email: "E-Mail"
+      phone: "Phone Number"
+      message: "Message"
+      submit: "Submit"
+    new:
+      header: "Inqueries"
+      contact1: "Contact"
+      contact2: "Balern Edu."
+      form1: "Contact"
+      form2: "Form"
+      paragraph: "We are always listening to our customer comments to make sure that we can supply the best possible eduction and requirements necessary. If you would like to schedule a demo class or have any questions at all, do not hesitate to contact us. You can message us by the form below, telephone, or email! Someone from our team will contact you as soon as possible."
+      phone: "Phone Number"
+      email: "E-Mail"
+      address: "Address"
+
+  groups:
+    index:
+      header: "All Classes"
+      classname: "Class Name"
+      curriculum: "Curriculum"
+      numberstudents: "# of Students"
+      scheduledclasses: "Scheduled Classes"
+      leadteacher: "Lead Teacher"
+      pa: "P.A."
+      currently: "There are currently: "
+    new:
+      bullet1: "Fill out the form below to open a new class to the class schedule"
+      bullet2: "Do not use this to add a demo class to schedule"
+      bullet3: "If you are trying to add a class PERIOD to the calendar please use the calendar form"
+    show:
+      header: "Viewing:"
+      lead: "Lead Teacher:"
+      pa: "P.A.:"
+      type: "Type of Class:"
+      name: "Student Name:"
+    edit:
+      edit: "Edit Class"
+      show: "Show Class"
+      back: "Go Back"
+    form:
+      lead: "Lead Teacher"
+      pa: "PA"
+      curriculum: "Class Curriculum"
+      classname: "Class Name"
+
+  students:
+    index: 
+      header: "Enrolled Students"
+    new:
+      header: "New Student"
+    edit:
+      editingstudent: "Editing Student:"
+    form:
+      ename: "English Name"
+      cname: "Chinese Name"
+      emergency_contact: "Emergency Contact Number"
+      email: "E-Mail"
+      address: "Home Address"
+      dob: "Date of Birth"
+      contract_start: "Contract Start"
+      contract_length: "Contract Length"
+      class_name: "Class Name"
+    show: 
+      class_name: "Class Name"
+      contract: "Contract Start Date"
+      length: "Contract Length"
+      points: "Refferral Points"
+      dob: "Date of Birth"
+      email: "Email Address"
+      enumber: "Emergency Contact Number"
+      address: "Home Address"
+
+  teachers:
+    index: 
+      header: "Staff & Faculty:"
+    new:
+      header: "Add New Faculty/Staff"
+    edit:
+      header: "Editing Teacher"
+    form:
+      ename: "English Name"
+      cname: "Chinese Name"
+      dob: "Date Of Birth"
+      group: "Class Name"
+
+  layouts:
+    header:
+      address: "116-118 Lü Di Business Street | Bin Hai New Area, Tianjin | 1.860.226.8341"
+      home: "Home"
+      about: "About"
+      resources: "Resources"
+      inquire: "Inqueries"
+      account: "Account"
+      messages: "Messages"
+      classes: "Classes"
+      homework: "Homework"
+      calendar: "Calendar"
+      photos: "Photos"
+      staff: "Staff"
+      students: "Students"
+      settings: "Settings"
+      signup: "Sign Up"
+      logout: "Log Out"
+      signin: "Sign In"
+    footer:
+      home: "Home"
+      about: "About Us"
+      resources: "Resources"
+      inquire: "Inqueries"
+      account: "帐户"
+      messages: "Messages"
+      classes: "Classes"
+      homework: "Homework"
+      calendar: "Calendar"
+      photos: "Photos"
+      staff: "Staff"
+      students: "Students"
+      settings: "Settings"
+      signup: "Sign Up"
+      logout: "Sign Out"
+      signin: "Sign In"
+
+  events:
+    new:
+      header: "New Class Period"
+    index: 
+      header: "School Calendar"
+      newclass: "New Class Period"
+    show:
+      header: "Class Period For:"
+    edit:
+      header: "Editing Class Period"

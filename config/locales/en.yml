@@ -50,7 +50,7 @@ en:
       header: "All Classes"
       classname: "Class Name"
       curriculum: "Curriculum"
-      numberstudents: "Number of Students"
+      numberstudents: "# of Students"
       scheduledclasses: "Scheduled Classes"
       leadteacher: "Lead Teacher"
       pa: "P.A."
