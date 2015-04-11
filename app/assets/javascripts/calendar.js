@@ -81,7 +81,7 @@ $(document).ready(function()
           events is the main option for calendar.
           for demo we have added predefined events in json object.
         */
-              events: '/events.json'
+              events: '/events.json',
         
       });
       

@@ -97,15 +97,6 @@ cn:
       contract_start: "合同起始时间"
       contract_length: "合同时长"
       class_name: "分类名"
-    show: 
-      class_name: "班级姓名"
-      contract: "班级开始时间"
-      length: "Contract Length"
-      points: "Refferral Points"
-      dob: "生日"
-      email: "电子邮件"
-      enumber: "打电话号码"
-      address: "假地址"
 
   teachers:
     index: 
