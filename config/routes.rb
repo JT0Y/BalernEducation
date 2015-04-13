@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :homeworks
+
+  resources :resources
+
   resources  :events
   resources  :inqueries
   resources  :students
@@ -19,10 +23,15 @@ Rails.application.routes.draw do
   end
   resources :messages, only: [:new, :create]
 
-  root "pages#home"
+  authenticated :user do
+    root 'pages#home', as: "authenticated_root"
+  end
+  root 'welcome#index'
+
   get  "about" => "pages#about"
   get  "calendar" => "pages#calendar"
   get  "book" => "pages#book"
+
 
 scope '(:locale)' do resources :orders
   resources :book

@@ -6,7 +6,6 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('paper2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,13 +31,13 @@ p {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: rgba(46, 204, 113,0.3);
+  background-color: rgba(243, 156, 18,1.0);
 }
 
 .thumbnail {
     font-size: 1.00em;
     line-height: 1.6;
-    background-color: rgba(241, 196, 15,0.6);
+    background-color: rgba(241, 196, 15,1.0);
 }
 
 .brand,
@@ -86,14 +85,14 @@ p {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(230, 126, 34,0.6);
+    background: rgba(243, 156, 18,1.0);
 }
 
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(236, 240, 241,0.6);
+    background: rgba(241, 196, 15, 0.8);
 }
 
 .intro-text {
@@ -116,7 +115,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(243, 156, 18,0.6);
+    background: rgba(243, 156, 18, 0.8);
 }
 
 footer p {
@@ -175,7 +174,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(243, 156, 18, 0.6);
+        background: rgba(243, 156, 18, 0.8);
     }
 
     .nav>li>a {

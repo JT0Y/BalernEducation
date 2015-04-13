@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+resource1:
+  title: ABC Mouse
+  focus: MyString
+  url: www.abcmouse.com
+  user: user5
+
+resource2:
+  title: Math
+  focus: MyString
+  url: www.abcmouse.cn
+  user: user3

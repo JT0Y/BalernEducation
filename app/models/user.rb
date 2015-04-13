@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :photos
+  has_many :resources
   acts_as_messageable
 
   def mail_email(object)

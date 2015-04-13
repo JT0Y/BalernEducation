@@ -21,5 +21,11 @@
 //= require photos
 //= require tawk
 //= require masonry/jquery.masonry
+//= cbpAnimatedHeader.js
+//= cbpAnimatedHeader.min.js
+//= classie.js
+//= contact_me.js
+//= freelancer.js
+//= jqBootstrapValidation.js
 //= require turbolinks
 

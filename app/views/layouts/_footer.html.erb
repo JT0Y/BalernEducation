@@ -15,7 +15,7 @@
         | <%= link_to t('.classes'), groups_path %> |
         <%= link_to t('.staff'), teachers_path %> |
         <%= link_to t('.students'), students_path %> |
-        <%= link_to t('.inquire'), inqueries_path %> |
+        <%= link_to t('.inquire'), inqueries_path %> | <%= link_to t('.events'), events_path %> |
         <br />
         <% elsif %>
         您好 <%= current_user.try(:name) %>!
@@ -38,8 +38,8 @@
         <br /> | 
         <%= link_to t('.messages'), conversations_path %> |
         <%= link_to t('.photos'), photos_path %> |
-        <%= link_to t('.homework'), "#" %> |
-        <%= link_to t('.calendar'), events_path %> |
+        <%= link_to "Resources", resources_path %> |
+        <%= link_to t('.calendar'), calendar_path %> |
 
         <small>
             <p class="text-muted">
