@@ -1,5 +1,6 @@
 class ResourcesController < ApplicationController
   before_action :set_resource, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /resources
   # GET /resources.json
@@ -14,7 +15,7 @@ class ResourcesController < ApplicationController
 
   # GET /resources/new
   def new
-    @resource = Resource.new
+    @resource = current_user.resources.build
   end
 
   # GET /resources/1/edit
@@ -24,16 +25,11 @@ class ResourcesController < ApplicationController
   # POST /resources
   # POST /resources.json
   def create
-    @resource = Resource.new(resource_params)
-
-    respond_to do |format|
-      if @resource.save
-        format.html { redirect_to @resource, notice: 'Resource was successfully created.' }
-        format.json { render :show, status: :created, location: @resource }
-      else
-        format.html { render :new }
-        format.json { render json: @resource.errors, status: :unprocessable_entity }
-      end
+    @resource = current_user.resources.build(resource_params)
+    if @resource.save
+      redirect_to @resource, notice: 'Resource was successfully created.'
+    else
+      render action: 'new'
     end
   end
 
@@ -69,6 +65,6 @@ class ResourcesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def resource_params
-      params.require(:resource).permit(:title, :url, :focus)
+      params.require(:resource).permit(:title, :url, :focus, :notes)
     end
 end

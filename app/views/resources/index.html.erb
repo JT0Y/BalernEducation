@@ -4,9 +4,9 @@
   <div class="container">
     <div class="jumbotron">
         <p><%= t('.bookint') %></p>
-        <p><%= link_to t('.learnmore'), new_inquery_path, class: "btn btn-primary btn-lg" %> </p>
+        <p><%= link_to t('.learnmore'), new_inquery_path, class: "btn btn-primary btn-lg" %> 
+        </p>
       </div>
-
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -22,7 +22,6 @@
     </div>
   </div>
 
-
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <%= image_tag 'ce.png', :class => "img-circle" %>
@@ -36,8 +35,6 @@
       </div>
     </div>
   </div>
-
-
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -54,39 +51,28 @@
   </div>
 </div>
 
+<div id="resources" class="transitions-enabled">
+  <% @resources.each do |resource| %>
+    <div class="bot panel panel-default">
+      <%= link_to (resource.title), resource_path(resource) %>
+      <div class="panel-body">
+        <%= resource.notes %>
+        <br />
+        <%= resource.user.name if resource.user %>
+        <br />
+        <% if resource.user == current_user %>
+          <%= link_to 'Edit', edit_resource_path(resource) %>
+          <%= link_to 'Destroy', resource, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+<br />
+<br />
 
-  </body>
-</html>
+<%= link_to 'New Resource', new_resource_path, class: "btn btn-primary" %>
+</div>
+<br />
 
 
-<h1>Listing Resources</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Site</th>
-      <th>Focus</th>
-      <th>Url</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @resources.each do |resource| %>
-      <tr>
-        <td><%= resource.title %></td>
-        <td><%= resource.focus %></td>
-        <td><%= resource.url %></td>
-        <td><%= resource.user.name %></td>
-        <td><%= link_to 'Show', resource %></td>
-        <td><%= link_to 'Edit', edit_resource_path(resource) %></td>
-        <td><%= link_to 'Destroy', resource, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Resource', new_resource_path %>

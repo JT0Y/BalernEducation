@@ -3,7 +3,7 @@ class CreateHomeworks < ActiveRecord::Migration
     create_table :homeworks do |t|
       t.integer :group_id
       t.string :title
-      t.assigned :
+      t.date :assigned
       t.datetime :due
       t.string :instructions
 

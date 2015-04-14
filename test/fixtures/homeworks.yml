@@ -3,13 +3,11 @@
 one:
   group_id: 1
   title: MyString
-  : 
   due: 2015-04-14 01:45:16
   instructions: MyString
 
 two:
   group_id: 1
   title: MyString
-  : 
   due: 2015-04-14 01:45:16
   instructions: MyString
