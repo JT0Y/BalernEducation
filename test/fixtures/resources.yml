@@ -3,11 +3,42 @@
 resource1:
   title: ABC Mouse
   focus: MyString
-  url: www.abcmouse.com
+  url: http://www.abcmouse.com
   user: user5
 
 resource2:
   title: Math
   focus: MyString
-  url: www.abcmouse.cn
+  url: http://www.abcmouse.cn
   user: user3
+
+resource3:
+  title: BBC News
+  focus: Advanced English - BBC
+  url: http://www.24en.com/bbc/
+  user: user7
+
+resource4:
+  title: BBC News
+  focus: Advanced English - BBC
+  url: http://www.24en.com/bbc/
+  user: user9
+
+resource5:
+  title: BBC News
+  focus: Advanced English - BBC
+  url: http://www.24en.com/bbc/
+  user: user11
+
+resource6:
+  title: 61 Flash
+  focus: Kids English games
+  url: http://www.61flash.com/list/521_1.htm
+  user: user2
+
+resource7:
+  title: 2345游戏
+  focus: More online games in English for kids!
+  url: http://xiaoyouxi.2345.com/zhuanti/265.htm
+  user: user9
+

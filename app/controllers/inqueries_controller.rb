@@ -3,7 +3,6 @@ class InqueriesController < ApplicationController
   before_action :authenticate_user!, only: [:show, :index]
   before_filter :verify_is_admin, only: [:show, :index]
 
-
   respond_to :html
 
   def index

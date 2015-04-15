@@ -1764,7 +1764,7 @@ mark,
 
 /* line 1150, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-muted {
-  color: #2c3e50;
+  color: #3498db;
 }
 
 /* line 1153, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -5989,7 +5989,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 /* line 4161, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-default {
-  background-color: #f39c12;
+  background-color: #2c3e50;
   border-color: transparent;
 }
 
@@ -6027,7 +6027,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: #3498db;
 }
 
 /* line 4192, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -13346,7 +13346,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: rgba(44, 62, 80,1.0);
+  color: rgba(52, 152, 219,1.0);
 }
 .text-primary {
   color: #2c3e50;
@@ -16357,7 +16357,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(243, 156, 18,1);
+  background-color: rgba(44, 62, 80,1.0);
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -16383,7 +16383,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: rgba(52, 152, 219,1.0);
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -18876,7 +18876,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(243, 156, 18, 0.8);
+    background: #34495e;
 }
 
 footer p {
@@ -18935,7 +18935,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(243, 156, 18, 0.8);
+        background: rgba(52, 73, 94,1.0);
     }
 
     .nav>li>a {
@@ -18968,32 +18968,32 @@ footer p {
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
 
  */
-/* line 14, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 11, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 body {
   overflow-x: hidden;
 }
 
-/* line 18, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 15, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 p {
   font-size: 20px;
 }
 
-/* line 22, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 19, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 p.small {
   font-size: 16px;
 }
 
-/* line 30, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 27, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #2c3e50;
+  color: #f39c12;
 }
 
-/* line 40, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 37, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 h1,
 h2,
 h3,
@@ -19005,7 +19005,7 @@ h6 {
   font-weight: 700;
 }
 
-/* line 47, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 44, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-light,
 hr.star-primary {
   margin: 25px auto 30px;
@@ -19016,7 +19016,7 @@ hr.star-primary {
   text-align: center;
 }
 
-/* line 57, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 54, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-light:after,
 hr.star-primary:after {
   content: "\f005";
@@ -19028,53 +19028,53 @@ hr.star-primary:after {
   font-size: 2em;
 }
 
-/* line 67, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 64, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-light {
   border-color: #fff;
 }
 
-/* line 71, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 68, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-light:after {
   color: #fff;
   background-color: #2c3e50;
 }
 
-/* line 76, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 73, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-primary {
   border-color: #f39c12;
 }
 
-/* line 80, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 77, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 hr.star-primary:after {
   color: #f39c12;
   background-color: #fff;
 }
 
-/* line 85, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 82, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .img-centered {
   margin: 0 auto;
 }
 
-/* line 89, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 86, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 header {
   text-align: center;
   color: #fff;
   background: url("/assets/block3-d9587356684590db0ba78e046bd50560.jpg");
 }
 
-/* line 95, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 92, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
-/* line 100, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 97, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 header img {
   display: block;
   margin: 0 auto 20px;
 }
 
-/* line 105, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 102, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 header .intro-text .name {
   display: block;
   text-transform: uppercase;
@@ -19083,31 +19083,31 @@ header .intro-text .name {
   font-weight: 700;
 }
 
-/* line 113, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 110, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  /* line 119, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 116, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
   }
 
-  /* line 124, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 121, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   header .intro-text .name {
     font-size: 4.75em;
   }
 
-  /* line 128, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 125, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   header .intro-text .skills {
     font-size: 1.75em;
   }
 }
 @media (min-width: 768px) {
-  /* line 134, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 131, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding .3s;
@@ -19115,7 +19115,7 @@ header .intro-text .skills {
     transition: padding .3s;
   }
 
-  /* line 141, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 138, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   .navbar-fixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all .3s;
@@ -19123,78 +19123,78 @@ header .intro-text .skills {
     transition: all .3s;
   }
 
-  /* line 148, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 145, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
 
-  /* line 152, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 149, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
-/* line 157, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 154, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 162, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 159, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .navbar a:focus {
   outline: 0;
 }
 
-/* line 166, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 163, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .navbar .navbar-nav {
   letter-spacing: 1px;
 }
 
-/* line 170, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 167, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .navbar .navbar-nav li a:focus {
   outline: 0;
 }
 
-/* line 175, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 172, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .navbar-default,
 .navbar-inverse {
   border: 0;
 }
 
-/* line 179, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 176, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 section {
   padding: 100px 0;
 }
 
-/* line 183, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 180, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 
-/* line 188, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 185, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 section.success {
   color: #fff;
   background: #2c3e50;
 }
 
 @media (max-width: 767px) {
-  /* line 194, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 191, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   section {
     padding: 75px 0;
   }
 
-  /* line 198, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 195, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   section.first {
     padding-top: 75px;
   }
 }
-/* line 203, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 200, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-/* line 208, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 205, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -19202,7 +19202,7 @@ section.success {
   max-width: 400px;
 }
 
-/* line 215, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 212, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;
   width: 100%;
@@ -19214,12 +19214,12 @@ section.success {
   transition: all ease .5s;
 }
 
-/* line 226, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 223, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
 
-/* line 230, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 227, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   top: 50%;
@@ -19231,29 +19231,29 @@ section.success {
   color: #fff;
 }
 
-/* line 241, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 238, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
 
-/* line 246, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 243, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
 
-/* line 250, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 247, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 #portfolio * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /* line 255, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+  /* line 252, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
-/* line 260, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 257, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .btn-outline {
   margin-top: 15px;
   border: solid 2px #fff;
@@ -19263,7 +19263,7 @@ section.success {
   transition: all .3s ease-in-out;
 }
 
-/* line 272, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 269, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -19273,7 +19273,7 @@ section.success {
   background: #2980b9;
 }
 
-/* line 278, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 275, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -19281,7 +19281,7 @@ section.success {
   border-bottom: 1px solid #eee;
 }
 
-/* line 286, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 283, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   z-index: 1;
@@ -19296,7 +19296,7 @@ section.success {
   resize: none;
 }
 
-/* line 299, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 296, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group label {
   display: block;
   z-index: 0;
@@ -19314,57 +19314,57 @@ section.success {
   transition: top .3s ease,opacity .3s ease;
 }
 
-/* line 316, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 313, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #eee;
 }
 
-/* line 321, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 318, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 
-/* line 326, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 323, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .floating-label-form-group-with-focus label {
   color: #2c3e50;
 }
 
-/* line 330, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 327, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eee;
 }
 
-/* line 334, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 331, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer {
   color: #fff;
 }
 
-/* line 338, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 335, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer h3 {
   margin-bottom: 30px;
 }
 
-/* line 342, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 339, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer .footer-above {
   padding-top: 50px;
   background: #fff;
-  background: #f39c12;
+  background: #2c3e50;
 }
 
-/* line 348, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 345, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer .footer-col {
   margin-bottom: 50px;
 }
 
-/* line 352, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 349, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer .footer-below {
   padding: 25px 0;
-  background: #f1c40f;
+  background: #34495e;
 }
 
-/* line 357, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 354, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .btn-social {
   display: inline-block;
   width: 50px;
@@ -19377,14 +19377,14 @@ footer .footer-below {
   line-height: 45px;
 }
 
-/* line 371, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 368, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .btn:focus,
 .btn:active,
 .btn.active {
   outline: 0;
 }
 
-/* line 375, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 372, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .scroll-top {
   z-index: 1049;
   position: fixed;
@@ -19394,7 +19394,7 @@ footer .footer-below {
   height: 50px;
 }
 
-/* line 384, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 381, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .scroll-top .btn {
   width: 50px;
   height: 50px;
@@ -19403,12 +19403,12 @@ footer .footer-below {
   line-height: 28px;
 }
 
-/* line 392, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 389, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .scroll-top .btn:focus {
   outline: 0;
 }
 
-/* line 396, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 393, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .modal-content {
   padding: 100px 0;
   min-height: 100%;
@@ -19420,23 +19420,23 @@ footer .footer-below {
   box-shadow: none;
 }
 
-/* line 407, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 404, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
 
-/* line 412, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 409, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
 
-/* line 416, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 413, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
 
-/* line 420, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 417, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
@@ -19447,12 +19447,12 @@ footer .footer-below {
   cursor: pointer;
 }
 
-/* line 430, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 427, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .close-modal:hover {
   opacity: .3;
 }
 
-/* line 434, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 431, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .close-modal .lr {
   z-index: 1051;
   width: 1px;
@@ -19464,7 +19464,7 @@ footer .footer-below {
   transform: rotate(45deg);
 }
 
-/* line 445, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 442, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .close-modal .lr .rl {
   z-index: 1052;
   width: 1px;
@@ -19475,207 +19475,10 @@ footer .footer-below {
   transform: rotate(90deg);
 }
 
-/* line 455, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
+/* line 452, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 .portfolio-modal .modal-backdrop {
   display: none;
   opacity: 0;
-}
-
-/* line 463, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#notes .note {
-  background: #2b2e2e;
-  width: 30%;
-  min-height: 150px;
-  margin: 1rem 1%;
-  padding: 1.5rem 2.5%;
-  float: left;
-  border-radius: .4rem;
-  position: relative;
-}
-/* line 472, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#notes .note .title {
-  color: white;
-  margin: 0;
-  letter-spacing: 1px;
-}
-/* line 477, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#notes .note .date {
-  position: absolute;
-  bottom: .25rem;
-  left: 8.5%;
-  color: #33cd99;
-  font-size: .85rem;
-}
-
-/* line 496, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* line 501, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-body {
-  padding-top: 4.5rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-}
-
-/* line 506, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* line 511, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-.wrapper_with_padding {
-  width: 80%;
-  margin: 0 auto;
-  padding: 3.5rem 0;
-}
-
-/* line 517, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-
-/* line 522, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-.clearfix:after {
-  clear: both;
-}
-
-/* line 526, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-button, .button {
-  border: none;
-  outline: none;
-  background: #33cd99;
-  padding: 1rem 3.5rem;
-  border-radius: 2rem;
-}
-/* line 532, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-button a, .button a {
-  color: white;
-  text-decoration: none;
-}
-
-/* line 538, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-.button {
-  color: white;
-  margin: 2rem 0;
-}
-
-/* line 543, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-a {
-  color: #33cd99;
-  text-decoration: none;
-}
-/* line 546, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-a:hover {
-  color: #2b2e2e;
-}
-
-/* line 551, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header {
-  background: #2b2e2e;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  padding: 1.75rem 0;
-  border-bottom: 7px solid #33cd99;
-}
-/* line 559, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header .header_inner {
-  width: 90%;
-  margin: 0 auto;
-}
-/* line 562, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header .header_inner #logo {
-  display: inline-block;
-  width: 10rem;
-  float: left;
-}
-/* line 567, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header .header_inner nav {
-  float: right;
-}
-/* line 569, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header .header_inner nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 1em;
-  line-height: 1.5;
-  margin-left: 1rem;
-}
-/* line 575, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-header .header_inner nav a:hover {
-  color: #33cd99;
-}
-
-/* line 583, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-footer {
-  background: #2b2e2e;
-  width: 100%;
-  padding: 2rem 0;
-  color: white;
-  text-align: center;
-  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-/* line 590, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-footer p {
-  margin: 0;
-  font-size: .85rem;
-}
-
-/* line 596, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-input[type="text"], input[type="email"], input[type="password"], textarea {
-  width: 100%;
-  margin-bottom: 1rem;
-  border: 1px solid #c0c1c1;
-  border-radius: .4rem;
-}
-
-/* line 603, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-input[type="text"], input[type="email"], input[type="password"] {
-  height: 40px;
-}
-
-/* line 607, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-textarea {
-  min-height: 200px;
-}
-
-/* line 612, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#note_show .title {
-  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #E9E9E9;
-}
-/* line 619, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#note_show p {
-  font-size: 1.375rem;
-  line-height: 1.75;
-}
-/* line 623, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#note_show .buttons {
-  margin-top: 3rem;
-}
-/* line 625, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
-#note_show .buttons a.button {
-  padding: .5rem 2rem;
-  border-radius: 2rem;
-  text-decoration: none;
-  color: #33cd99;
-  border: 5px solid #E9E9E9;
-  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: transparent;
 }
 /*!
  * FullCalendar v2.3.1 Stylesheet

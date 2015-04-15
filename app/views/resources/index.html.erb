@@ -50,11 +50,14 @@
     </div>
   </div>
 </div>
-
+<br />
+<%= link_to 'New Resource', new_resource_path, class: "btn btn-primary" %>
+<br />
+<br />
 <div id="resources" class="transitions-enabled">
   <% @resources.each do |resource| %>
     <div class="bot panel panel-default">
-      <%= link_to (resource.title), resource_path(resource) %>
+      <%= link_to (resource.title), resource.url %>
       <div class="panel-body">
         <%= resource.notes %>
         <br />
@@ -68,11 +71,9 @@
     </div>
   <% end %>
 </div>
+</div>
 <br />
 <br />
 
-<%= link_to 'New Resource', new_resource_path, class: "btn btn-primary" %>
-</div>
-<br />
 
 
