@@ -5,6 +5,7 @@ class CreateResources < ActiveRecord::Migration
       t.string  :url
       t.string  :focus
       t.string  :notes
+      t.string  :level
       t.integer :user_id
       
 

@@ -30,11 +30,8 @@ Rails.application.routes.draw do
 
   get  "about" => "pages#about"
   get  "calendar" => "pages#calendar"
-  get  "book" => "pages#book"
-
 
 scope '(:locale)' do resources :orders
-  resources :book
   resources :events
   root 'pages#home', as: 'home', via: :all
   end

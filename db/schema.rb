@@ -125,6 +125,7 @@ ActiveRecord::Schema.define(version: 20150413174516) do
     t.string   "url"
     t.string   "focus"
     t.string   "notes"
+    t.string   "level"
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

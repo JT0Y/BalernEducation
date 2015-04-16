@@ -6,13 +6,12 @@
             </h2>
             <ul>
                 <% @inquery.errors.full_messages.each do |message| %>
-                <li><%= message %></li>
+                  <li><%= message %></li>
+                <% end %>
             </ul>
         <% end %>
     </div>
-<% end %>
-<br />
-<form role="form">
+    <br />
     <div class="col-lg-12">
         <div class="form-group col-lg-4">
             <%= f.label t('.name') %><br>
@@ -39,5 +38,4 @@
             <%= f.submit t('.submit'), class: "btn btn-primary" %>
         </div>
     </div>
-</form>
 <% end %>

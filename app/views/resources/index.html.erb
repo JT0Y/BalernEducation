@@ -54,14 +54,22 @@
 <%= link_to 'New Resource', new_resource_path, class: "btn btn-primary" %>
 <br />
 <br />
-<div id="resources" class="transitions-enabled">
+<div id="photos" class="transitions-enabled">
   <% @resources.each do |resource| %>
     <div class="bot panel panel-default">
       <%= link_to (resource.title), resource.url %>
       <div class="panel-body">
         <%= resource.notes %>
         <br />
-        <%= resource.user.name if resource.user %>
+        Reccomended by 
+        <strong>
+          <%= resource.user.name if resource.user %>
+        </strong>
+        <br />
+        for students in the 
+        <strong>
+          <%= resource.level %>
+        </strong> class.
         <br />
         <% if resource.user == current_user %>
           <%= link_to 'Edit', edit_resource_path(resource) %>
