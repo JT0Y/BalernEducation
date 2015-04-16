@@ -69,6 +69,6 @@ class HomeworksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def homework_params
-      params.require(:homework).permit(:group_id, :title, :, :due, :instructions)
+      params.require(:homework).permit(:group_id, :title, :due, :instructions)
     end
 end
