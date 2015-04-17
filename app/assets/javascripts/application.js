@@ -26,6 +26,5 @@
 //= classie.js
 //= contact_me.js
 //= freelancer.js
-//= jqBootstrapValidation.js
 //= require turbolinks
 

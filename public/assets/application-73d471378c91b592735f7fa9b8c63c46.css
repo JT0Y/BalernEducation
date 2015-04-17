@@ -1764,7 +1764,7 @@ mark,
 
 /* line 1150, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-muted {
-  color: #2c3e50;
+  color: #3498db;
 }
 
 /* line 1153, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -5989,7 +5989,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 /* line 4161, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-default {
-  background-color: #f39c12;
+  background-color: #2c3e50;
   border-color: transparent;
 }
 
@@ -6027,7 +6027,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: #3498db;
 }
 
 /* line 4192, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -13346,7 +13346,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: rgba(44, 62, 80,1.0);
+  color: rgba(52, 152, 219,1.0);
 }
 .text-primary {
   color: #2c3e50;
@@ -16357,7 +16357,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(243, 156, 18,1);
+  background-color: rgba(44, 62, 80,1.0);
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -16383,7 +16383,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: rgba(52, 152, 219,1.0);
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -18876,7 +18876,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(243, 156, 18, 0.8);
+    background: rgba(52, 73, 94,1.0);
 }
 
 footer p {
@@ -18935,7 +18935,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(243, 156, 18, 0.8);
+        background: rgba(52, 73, 94,1.0);
     }
 
     .nav>li>a {
@@ -18990,7 +18990,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #2c3e50;
+  color: #f39c12;
 }
 
 /* line 37, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
@@ -19350,7 +19350,7 @@ footer h3 {
 footer .footer-above {
   padding-top: 50px;
   background: #fff;
-  background: #f39c12;
+  background: #2c3e50;
 }
 
 /* line 345, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
@@ -19361,7 +19361,7 @@ footer .footer-col {
 /* line 349, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer .footer-below {
   padding: 25px 0;
-  background: #f1c40f;
+  background: #34495e;
 }
 
 /* line 354, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
