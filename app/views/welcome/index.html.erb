@@ -7,8 +7,6 @@
         <title>Balern Edu.</title>
         <%= stylesheet_link_tag 'freelancer', 'bootstrap' %>
         <%= csrf_meta_tags %>
-        
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -61,9 +59,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                      <img class="img-responsive">
-                <%= link_to image_tag("g.png", height: 200, width: 600), root_path %>
-        </div>
+                    <%= image_tag "g.png", height: 200, width: 600, class: "img-responsive" %>
                     <div class="intro-text">
                         <span class="name">伯伦教育</span>
                         <i class="fa fa-star-o fa-3x"></i>
@@ -225,7 +221,7 @@
                                       <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                            <h4 class="modal-title" id="myLargeModalLabel-1">Balern Education QR Code</h4>
+                                            <h4 class="modal-title" id="myLargeModalLabel-1">Scan Image</h4>
                                         </div>
                                         <div class="modal-body">
                                             <img src="assets/qr.jpg" class="img-responsive img-rounded center-block" alt="">
@@ -243,7 +239,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>关于伯伦教育</h3>
-                        <p>Please <a href="http://startbootstrap.com">contact us</a> with any questions you may have.
+                        <p>Please <a href="#">contact us</a> with any questions you may have.
                             Someone will get back to you as soon as possbile!
                         </p>
                     </div>

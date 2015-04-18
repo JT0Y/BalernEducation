@@ -60,17 +60,16 @@
       <%= link_to (resource.title), resource.url %>
       <div class="panel-body">
         <%= resource.notes %>
+        level: 
+        <strong>
+          <%= resource.level %>
+        </strong>
         <br />
-        Reccomended by 
+        Reccomended by:  
         <strong>
           <%= resource.user.name if resource.user %>
         </strong>
-        <br />
-        for students in the 
-        <strong>
-          <%= resource.level %>
-        </strong> class.
-        <br />
+
         <% if resource.user == current_user %>
           <%= link_to 'Edit', edit_resource_path(resource) %>
           <%= link_to 'Destroy', resource, method: :delete, data: { confirm: 'Are you sure?' } %>

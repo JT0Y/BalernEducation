@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :photos
+  has_many :lesson_plans
   has_many :resources
   acts_as_messageable
 

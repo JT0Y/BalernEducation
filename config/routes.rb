@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :lesson_plans
+
   resources :homeworks
 
   resources :resources
