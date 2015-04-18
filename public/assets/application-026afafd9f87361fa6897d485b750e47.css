@@ -1764,7 +1764,7 @@ mark,
 
 /* line 1150, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-muted {
-  color: #2c3e50;
+  color: #3498db;
 }
 
 /* line 1153, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -5989,7 +5989,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 /* line 4161, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-default {
-  background-color: #f39c12;
+  background-color: #2c3e50;
   border-color: transparent;
 }
 
@@ -6027,7 +6027,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: #3498db;
 }
 
 /* line 4192, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
@@ -7929,38 +7929,39 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  color: #18bc9c;
 }
 
-/* line 5544, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5545, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-body {
   position: relative;
   padding: 20px;
 }
 
-/* line 5548, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5549, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-footer {
   padding: 20px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
 
-/* line 5553, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5554, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
 
-/* line 5557, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5558, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 
-/* line 5560, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5561, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 5563, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5564, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -7970,30 +7971,30 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  /* line 5571, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5572, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
 
-  /* line 5575, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5576, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 5579, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5580, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  /* line 5584, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5585, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .modal-lg {
     width: 900px;
   }
 }
-/* line 5588, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5589, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -8007,37 +8008,37 @@ button.close {
   filter: alpha(opacity=0);
 }
 
-/* line 5600, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5601, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.in {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
 
-/* line 5604, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5605, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.top {
   margin-top: -3px;
   padding: 5px 0;
 }
 
-/* line 5608, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5609, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.right {
   margin-left: 3px;
   padding: 0 5px;
 }
 
-/* line 5612, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5613, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.bottom {
   margin-top: 3px;
   padding: 5px 0;
 }
 
-/* line 5616, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5617, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.left {
   margin-left: -3px;
   padding: 0 5px;
 }
 
-/* line 5620, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5621, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -8048,7 +8049,7 @@ button.close {
   border-radius: 4px;
 }
 
-/* line 5629, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5630, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -8057,7 +8058,7 @@ button.close {
   border-style: solid;
 }
 
-/* line 5636, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5637, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -8066,7 +8067,7 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5643, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5644, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   right: 5px;
@@ -8075,7 +8076,7 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5650, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5651, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
@@ -8084,7 +8085,7 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5657, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5658, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
@@ -8093,7 +8094,7 @@ button.close {
   border-right-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5664, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5665, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
@@ -8102,7 +8103,7 @@ button.close {
   border-left-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5671, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5672, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
@@ -8111,7 +8112,7 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5678, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5679, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
@@ -8120,7 +8121,7 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5685, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5686, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
@@ -8129,7 +8130,7 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 5692, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5693, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover {
   position: absolute;
   top: 0;
@@ -8154,27 +8155,27 @@ button.close {
   white-space: normal;
 }
 
-/* line 5715, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5716, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.top {
   margin-top: -10px;
 }
 
-/* line 5718, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5719, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.right {
   margin-left: 10px;
 }
 
-/* line 5721, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5722, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.bottom {
   margin-top: 10px;
 }
 
-/* line 5724, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5725, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.left {
   margin-left: -10px;
 }
 
-/* line 5727, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5728, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover-title {
   margin: 0;
   padding: 8px 14px;
@@ -8184,12 +8185,12 @@ button.close {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 5735, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5736, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover-content {
   padding: 9px 14px;
 }
 
-/* line 5739, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5740, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover > .arrow,
 .popover > .arrow:after {
   position: absolute;
@@ -8200,18 +8201,18 @@ button.close {
   border-style: solid;
 }
 
-/* line 5747, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5748, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover > .arrow {
   border-width: 11px;
 }
 
-/* line 5750, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5751, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover > .arrow:after {
   border-width: 10px;
   content: "";
 }
 
-/* line 5754, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5755, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.top > .arrow {
   left: 50%;
   margin-left: -11px;
@@ -8221,7 +8222,7 @@ button.close {
   bottom: -11px;
 }
 
-/* line 5762, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5763, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.top > .arrow:after {
   content: " ";
   bottom: 1px;
@@ -8230,7 +8231,7 @@ button.close {
   border-top-color: #ffffff;
 }
 
-/* line 5769, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5770, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.right > .arrow {
   top: 50%;
   left: -11px;
@@ -8240,7 +8241,7 @@ button.close {
   border-right-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 5777, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5778, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.right > .arrow:after {
   content: " ";
   left: 1px;
@@ -8249,7 +8250,7 @@ button.close {
   border-right-color: #ffffff;
 }
 
-/* line 5784, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5785, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.bottom > .arrow {
   left: 50%;
   margin-left: -11px;
@@ -8259,7 +8260,7 @@ button.close {
   top: -11px;
 }
 
-/* line 5792, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5793, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.bottom > .arrow:after {
   content: " ";
   top: 1px;
@@ -8268,7 +8269,7 @@ button.close {
   border-bottom-color: #ffffff;
 }
 
-/* line 5799, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5800, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.left > .arrow {
   top: 50%;
   right: -11px;
@@ -8278,7 +8279,7 @@ button.close {
   border-left-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 5807, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5808, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover.left > .arrow:after {
   content: " ";
   right: 1px;
@@ -8287,19 +8288,19 @@ button.close {
   bottom: -10px;
 }
 
-/* line 5814, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5815, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel {
   position: relative;
 }
 
-/* line 5817, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5818, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
 
-/* line 5822, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5823, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .item {
   display: none;
   position: relative;
@@ -8308,14 +8309,14 @@ button.close {
   transition: 0.6s ease-in-out left;
 }
 
-/* line 5830, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5831, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
-  /* line 5834, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5835, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform 0.6s ease-in-out;
     -o-transition: -o-transform 0.6s ease-in-out;
@@ -8326,7 +8327,7 @@ button.close {
     perspective: 1000;
   }
 
-  /* line 5844, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5845, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
     -webkit-transform: translate3d(100%, 0, 0);
@@ -8334,7 +8335,7 @@ button.close {
     left: 0;
   }
 
-  /* line 5850, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5851, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-inner > .item.prev,
   .carousel-inner > .item.active.left {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -8342,7 +8343,7 @@ button.close {
     left: 0;
   }
 
-  /* line 5857, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 5858, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-inner > .item.next.left,
   .carousel-inner > .item.prev.right,
   .carousel-inner > .item.active {
@@ -8351,19 +8352,19 @@ button.close {
     left: 0;
   }
 }
-/* line 5865, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5866, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
 }
 
-/* line 5868, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5869, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .active {
   left: 0;
 }
 
-/* line 5872, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5873, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
@@ -8371,33 +8372,33 @@ button.close {
   width: 100%;
 }
 
-/* line 5877, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5878, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .next {
   left: 100%;
 }
 
-/* line 5880, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5881, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .prev {
   left: -100%;
 }
 
-/* line 5884, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5885, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
 }
 
-/* line 5887, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5888, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .active.left {
   left: -100%;
 }
 
-/* line 5890, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5891, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-inner > .active.right {
   left: 100%;
 }
 
-/* line 5893, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5894, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control {
   position: absolute;
   top: 0;
@@ -8412,7 +8413,7 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 5906, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5907, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
@@ -8422,7 +8423,7 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 
-/* line 5914, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5915, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control.right {
   left: auto;
   right: 0;
@@ -8434,7 +8435,7 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 
-/* line 5925, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5926, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control:hover,
 .carousel-control:focus {
   outline: 0;
@@ -8444,7 +8445,7 @@ button.close {
   filter: alpha(opacity=90);
 }
 
-/* line 5935, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5936, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
@@ -8455,21 +8456,21 @@ button.close {
   display: inline-block;
 }
 
-/* line 5942, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5943, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
   margin-left: -10px;
 }
 
-/* line 5947, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5948, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
   right: 50%;
   margin-right: -10px;
 }
 
-/* line 5952, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5953, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   width: 20px;
@@ -8478,17 +8479,17 @@ button.close {
   font-family: serif;
 }
 
-/* line 5958, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5959, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-prev:before {
   content: '\2039';
 }
 
-/* line 5961, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5962, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-control .icon-next:before {
   content: '\203a';
 }
 
-/* line 5964, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5965, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -8501,7 +8502,7 @@ button.close {
   text-align: center;
 }
 
-/* line 5975, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5976, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -8515,7 +8516,7 @@ button.close {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 5987, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5988, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-indicators .active {
   margin: 0;
   width: 12px;
@@ -8523,7 +8524,7 @@ button.close {
   background-color: #ffffff;
 }
 
-/* line 5993, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 5994, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-caption {
   position: absolute;
   left: 15%;
@@ -8537,13 +8538,13 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 6005, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6006, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .carousel-caption .btn {
   text-shadow: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 6012, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6013, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -8554,31 +8555,31 @@ button.close {
     font-size: 30px;
   }
 
-  /* line 6019, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6020, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
   }
 
-  /* line 6023, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6024, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     margin-right: -15px;
   }
 
-  /* line 6026, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6027, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-caption {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
   }
 
-  /* line 6031, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6032, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .carousel-indicators {
     bottom: 20px;
   }
 }
-/* line 6064, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6065, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .clearfix:before,
 .clearfix:after,
 .dl-horizontal dd:before,
@@ -8613,7 +8614,7 @@ button.close {
   display: table;
 }
 
-/* line 6082, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6083, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .clearfix:after,
 .dl-horizontal dd:after,
 .container:after,
@@ -8632,39 +8633,39 @@ button.close {
   clear: both;
 }
 
-/* line 6085, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6086, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 6090, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6091, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .pull-right {
   float: right !important;
 }
 
-/* line 6093, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6094, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .pull-left {
   float: left !important;
 }
 
-/* line 6096, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6097, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .hide {
   display: none !important;
 }
 
-/* line 6099, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6100, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .show {
   display: block !important;
 }
 
-/* line 6102, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6103, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .invisible {
   visibility: hidden;
 }
 
-/* line 6105, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6106, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -8673,13 +8674,13 @@ button.close {
   border: 0;
 }
 
-/* line 6112, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6113, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .hidden {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* line 6116, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6117, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .affix {
   position: fixed;
 }
@@ -8688,7 +8689,7 @@ button.close {
   width: device-width;
 }
 
-/* line 6125, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6126, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-xs,
 .visible-sm,
 .visible-md,
@@ -8696,7 +8697,7 @@ button.close {
   display: none !important;
 }
 
-/* line 6139, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6140, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -8713,332 +8714,332 @@ button.close {
 }
 
 @media (max-width: 767px) {
-  /* line 6143, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6144, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-xs {
     display: block !important;
   }
 
-  /* line 6146, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6147, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   table.visible-xs {
     display: table;
   }
 
-  /* line 6149, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6150, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   tr.visible-xs {
     display: table-row !important;
   }
 
-  /* line 6153, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6154, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 6158, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6159, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-xs-block {
     display: block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 6163, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6164, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 6168, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6169, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6173, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6174, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-sm {
     display: block !important;
   }
 
-  /* line 6176, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6177, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   table.visible-sm {
     display: table;
   }
 
-  /* line 6179, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6180, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   tr.visible-sm {
     display: table-row !important;
   }
 
-  /* line 6183, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6184, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6188, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6189, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-sm-block {
     display: block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6193, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6194, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6198, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6199, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 6203, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6204, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-md {
     display: block !important;
   }
 
-  /* line 6206, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6207, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   table.visible-md {
     display: table;
   }
 
-  /* line 6209, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6210, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   tr.visible-md {
     display: table-row !important;
   }
 
-  /* line 6213, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6214, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 6218, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6219, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-md-block {
     display: block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 6223, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6224, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-md-inline {
     display: inline !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 6228, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6229, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 6233, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6234, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-lg {
     display: block !important;
   }
 
-  /* line 6236, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6237, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   table.visible-lg {
     display: table;
   }
 
-  /* line 6239, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6240, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   tr.visible-lg {
     display: table-row !important;
   }
 
-  /* line 6243, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6244, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 6248, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6249, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-lg-block {
     display: block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 6253, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6254, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 6258, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6259, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 6263, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6264, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .hidden-xs {
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 6268, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6269, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .hidden-sm {
     display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 6273, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6274, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .hidden-md {
     display: none !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 6278, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6279, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .hidden-lg {
     display: none !important;
   }
 }
-/* line 6282, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6283, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-print {
   display: none !important;
 }
 
 @media print {
-  /* line 6286, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6287, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-print {
     display: block !important;
   }
 
-  /* line 6289, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6290, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   table.visible-print {
     display: table;
   }
 
-  /* line 6292, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6293, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   tr.visible-print {
     display: table-row !important;
   }
 
-  /* line 6296, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6297, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
   }
 }
-/* line 6300, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6301, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-print-block {
   display: none !important;
 }
 
 @media print {
-  /* line 6304, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6305, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-print-block {
     display: block !important;
   }
 }
-/* line 6308, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6309, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-print-inline {
   display: none !important;
 }
 
 @media print {
-  /* line 6312, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6313, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-print-inline {
     display: inline !important;
   }
 }
-/* line 6316, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6317, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .visible-print-inline-block {
   display: none !important;
 }
 
 @media print {
-  /* line 6320, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6321, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .visible-print-inline-block {
     display: inline-block !important;
   }
 }
 @media print {
-  /* line 6325, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+  /* line 6326, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
   .hidden-print {
     display: none !important;
   }
 }
-/* line 6329, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6330, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar {
   border-width: 0;
 }
 
-/* line 6332, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6333, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-default .badge {
   background-color: #fff;
   color: #2c3e50;
 }
 
-/* line 6336, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6337, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-inverse .badge {
   background-color: #fff;
   color: #18bc9c;
 }
 
-/* line 6340, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6341, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .navbar-brand {
   padding: 18.5px 15px 20.5px;
 }
 
-/* line 6343, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6344, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .btn:active {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 6347, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6348, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .btn-group.open .dropdown-toggle {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 6352, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6353, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-primary,
 .text-primary:hover {
   color: #2c3e50;
 }
 
-/* line 6356, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6357, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-success,
 .text-success:hover {
   color: #18bc9c;
 }
 
-/* line 6360, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6361, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-danger,
 .text-danger:hover {
   color: #e74c3c;
 }
 
-/* line 6364, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6365, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-warning,
 .text-warning:hover {
   color: #f39c12;
 }
 
-/* line 6368, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6369, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .text-info,
 .text-info:hover {
   color: #3498db;
 }
 
-/* line 6372, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6373, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table a:not(.btn),
 .table a:not(.btn) {
   text-decoration: underline;
 }
 
-/* line 6376, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6377, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table .dropdown-menu a,
 .table .dropdown-menu a {
   text-decoration: none;
 }
 
-/* line 6386, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6387, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table .success,
 .table .success,
 table .warning,
@@ -9050,7 +9051,7 @@ table .info,
   color: #fff;
 }
 
-/* line 6396, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6397, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table .success a,
 .table .success a,
 table .warning a,
@@ -9062,7 +9063,7 @@ table .info a,
   color: #fff;
 }
 
-/* line 6410, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6411, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table > thead > tr > th,
 .table > thead > tr > th,
 table > tbody > tr > th,
@@ -9078,7 +9079,7 @@ table > tfoot > tr > td,
   border: none;
 }
 
-/* line 6424, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6425, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 table-bordered > thead > tr > th,
 .table-bordered > thead > tr > th,
 table-bordered > tbody > tr > th,
@@ -9094,7 +9095,7 @@ table-bordered > tfoot > tr > td,
   border: 1px solid #ecf0f1;
 }
 
-/* line 6428, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6429, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .form-control,
 input {
   border-width: 2px;
@@ -9102,14 +9103,14 @@ input {
   box-shadow: none;
 }
 
-/* line 6434, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6435, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .form-control:focus,
 input:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 6444, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6445, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -9120,18 +9121,18 @@ input:focus {
   color: #f39c12;
 }
 
-/* line 6448, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6449, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-warning .form-control,
 .has-warning .form-control:focus {
   border: 2px solid #f39c12;
 }
 
-/* line 6451, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6452, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-warning .input-group-addon {
   border-color: #f39c12;
 }
 
-/* line 6460, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6461, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -9142,18 +9143,18 @@ input:focus {
   color: #e74c3c;
 }
 
-/* line 6464, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6465, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-error .form-control,
 .has-error .form-control:focus {
   border: 2px solid #e74c3c;
 }
 
-/* line 6467, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6468, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-error .input-group-addon {
   border-color: #e74c3c;
 }
 
-/* line 6476, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6477, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -9164,31 +9165,31 @@ input:focus {
   color: #18bc9c;
 }
 
-/* line 6480, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6481, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-success .form-control,
 .has-success .form-control:focus {
   border: 2px solid #18bc9c;
 }
 
-/* line 6483, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6484, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .has-success .input-group-addon {
   border-color: #18bc9c;
 }
 
-/* line 6488, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6489, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   border-color: transparent;
 }
 
-/* line 6492, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6493, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .pager a,
 .pager a:hover {
   color: #fff;
 }
 
-/* line 6498, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6499, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
@@ -9196,96 +9197,96 @@ input:focus {
   background-color: #3be6c4;
 }
 
-/* line 6501, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6502, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .close {
   color: #fff;
   text-decoration: none;
   opacity: 0.4;
 }
 
-/* line 6507, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6508, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .close:hover,
 .close:focus {
   color: #fff;
   opacity: 1;
 }
 
-/* line 6511, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6512, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .alert .alert-link {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 6515, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6516, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .progress {
   height: 10px;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 6520, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6521, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .progress .progress-bar {
   font-size: 10px;
   line-height: 10px;
 }
 
-/* line 6524, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6525, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .well {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 6530, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6531, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
   border-color: #ecf0f1;
 }
 
-/* line 6533, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6534, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-success.active {
   background-color: #18bc9c;
 }
 
-/* line 6537, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6538, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus {
   background-color: #15a589;
 }
 
-/* line 6540, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6541, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-warning.active {
   background-color: #f39c12;
 }
 
-/* line 6544, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6545, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus {
   background-color: #e08e0b;
 }
 
-/* line 6547, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6548, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-danger.active {
   background-color: #e74c3c;
 }
 
-/* line 6551, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6552, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 a.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus {
   background-color: #e43725;
 }
 
-/* line 6554, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6555, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .panel-default .close {
   color: #2c3e50;
 }
 
-/* line 6557, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6558, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .modal .close {
   color: #2c3e50;
 }
 
-/* line 6560, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
+/* line 6561, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/bootstrap.css */
 .popover {
   color: #2c3e50;
 }
@@ -13346,7 +13347,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: rgba(44, 62, 80,1.0);
+  color: rgba(52, 152, 219,1.0);
 }
 .text-primary {
   color: #2c3e50;
@@ -16357,7 +16358,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(243, 156, 18,1);
+  background-color: rgba(44, 62, 80,1.0);
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -16383,7 +16384,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d35400;
+  background-color: rgba(52, 152, 219,1.0);
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -17738,6 +17739,7 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  color: #18bc9c;
 }
 .modal-body {
   position: relative;
@@ -18876,7 +18878,7 @@ p {
 
 footer {
     background: #fff;
-    background: rgba(243, 156, 18, 0.8);
+    background: rgba(52, 73, 94,1.0);
 }
 
 footer p {
@@ -18990,7 +18992,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: #2c3e50;
+  color: #f39c12;
 }
 
 /* line 37, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
@@ -19350,7 +19352,7 @@ footer h3 {
 footer .footer-above {
   padding-top: 50px;
   background: #fff;
-  background: #f39c12;
+  background: #2c3e50;
 }
 
 /* line 345, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
@@ -19361,7 +19363,7 @@ footer .footer-col {
 /* line 349, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
 footer .footer-below {
   padding: 25px 0;
-  background: #f1c40f;
+  background: #34495e;
 }
 
 /* line 354, /Users/ToyMechQM/Desktop/RailsApps/Balern/app/assets/stylesheets/freelancer.css.scss */
