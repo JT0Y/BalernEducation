@@ -24,7 +24,6 @@
 //= cbpAnimatedHeader.js
 //= cbpAnimatedHeader.min.js
 //= classie.js
-//= contact_me.js
 //= freelancer.js
 //= require turbolinks
 
