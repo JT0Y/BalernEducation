@@ -8,65 +8,90 @@
     </small>
 </h2>
 
-<div class="jumbotron">
-  <hr>
-  <h2 class="intro-text text-center">Get an education
-      <strong>worth learning</strong>
-  </h2>
-  <hr>
-  <%= image_tag "intro1.jpg", :class => "img-responsive img-border img-left" %>
-  <hr class="visible-xs">
-  <p>
-      <%= t('.box1p1') %>
-  </p>
-  <p>
-      <%= t('.box1p2') %>
-  </p>
-  <p>
-      <%= t('.box1p3') %>
-  </p>
-</div>
-
-<div class="jumbotron">
-    <hr>
-    <h2 class="intro-text text-center">Balern really
-        <strong>Cares</strong>
-    </h2>
-    <hr>
-<%= image_tag "intro2.jpg", :class => "img-responsive img-border pull-right" %>
-    <p>
-        <%= t('.box2p1') %>
-    </p>
-
-    <p>
-        <%= t('.box2p2') %>
-    </p>
-</div>
-
-  <% if user_signed_in? %><!-- DEVISE !-->
-      <!-- Displays Nothing if user logged in -->
-  <% else %>
-      <div class="jumbotron">
-      <hr>
-      <h2 class="intro-text text-center">
-          Always stay 
-          <strong>up-to-date</strong>
-      </h2>
-      <hr>
-      <p>
-      <%= t('.box3p1') %>
-      </p>
-
-      <br />
-      <center>
-          <p>
-              <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-              <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+  <div class="thumbnail">
+        <div class="caption">
+          <h3>欢迎光临</h3>
+          <p> 
+            您好 <%= current_user.name %>！
+            <br />
+            Today is <%= Time.now %>.
           </p>
-      </center>
-      <br />
-      <p>
-          <%= t('.box3p2') %>
-      </p>
-  <% end %><!-- DEVISE !-->
+          <p>
+            Below is a quick overview of your account:
+          </p>
+        </div>
+  </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Study at home:
+        </div>
+        <div class="panel-footer">
+          <%= Resource.second.title %>
+          <br /><%= Resource.third.title %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Study at home:
+        </div>
+        <div class="panel-footer">
+          <%= link_to Event.first.start_time, (Event) %>
+          <br /><%= link_to Event.second.start_time, (Event) %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Latest Message:
+        </div>
+        <div class="panel-footer"><%= Mailboxer::Message.last.body %></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Homework
+        </div>
+        <div class="panel-footer"><%= Homework.first.title %></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Contract Details:
+        </div>
+        <div class="panel-footer">
+          Contract Start Date: <%= Student.first.contract_start %>
+          <br />
+          Contract Lenght: <%= Student.first.contract_length %> days
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Latest from the Photo album:
+        </div>
+        <div class="panel-footer">
+          <%= image_tag Photo.last.image.url(:thumb) %>
+          <br />Posted by: <%= Photo.last.user.name %>
+          <br /><%= Photo.last.description %>
+        </div>
+      </div>
+    </div>
+
+
+
 </div>    <!-- /.container -->
+
+
