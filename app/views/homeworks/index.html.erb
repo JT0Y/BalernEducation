@@ -2,12 +2,12 @@
 
 <h1>Listing Homeworks</h1>
 
-<table>
+<table class="table table-bordered table-hover">
   <thead>
     <tr>
       <th>Group</th>
       <th>Title</th>
-      <th></th>
+      <th>Due Date</th>
       <th>Due</th>
       <th>Instructions</th>
       <th colspan="3"></th>
@@ -17,7 +17,7 @@
   <tbody>
     <% @homeworks.each do |homework| %>
       <tr>
-        <td><%= homework.group_id %></td>
+        <td><%= homework.group.name %></td>
         <td><%= homework.title %></td>
         <td><%= homework.due %></td>
         <td><%= homework.instructions %></td>
@@ -29,6 +29,8 @@
   </tbody>
 </table>
 
-<br>
+<br />
 
-<%= link_to 'New Homework', new_homework_path %>
+<%= link_to 'New Homework', new_homework_path, class: "btn btn-primary" %>
+<br />
+<br />

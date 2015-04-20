@@ -10,7 +10,7 @@ class CreateStudents < ActiveRecord::Migration
       t.date 		:contract_start
       t.integer :contract_length
       t.integer :points
-      t.integer :group_id      
+      t.integer :group_id   
 
       t.timestamps null: false
     end

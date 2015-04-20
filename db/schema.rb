@@ -185,6 +185,7 @@ ActiveRecord::Schema.define(version: 20150418105322) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.integer  "student_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "admin",                  default: false

@@ -11,13 +11,18 @@
 </p>
 
 <p>
-  <strong>:</strong>
-  <%= @homework. %>
+  <strong>Date Assigned:</strong>
+  <%= @homework.assigned %>
 </p>
 
 <p>
-  <strong>Due:</strong>
+  <strong>Date Due:</strong>
   <%= @homework.due %>
+</p>
+
+<p>
+  <strong>Assigned to Class:</strong>
+  <%= @homework.group.name %>
 </p>
 
 <p>

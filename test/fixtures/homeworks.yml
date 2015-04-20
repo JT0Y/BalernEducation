@@ -1,13 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+hw2:
   group_id: 1
   title: MyString
   due: 2015-04-14 01:45:16
   instructions: MyString
+  group: pp001
 
-two:
+hw1:
   group_id: 1
   title: MyString
   due: 2015-04-14 01:45:16
   instructions: MyString
+  group: pp001

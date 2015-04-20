@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :group_id %><br>
-    <%= f.number_field :group_id %>
+  <div class="form-group">
+    <%= f.label :group %><br>
+    <%= f.collection_select(:group_id, Group.all, :id, :name, prompt: true) %>
   </div>
   <div class="field">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label : %><br>
-    <%= f.text_field : %>
+    <%= f.label :assigned %><br>
+    <%= f.text_field :assigned %>
   </div>
   <div class="field">
     <%= f.label :due %><br>
@@ -31,7 +31,8 @@
     <%= f.label :instructions %><br>
     <%= f.text_field :instructions %>
   </div>
+  <br />
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>

@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
   has_many :photos
   has_many :lesson_plans
   has_many :resources
+  has_one  :student
   acts_as_messageable
 
   def mail_email(object)
