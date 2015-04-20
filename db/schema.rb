@@ -55,8 +55,8 @@ ActiveRecord::Schema.define(version: 20150418105322) do
   end
 
   create_table "lesson_plans", force: :cascade do |t|
-    t.integer  "group_id"
-    t.string   "class_number"
+    t.string   "level"
+    t.integer  "class_number"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
     t.string   "image_file_name"
@@ -185,7 +185,6 @@ ActiveRecord::Schema.define(version: 20150418105322) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.integer  "student_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "admin",                  default: false

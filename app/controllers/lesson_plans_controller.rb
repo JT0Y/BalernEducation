@@ -79,6 +79,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lesson_plan_params
-      params.require(:lesson_plan).permit(:group_id, :class_number, :image)
+      params.require(:lesson_plan).permit(:level, :class_number, :image)
     end
 end

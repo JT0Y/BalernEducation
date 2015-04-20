@@ -5,9 +5,9 @@
 <table>
   <thead>
     <tr>
-      <th>image</th>
-      <th>Group</th>
-      <th>Class number</th>
+      <th>Class Number</th>
+      <th>Class Level</th>
+      <th>Created By</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -15,12 +15,11 @@
   <tbody>
     <% @lesson_plans.each do |lesson_plan| %>
       <tr>
-        <%= link_to "Download", lesson_plan.image.url(:original, false) %>
-        <td><%= image_tag lesson_plan.image %></td>
-        <td><%= lesson_plan.group_id %></td>
         <td><%= lesson_plan.class_number %></td>
+        <td><%= lesson_plan.level %></td>
         <td><%= lesson_plan.user.email if lesson_plan.user %></td>
         <td><%= link_to 'Show', lesson_plan %></td>
+        <td><%= link_to "Download", lesson_plan.image.url(:original, false) %></td>
         <td><%= link_to 'Edit', edit_lesson_plan_path(lesson_plan) %></td>
         <td><%= link_to 'Destroy', lesson_plan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
