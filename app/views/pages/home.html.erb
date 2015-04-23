@@ -29,7 +29,7 @@
         </div>
         <div class="panel-footer">
           <%= Resource.second.title %>
-          <br /><%= Resource.third.title %>
+          <br /><%= Resource.first.title %>
         </div>
       </div>
     </div>
@@ -51,7 +51,8 @@
         <div class="panel-body">
           Latest Message:
         </div>
-        <div class="panel-footer"><%= Mailboxer::Message.last.body %></div>
+        <div class="panel-footer"><%= Mailboxer::Message.count %>
+        </div>
       </div>
     </div>
 
