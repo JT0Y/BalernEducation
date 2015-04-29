@@ -8,8 +8,14 @@ pp001:
 
 pp003:
   school: English
-  name: Purple Parrots 002
+  name: Purple Parrots 003
   teacher: mickey
+  pa: vivian
+
+pp004:
+  school: English
+  name: Purple Parrots 004
+  teacher: josh
   pa: vivian
 
 pp006:
