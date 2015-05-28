@@ -25,11 +25,12 @@
     <div class="col-sm-6 col-md-6">
       <div class="panel panel-default">
         <div class="panel-body">
-          Study at home:
+          Parent Resources:
         </div>
         <div class="panel-footer">
-          <%= Resource.second.title %>
-          <br /><%= Resource.first.title %>
+          <% @resources.each do |resource| %>
+            <%= link_to resource.title, resource.url %>-
+          <% end %>
         </div>
       </div>
     </div>
@@ -37,11 +38,13 @@
     <div class="col-sm-6 col-md-6">
       <div class="panel panel-default">
         <div class="panel-body">
-          Study at home:
+          Today's Classes:
         </div>
         <div class="panel-footer">
-          <%= link_to Event.first.start_time, (Event) %>
-          <br /><%= link_to Event.second.start_time, (Event) %>
+            <% @events.each do |event| %>
+                <li><%= link_to event.group.name, event %>
+                <%= event.start_time %>
+            <% end %>
         </div>
       </div>
     </div>
@@ -51,8 +54,7 @@
         <div class="panel-body">
           Latest Message:
         </div>
-        <div class="panel-footer"><%= Mailboxer::Message.count %>
-        </div>
+        <div class="panel-footer"><%= Mailboxer::Message.count %></div>
       </div>
     </div>
 
@@ -61,7 +63,13 @@
         <div class="panel-body">
           Homework
         </div>
-        <div class="panel-footer"><%= Homework.first.title %></div>
+        <div class="panel-footer">
+          <% @homeworks.each do |homework| %>
+            <li>
+            <%= homework.group.name %>
+            <%= homework.title %>
+          <% end %>
+        </div>
       </div>
     </div>
 
@@ -71,9 +79,9 @@
           Contract Details:
         </div>
         <div class="panel-footer">
-          Contract Start Date: <%= Student.first.contract_start %>
+          Contract Start Date: <%= current_user.student.contract_start if current_user.student %>
           <br />
-          Contract Lenght: <%= Student.first.contract_length %> days
+          Contract Lenght: <%= current_user.student.contract_length if current_user.student %> days
         </div>
       </div>
     </div>

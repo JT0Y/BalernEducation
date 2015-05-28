@@ -153,6 +153,7 @@ ActiveRecord::Schema.define(version: 20150418105322) do
     t.integer  "contract_length"
     t.integer  "points"
     t.integer  "group_id"
+    t.integer  "user_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
     t.string   "avatar_file_name"
