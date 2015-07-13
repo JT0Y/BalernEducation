@@ -1,36 +1,35 @@
 <p id="notice"><%= notice %></p>
+<div class="class box">
+  <% page_header "Homework" %>
 
-<h1>Listing Homeworks</h1>
-
-<table class="table table-bordered table-hover">
-  <thead>
-    <tr>
-      <th>Group</th>
-      <th>Title</th>
-      <th>Due Date</th>
-      <th>Due</th>
-      <th>Instructions</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @homeworks.each do |homework| %>
+  <table class="table table-bordered table-hover">
+    <thead>
       <tr>
-        <td><%= homework.group.name %></td>
-        <td><%= homework.title %></td>
-        <td><%= homework.due %></td>
-        <td><%= homework.instructions %></td>
-        <td><%= link_to 'Show', homework %></td>
-        <td><%= link_to 'Edit', edit_homework_path(homework) %></td>
-        <td><%= link_to 'Destroy', homework, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Group</th>
+        <th>Title</th>
+        <th>Due Date</th>
+        <th>Due</th>
+        <th>Instructions</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br />
-
+    <tbody>
+      <% @homeworks.each do |homework| %>
+        <tr>
+          <td><%= homework.group.name %></td>
+          <td><%= homework.title %></td>
+          <td><%= homework.due %></td>
+          <td><%= homework.instructions %></td>
+          <td><%= link_to 'Show', homework %></td>
+          <td><%= link_to 'Edit', edit_homework_path(homework) %></td>
+          <td><%= link_to 'Destroy', homework, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <br />
+</div>
 <%= link_to 'New Homework', new_homework_path, class: "btn btn-primary" %>
 <br />
 <br />
