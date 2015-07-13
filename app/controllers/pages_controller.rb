@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   def home
   	@resources = Resource.all
   	@events = Event.where('start_time >= ?', Time.now.beginning_of_day)
-  	@homeworks = Homework.all
+  	@homeworks = Homework.where('due >= ?', Time.now.beginning_of_day)
   end
 
   def about 

@@ -67,7 +67,7 @@
         <div class="panel-footer">
           <% @homeworks.each do |homework| %>
             <li>
-            <%= homework.group.name %>
+            <%= link_to homework.group.name, homework %>
             <%= homework.title %>
           <% end %>
         </div>
@@ -82,7 +82,7 @@
         <div class="panel-footer">
           Contract Start Date: <%= current_user.student.contract_start if current_user.student %>
           <br />
-          Contract Lenght: <%= current_user.student.contract_length if current_user.student %> days
+          Contract Length: <%= current_user.student.contract_length if current_user.student %> days
         </div>
       </div>
     </div>
