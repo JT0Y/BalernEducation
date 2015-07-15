@@ -6,24 +6,24 @@ photo1:
 
 photo2:
   description: Hello World!
-  user: user2
+  user: hank
 
 photo3:
   description: Hello World!
-  user: user2
+  user: joshua
 
 photo4:
   description: Hello World!
-  user: user2
+  user: aaron
 
 photo5:
   description: Hello World!
-  user: user2
+  user: vivian
 
 photo6:
   description: Hello World!
-  user: user2
+  user: rocky
 
 photo7:
   description: Hello World!
-  user: user2
+  user: admin

@@ -4,139 +4,139 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-user1:
+admin:
   name: Admin Admin
   email: admin@admin.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user2:
+joshua:
   name: Joshua Toy
   email: toyjtoy@gmail.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user3:
+example:
   name: Example Example
   email: example@example.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user4:
+christina:
   name: Christina
   email: liuyue8341@126.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user5:
+gourd:
   name: Gourd
   email: gourd@gourd.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user6:
+sophia:
   name: Sophia
   email: sophia@sophia.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user7:
+vivian:
   name: Vivian
   email: vivian@vivian.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user8:
+rocky:
   name: Rocky
   email: rocky@rocky.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user9:
+christy:
   name: Christy
   email: christy@christy.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user10:
+apple:
   name: Apple
   email: apple@apple.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user11:
+lucy:
   name: Lucy
   email: lucy@lucy.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user12:
+mia:
   name: mia
   email: mia@mia.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user13:
+lynn:
   name: Lynn
   email: lynn@lynn.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: true
 
-user14:
+aaron:
   name: Aaron
   email: aaron@aaron.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user15:
+tony:
   name: Tony
   email: tony@tony.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user16:
+hank:
   name: Hank
   email: hank@hank.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user17:
+sean:
   name: Sean
   email: sean@sean.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user18:
+happy:
   name: Happy
   email: happy@happy.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user19:
+jessica:
   name: Jessica
   email: jessica@jessica.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user20:
+nicole:
   name: Nicole
   email: nicole@nicole.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user21:
+andy:
   name: Andy
   email: andy@andy.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user21:
+cathy:
   name: Cathy
   email: cathy@cathy.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>
   admin: false
 
-user22:
+mickey:
   name: Mickey
   email: mickey@mickey.com
   encrypted_password: <%= User.new.send(:password_digest, "password") %>

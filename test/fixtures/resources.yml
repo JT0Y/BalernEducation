@@ -4,55 +4,55 @@ resource1:
   title: ABC Mouse
   focus: MyString
   url: http://www.abcmouse.com
-  user: user5
+  user: rocky
   level: Purple Parrots
 
 resource2:
   title: Math
   focus: MyString
   url: http://www.abcmouse.cn
-  user: user3
+  user: joshua
   level: Green Monkeys
 
 resource3:
   title: BBC News
   focus: Advanced English - BBC
   url: http://www.24en.com/bbc/
-  user: user11
+  user: gourd
   level: Green Monkeys
 
 resource4:
   title: BBC News
   focus: Advanced English - BBC
   url: http://www.24en.com/bbc/
-  user: user9
+  user: vivian
   level: Silver Snakes
 
 resource5:
   title: BBC News
   focus: Advanced English - BBC
   url: http://www.24en.com/bbc/
-  user: user12
+  user: christina
   level: Silver Snakes
 
 resource6:
   title: 61 Flash
   focus: Kids English games
   url: http://www.61flash.com/list/521_1.htm
-  user: user2
+  user: vivian
   level: VIP
 
 resource7:
   title: 2345游戏
   focus: More online games in English for kids!
   url: http://xiaoyouxi.2345.com/zhuanti/265.htm
-  user: user9
+  user: mickey
   level: Purple Parrots
 
 resource8:
   title: Hooked on Phonics
   focus: Well known way to teach kids English. NOT Free
   url: https://www.hookedonphonics.com/
-  user: user17
+  user: joshua
   level: Silver Snakes
 

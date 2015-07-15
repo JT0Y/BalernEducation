@@ -11,6 +11,7 @@ hank:
   address: 没有地址
   contract_start: 2014-11-02
   contract_length: '96'
+  user: hank
 
 shawn:
   ename: Shawn
@@ -23,6 +24,7 @@ shawn:
   address: 没有地址
   contract_start: 2014-11-02
   contract_length: '96'
+  user: shawn
 
 tony:
   ename: Tony
@@ -35,6 +37,7 @@ tony:
   address: 没有地址
   contract_start: 2014-11-02
   contract_length: '96'
+  user: tony
 
 allen:
   ename: Allen
@@ -47,6 +50,7 @@ allen:
   address: 没有地址
   contract_start: 2014-09-30
   contract_length: '48'
+  user: allen
 
 apple:
   ename: Apple
@@ -59,6 +63,7 @@ apple:
   address: 没有地址
   contract_start: 2014-08-14
   contract_length: '96'
+  user: apple
 
 aaron:
   ename: Aaron
@@ -71,6 +76,7 @@ aaron:
   address: 没有地址
   contract_start: 2014-12-07
   contract_length: '96'
+  user: aaron
 
 steve:
   ename: Steve
@@ -83,6 +89,7 @@ steve:
   address: 没有地址
   contract_start: 2014-11-15
   contract_length: '96'
+  user: steve
 
 happy:
   ename: happy
@@ -95,6 +102,7 @@ happy:
   address: 没有地址
   contract_start: 2014-09-11
   contract_length: '96'
+  user: happy
 
 jessica:
   ename: jessica
@@ -107,6 +115,7 @@ jessica:
   address: 没有地址
   contract_start: 2014-09-11
   contract_length: '96'
+  user: jessica
 
 nicole:
   ename: Nicole
@@ -119,6 +128,7 @@ nicole:
   address: 没有地址
   contract_start: 2014-10-16
   contract_length: '48'
+  user: nicole
 
 nick:
   ename: Nick
@@ -131,6 +141,7 @@ nick:
   address: 没有地址
   contract_start: 2014-03-29
   contract_length: '24'
+  user: nick
 
 alice:
   ename: Alice
@@ -143,6 +154,7 @@ alice:
   address: 没有地址
   contract_start: 2015-03-29
   contract_length: '24'
+  user: alice
 
 serena:
   ename: Serena
@@ -155,6 +167,7 @@ serena:
   address: 没有地址
   contract_start: 2014-11-23
   contract_length: '48'
+  user: serena
 
 jason:
   ename: (little) Jason
@@ -167,6 +180,7 @@ jason:
   address: 没有地址
   contract_start: 2014-11-02
   contract_length: '96'
+  user: jason
 
 jason2:
   ename: (big) Jason
@@ -179,6 +193,7 @@ jason2:
   address: 没有地址
   contract_start: 2014-09-15
   contract_length: '24'
+  user: jason2
 
 grace:
   ename: Grace
@@ -191,6 +206,7 @@ grace:
   address: 没有地址
   contract_start: 2014-09-13
   contract_length: '96'
+  user: grace
 
 bob:
   ename: Bob
@@ -203,6 +219,7 @@ bob:
   address: 没有地址
   contract_start: 2014-09-23
   contract_length: '96'
+  user: bob
 
 Sam:
   ename: Sam
@@ -215,6 +232,7 @@ Sam:
   address: 没有地址
   contract_start: 2014-10-12
   contract_length: '24'
+  user: sam
 
 laura:
   ename: Laura
